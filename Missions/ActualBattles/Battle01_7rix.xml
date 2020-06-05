@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="battle01_trix" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="clearfolder" target="trixy01" path="sys" />
+	<goal type="clearfolder" target="trixy01" path="bin/cracks" />
+	<goal type="delay" time="2.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionStart val="1">loadConditionalActions:Actions/BattleActions/Start_7rix01.xml</missionStart>
+  <!--missionEnd>loadConditionalActions:Actions/BattleActions/Success_Opponent01.xml</missionEnd-->
+  <missionEnd>loadConditionalActions:Actions/Success_Actions/7rix_01_Success.xml</missionEnd>
+  
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  
+  <posting title="Hacker Wars Round 2 : #PLAYERNAME# vs. 7rix">
+After a tremendous and tense first round between Naix and Splinter, our two highest ranked, it's time to see two hackers from the other end of the spectrum. Let's see our next 2 contestants:
+     #PLAYERNAME#       vs.      7rix    
+</posting>
+  
+  <email>
+    <sender>Battleboard Bot</sender>
+    <subject>Opponent01: - Battle Started</subject>
+    <body>#PLAYERNAME#,
+
+This email is to inform you that you have started a battle with the Hacker
+ known as "7rix". If this was not you, we recommend restarting your computer
+ immediately!
+ 
+ Otherwise, the battle has commenced! You will find your target's IP Address below.
+ 
+ Good luck!
+ Get going!
+ 
+ - Hacker_Wars Battleboard Bot</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Main Goals">1) Get Admin Access into 7rix's computer
+2) Wipe her "SYS" folder and "BIN" folder.
+3) ForkBomb.</note>
+	  <link comp="trixy01" />
+    </attachments>
+  </email>
+</mission>

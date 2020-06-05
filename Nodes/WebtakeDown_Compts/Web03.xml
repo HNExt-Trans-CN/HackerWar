@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="webhack03"
+	name="Backdrop FileServer"
+	ip="125.46.212.79"
+	icon="server"
+	allowsDefaultBootModule="true"
+	type="4">
+
+  <portsForCrack val="3" />
+  <ports>21,22,80</ports>
+  <trace time="3" />
+  <proxy time="2.0" />
+  
+  <adminPass pass="74isthenew24" />
+  
+  <account username="#PLAYERNAME#" password="h4cking_is_l1fe" type="3" />
+  <account username="Matt" password="Orann" type="MAIL" />
+  <account username="ZakSw1f7" password="987_g0sp3lls_654" type="MAIL" />
+  
+  <file path="home" name="example.txt">Yep,
+  another useless file right here... You must be getting tired
+  of opening these now!?!?!</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  
+</Computer>

@@ -1,0 +1,19 @@
+<ConditionalActions>
+
+  <Instantly>
+
+    <RunFunction FunctionName="playCustomSong:Music/Beat_Your_Competition.ogg" FunctionValue="1" />
+  
+    <LaunchHackScript Filepath="Scripts/Battle03_Curs3/Part_02.txt" SourceComp="hackerHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false" />
+	
+	<CancelScreenBleedEffect />
+	
+	<HideNode TargetComp="curse01" />
+	
+	<RunFunction FunctionName="addRankSilent" FunctionValue="7" />
+	
+	<!--AddThreadToMissionBoard ThreadFilepath="Docs/Threads/VictoryThreads/Win_T4lisman_01.txt" TargetComp="hackerForum" />
+	<AddMissionToHubServer MissionFilepath="Docs/News/News04.xml" TargetComp="hackerNews" AssignmentTag="top" /-->
+  </Instantly>
+
+</ConditionalActions>

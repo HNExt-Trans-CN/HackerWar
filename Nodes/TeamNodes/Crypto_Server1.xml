@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryptoServer01"
+	name="Crypto's ToolBox"
+	ip="160.8.230.15"
+	allowsDefaultBootModule="false"
+	type="3">
+
+  <portsForCrack val="2" />
+  <ports>22, 21</ports>
+  
+  <portRemap>22=26</portRemap>
+  
+  <trace time="60" />
+  <proxy time="0.8" />
+  
+  <adminPass pass="cryptO_ciph3rs" />
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+   
+  <file path="home/Encryptions" name="FTPBounce.exe.dec">ENCRYPTED DATA GOES HERE, LOL</file>
+  <file path="home/Encryptions" name="SSHCrack.exe.dec">ENCRYPTED DATA GOES HERE, LOL</file>
+  <file path="home/Encryptions" name="SMTPOverflow.exe.dec">ENCRYPTED DATA GOES HERE, LOL</file>
+  
+  <encryptedFile path="home" name="SSHCrack.exe.dec" extension=".exe" ip="XXX.XXX.XXX.XXX" header="Encrypted with the PyCrypto Suite." pass="cryp7o_is_b3st">
+#SSH_CRACK#
+</encryptedFile>
+  <encryptedFile path="home" name="FTPBounce.exe.dec" extension=".exe" ip="XXX.XXX.XXX.XXX" header="Encrypted with the PyCrypto Suite." pass="cryp7o_is_b3st">
+#FTP_CRACK#
+</encryptedFile>
+  <encryptedFile path="home" name="SMTPOverflow.exe.dec" extension=".exe" ip="XXX.XXX.XXX.XXX" header="Encrypted with the PyCrypto Suite." pass="cryp7o_is_b3st">
+#SMTP_CRACK#
+</encryptedFile>
+  
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+   
+  <file path="home/Upload" name="UPLOAD_FILES_HERE">#RANDOM_IP#</file>
+   
+  <dlink target="hackerHub" />
+</Computer>

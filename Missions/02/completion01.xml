@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="completion01" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <delay type="delay" time="10.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  
+  <email>
+    <sender>Admiral Joshua</sender>
+    <subject>Thank You For Playing Hacker Wars</subject>
+    <body>Hi there #PLAYERNAME#,
+
+Due to the recent events that have happened leading
+ to Lazarus' capture, the ICD have been forced to
+ temporarily close Hacker Wars for this year, we
+ therefore cannot declare an official winner,
+ however due to the amazing skills that were
+ shown during the games as well as the bravery
+ of our newest hacker to report such a criminal
+ to the ICD, we can see only one course of action,
+ to make you the winner of this year's Hacker Wars!
+ 
+ Congratulations, #PLAYERNAME#!
+
+ ------------------------------------------------------
+This originally started out as a bit of half-term
+project but has vast taken over the last couple of
+weeks as more and more ideas have been thrown at it.
+If you have enjoyed this extension please feel free
+to leave a comment/rating/favourite. If you have not
+feel free to drop a comment about your ideas of
+improvement.
+Thank you very much for playing through this Hacknet
+Extension. You will find the credits server attached.
+
+If link doesn't work, connect up to "225.224.225.224"
+(There's some more awesome music for it? :D)
+ - Admiral Joshua
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <link comp="creditsSrv" />
+    </attachments>
+  </email>
+</mission>

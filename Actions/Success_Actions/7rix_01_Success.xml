@@ -1,0 +1,21 @@
+<ConditionalActions>
+
+  <Instantly>
+
+    <RunFunction FunctionName="playCustomSong:Music/Tremsz.ogg" FunctionValue="1" />
+  
+    <LaunchHackScript Filepath="Scripts/Battle01_7rix/Part_02.txt" SourceComp="hackerHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false" />
+
+    <AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+	
+	<CancelScreenBleedEffect />
+	
+	<HideNode TargetComp="trixy01" />
+	
+	<RunFunction FunctionName="addRankSilent" FunctionValue="4" />
+	
+	<AddThreadToMissionBoard ThreadFilepath="Docs/Threads/VictoryThreads/Win_7rix_01.txt" TargetComp="hackerForum" />
+	<AddMissionToHubServer MissionFilepath="Docs/News/News03.xml" TargetComp="hackerNews" AssignmentTag="top" />	
+  </Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="assistant08" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+	<goal type="delay" time="12.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionStart>loadConditionalActions:Actions/Success_Actions/Complete_CTF_01.xml</missionStart>
+  <nextMission>Missions/02/bigDecision_01.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Eleanor Hammond</sender>
+    <subject>Good job on that CTF Event</subject>
+    <body>Good job #PLAYERNAME#,
+	
+That was some amazing work there! That was really
+ impressive! You just flew through each of those encrypted
+ files. 
+ 
+ - Eleanor Hammond
+
+Hacker Wars Assistant assigned to: #PLAYERNAME#
+
+
+(Show Node isn't working atm, so see attachments to get
+ netmap back.)
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <link comp="playerComp" />
+	  <link comp="hackerMain" />
+	  <link comp="hackerHub" />
+	  <link comp="hackerForum" />
+	  <link comp="hackerNews" />
+	  <link comp="playerBackup" />
+	  <link comp="toolStation" />
+    </attachments>
+  </email>
+</mission>

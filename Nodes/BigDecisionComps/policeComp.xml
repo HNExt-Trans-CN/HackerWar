@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cyberDrop"
+	name="ICD Drop Server"
+	ip="12.24.89.36"
+	icon="chip"
+	allowsDefaultBootModule="true"
+	type="4">
+
+  <portsForCrack val="2" />
+  <ports>22,25,21</ports>
+  <portRemap>21=54</portRemap>
+  
+  <trace time="-1" />
+  <proxy time="-1" />
+  <adminPass pass="nzsd3u" />
+  
+  <firewall level="6" solution="6fxtrm" additionalTime="0.4" />
+  
+  <file path="home" name="example.txt">LMAO.
+Examples are overrated anyway...
+
+Is this the last example!!?!?!?!?!!?!?!?!?
+DUN DUN DUN!!!!</file>
+
+  <uploadServerDaemon name="International Cyber Division Drop Server" folder="Upload" 
+                      needsAuth="false" color="220,0,10"/>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+</Computer>

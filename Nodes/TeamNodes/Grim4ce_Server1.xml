@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="grimaceServer1"
+	name="Grim4ce's Paradox"
+	ip="160.8.224.15"
+	allowsDefaultBootModule="false"
+	type="3">
+
+  <portsForCrack val="3" />
+  <ports>22, 80, 25</ports>
+  
+  <portRemap>25=96,22=4</portRemap>
+  
+  <trace time="60" />
+  <proxy time="0.8" />
+  
+  <adminPass pass="pr0t3ct1on" />
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <file path="home/EvidenceTemplates" name="evidence01.docx">[EVIDENCE TITLE HERE]
+[WHO EVIDENCE IS SENT TO HERE]
+[WHO EVIDENCY IS ABOUT HERE]
+[TARGET IP]
+
+#BINARY#</file>
+<file path="home/EvidenceTemplates" name="evidence02.pptx">SLIDE OUTLINE:
+SLIDE 1 [EVIDENCE TITLE HERE]
+SLIDE 2 [WHO EVIDENCY IS ABOUT HERE]
+SLIDE 3 [WHO EVIDENCE IS SENT TO HERE]
+
+#BINARY#</file>
+   <file path="home" name="Evidence.docx">[Travis Chat Screenshots]
+[Travis Boyer]
+[17.45.216.164]
+
+#BINARY#</file>
+
+ <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  
+  <dlink target="hackerHub" />
+</Computer>

@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <LaunchHackScript Filepath="Scripts/completion2.txt" SourceComp="creditsSrv" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false" />
+  </Instantly>
+</ConditionalActions>

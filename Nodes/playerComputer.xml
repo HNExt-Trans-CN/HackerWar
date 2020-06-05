@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp"
+	name="#PLAYERNAME#'s PC"
+	ip="38.165.91.234"
+	allowsDefaultBootModule="false"
+	type="empty">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="75" />
+  <proxy time="2.0" />
+  <firewall level="10" solution="4llsafeSec" additionalTime="1.0"/>
+  
+  <account username="#PLAYERNAME#" password="8EZTttuB" type="ADMIN" />
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">YOUR BACKUP GOES IN THE FOLDER THIS FILE IS CONTAINED IN</file>
+  
+  <dlink target="playerBackup" />
+  
+  
+</Computer>

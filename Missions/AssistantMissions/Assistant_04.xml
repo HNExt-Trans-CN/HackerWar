@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="assistant04" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionStart val="1">addRankSilent</missionStart>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Eleanor Hammond</sender>
+    <subject>Update: Round 5 Information</subject>
+    <body>Okay #PLAYERNAME#,
+Round 4 consisted of a battle between hackers 'Curs3' and
+ '5plinter', and I have to say, '5plinter' wiped the floor
+ with 'Curs3.'
+ 
+You're up next again, final 1v1 match, with Round 5 being matched
+with you versus 'Curs3.' He's feeling pretty salty after the loss 
+ on that last round so I wouldn't expect him to be going easy on
+ you! Watch out for him!
+ 
+You've got a firewall to deal with this time, so watch out for
+ that. It shouldn't take too long to get through it but the
+ trace time is pretty quick, so you'd better get those Port 
+ Crackers running first.
+ 
+ When you're ready, go pick up the contract on the Battleboard.
+ 
+ - Eleanor Hammond
+
+Hacker Wars Assistant assigned to: #PLAYERNAME#
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

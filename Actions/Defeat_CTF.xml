@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+  <Instantly>	
+    <LaunchHackScript Filepath="Scripts/CTF_Fail.txt" SourceComp="hackerHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	
+	<AddMissionToHubServer MissionFilepath="Missions/CaptureTheFlag.xml" TargetComp="hackerHub" />
+	<LoadMission MissionName="Missions/FileRestore.xml" />
+  </Instantly>
+
+</ConditionalActions>

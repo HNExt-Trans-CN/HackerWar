@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="toolStation"
+	name="UNKNOWN's Tool Server"
+	ip="12.12.12.12"
+	allowsDefaultBootModule="false"
+	type="empty">
+
+  <portsForCrack val="0" />
+  <ports>21, 25</ports>
+  <trace time="-1" />
+  
+   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+   <file path="home/Templates" name="CompetitionEntryTemplate.txt">[HACKER NAME]
+[YOUR IP ADDRESS]</file>
+  <file path="bin/22" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin/21" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin/80" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="EXE_Info.txt">Here you will find my entire Executable collection
+  free to access for any experienced hacker. I will be adding executables here from time to
+  time, be sure to stop by every now and again for some new tools.
+  
+  I have sorted each Exe into the Default Port Number they often crack. Sorry for the Proxy too,
+  Often annoying for SCP'ing but it helps stops those pesky SPAM bots.
+  
+ Assuming you got this far in the text file: You will also find a handy ThemeChanger
+  file in the Home/Themes folder.</file>
+</Computer>

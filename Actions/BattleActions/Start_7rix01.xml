@@ -1,0 +1,19 @@
+<ConditionalActions>
+  
+  <OnConnect target="trixy01" needsMissionComplete="false">
+    <!-- You can put any action that was described in the Actions section here -->
+	
+    <StartScreenBleedEffect AlertTitle="Hack 7rix" CompleteAction="Actions/BattleActions/Defeat_Opponent01.xml" TotalDurationSeconds="100.0">Get Admin on 7rix
+Delete 'sys' file(s)
+Delete 7rix's 'exe' tool(s)</StartScreenBleedEffect>
+
+  </OnConnect>
+  
+  <Instantly>
+    <!--HideAllNodes /-->
+    <ShowNode TargetComp="trixy01" />
+  	<RunFunction FunctionName="playCustomSong:Music/Cephelopod_Cephelopod.ogg" FunctionValue="1" />
+	<LaunchHackScript Filepath="Scripts/Battle01_7rix/Part_00.txt" SourceComp="trixy01" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  </Instantly>
+
+</ConditionalActions>

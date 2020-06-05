@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="webhack01"
+	name="WebHack WebServer #02"
+	ip="125.46.185.79"
+	icon="kellis"
+	allowsDefaultBootModule="true"
+	type="4">
+
+  <portsForCrack val="3" />
+  <ports>21,25,80</ports>
+  <trace time="-1" />
+  <proxy time="2.0" />
+  
+  <adminPass pass="w3bh4ck_r34lly_3x1sts" />
+  
+  <account username="#PLAYERNAME#" password="h4cking_is_l1fe" type="3" />
+  
+  <file path="home" name="example.txt">Yep,
+  another useless file right here... You must be getting tired
+  of opening these now!?!?!</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <addWebServer name="WebHack WebServer #01" url="Web/home.html" />
+  
+  <eosDevice name="Zak's PwnPhone" id="zakPhone1" icon="ePhone2" empty="false">
+    <note>Admin Account
+Username: Admin
+Password: password123</note>
+    <note>Not Admin Account
+Lol! okay that last one was a troll but I bet I got you on that ;) xD
+Username: Admin
+Password: 987_g0sp3lls_654</note>
+    <mail username="test@jmail.com" pass="thisIstheaccountpass" />
+    <mail username="test2@jmail.com" pass="YouCanHaveLotsOfThese" />
+    <file path="eos/test" name="crackedFile.txt">This is mostly useful for jailbroken phones</file>
+  </eosDevice>
+</Computer>

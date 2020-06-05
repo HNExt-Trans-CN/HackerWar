@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+  <Instantly>	
+    <LaunchHackScript Filepath="Scripts/Battle02_T4lisman/Part_01.txt" SourceComp="talisman01" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	
+	<AddMissionToHubServer MissionFilepath="Missions/ActualBattles/Battle02_T4lisman.xml" TargetComp="hackerHub" />
+	<LoadMission MissionName="Missions/FileRestore.xml" />
+  </Instantly>
+
+</ConditionalActions>

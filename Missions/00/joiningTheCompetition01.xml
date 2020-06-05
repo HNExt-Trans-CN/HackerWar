@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission  id="Welcome01" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="delay" time="24.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/00/joiningTheCompetition02.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Judith Thomas</sender>
+    <subject>RE: Hacker Wars Join Request</subject>
+    <body>Hi there #PLAYERNAME#,
+	
+I'm the assistant administrator and coordinator here at Hacker Wars.
+I'm contacting you about your request to join Hacker Wars and I'm sorry
+to be the one to tell you this, but your application has been declined.
+
+We apologise for any inconvenience this has caused you and wish you
+the best of luck in the future.
+
+Yours Sincerely,
+   - Judith Thomas
+   Hacker Wars Centre Coordinator
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

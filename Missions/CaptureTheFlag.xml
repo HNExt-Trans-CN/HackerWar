@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="HackerWar_CTF_01" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="getstring" target="p4tch_sund14l_w1r3d_h4ndsh4k3" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionStart>loadConditionalActions:Actions/BattleActions/Start_ctfMain01.xml</missionStart>
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>Missions/AssistantMissions/Assistant_08.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  
+  <posting title="Hacker Wars Team CTF">
+Welcome back to Hacker Wars! Now that our teams have been set out;
+ It's time for our first Team battle. Unlike the previous solo
+ matches, where our hackers battled it out one on one, this time
+ it's going to be more of a race for each team member. It will be
+ a strong test of each team's ability to be observent more than
+ anything else.
+ 
+Both teams have approximately five minutes to piece together
+the correct password and reply to the mission email with it.
+ 
+Let's see how each of our teams do in this much more complex test
+ of skill:
+ 
+     Naix's Team        vs.      #PLAYERNAME#'s Team
+
+	
+Please note that this mission may take a long time. For the time
+ this mission takes, you will not be able to access any other 
+ missions or contracts! Keep this in mind before accepting.
+</posting>
+  
+  <email>
+    <sender>Battleboard Bot</sender>
+    <subject>Capture the Flag Event Started</subject>
+    <body>#PLAYERNAME#,
+
+This email is to inform you that you have started a capture the flag
+event against Naix. If this was not you, we recommend restarting
+your computer immediately!
+
+Sadly, we're having issues with Team services at the moment, so
+ this mission is just going to be a face-off between you and Naix!
+
+To find out how Capture The Flag works, hit up the 'ReadMe.txt' on
+ the CTF start point.
+ 
+ Otherwise, the event has started! You will find the IP
+ to your CTF start point below.
+ 
+ Good luck!
+ Get going!
+ 
+ - Hacker_Wars Battleboard Bot</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Main Goals">You need to piece together a final password to reply to the mission email with.
+1) Connect to the Start Point, read through the ReadMe.txt
+2) Once familiar, use the hints and scanning tools to identify your next computer.
+3) As you go through take note of the passwords you uncover and the order in which you find them, you may need them later on.
+4) Use found passwords to decrypt more information and identify the next set of passwords.
+IMPORTANT! Pay attention to the hints in text files. They may help you.</note>
+	  <link comp="ctfMain01" />
+    </attachments>
+  </email>
+</mission>

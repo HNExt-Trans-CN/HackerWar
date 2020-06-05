@@ -1,0 +1,59 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
+write_silent $#%#$
+delay 2 $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+write_silent $#%#$
+writel Commentator: Welcome to the Second round of Hacker Wars! $#%#$
+write_silent $#%#$
+delay 3 $#%#$
+writel Commentator: In a moment our 2 hackers will start! $#%#$
+delay 2 $#%#$
+writel Commentator: On the 1 side we have: #PLAYERNAME# $#%#$
+delay 3 $#%#$
+writel Commentator: And on the other side we have a relatively new Hacker, 7rix! $#%#$
+delay 2 $#%#$
+writel Commentator: Ready everyone? $#%#$
+delay 2 $#%#$
+clearTerminal $#%#$
+writel ..###. $#%#$
+writel ......#. $#%#$
+writel ...##. $#%#$
+writel ......#. $#%#$
+writel ..###. $#%#$
+delay 1 $#%#$
+clearTerminal $#%#$
+writel ..###. $#%#$
+writel ......#. $#%#$
+writel ..###. $#%#$
+writel ..#... $#%#$
+writel ..###. $#%#$
+delay 1 $#%#$
+clearTerminal $#%#$
+writel ....#.. $#%#$
+writel ..##.. $#%#$
+writel ....#.. $#%#$
+writel ....#.. $#%#$
+writel ..###. $#%#$
+delay 1 $#%#$
+write1 $#%#$
+writel GO! $#%#$
+write GO! $#%#$
+write GO! $#%#$
+write GO! $#%#$
+write GO! $#%#$
+startMusic $#%#$
+connect $#%#$
+delay 15 $#%#$
+openPort 22 $#%#$
+writel Commentator: It looks like 7rix has made it through #PLAYERNAME#'s first port! This is getting tense! $#%#$
+delay 15 $#%#$
+openPort 21 $#%#$
+delay 12 $#%#$
+openPort 80 $#%#$
+writel Commentator: 7rix has made light work of #PLAYERNAME#'s Web Server Port!! $#%#$
+openPort 25 $#%#$
+delay 8 $#%#$
+writel Commentator: 7rix is nearly through their ports! I think #PLAYERNAME# is starting to sweat a little! $#%#$
+delay 10 $#%#$

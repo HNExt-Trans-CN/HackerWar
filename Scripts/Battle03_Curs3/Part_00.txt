@@ -1,0 +1,60 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
+write_silent $#%#$
+delay 2 $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+write_silent $#%#$
+writel Commentator:  Welcome back to Hacker Wars $#%#$
+write1 Commentator: It's been one hell of a year for Hacker Wars so far! Last round was one hell of a battle. Let's hope for an even more exciting one now!! $#%#$
+writel Commentator: ---------- Round 5 ---------- $#%#$
+write_silent $#%#$
+delay 2 $#%#$
+writel Commentator: On the one side, #PLAYERNAME#! $#%#$
+delay 4 $#%#$
+writel Commentator: And on the other side, Sadly our last round didn't go so well for him, but can he keep himself in the competition this time? $#%#$
+writel Commentator:  It's Curs3!! $#%#$
+delay 3 $#%#$
+writel Commentator: Ready everyone? $#%#$
+delay 2 $#%#$
+clearTerminal $#%#$
+writel ..###. $#%#$
+writel ......#. $#%#$
+writel ...##. $#%#$
+writel ......#. $#%#$
+writel ..###. $#%#$
+delay 1 $#%#$
+clearTerminal $#%#$
+writel ..###. $#%#$
+writel ......#. $#%#$
+writel ..###. $#%#$
+writel ..#... $#%#$
+writel ..###. $#%#$
+delay 1 $#%#$
+clearTerminal $#%#$
+writel ....#.. $#%#$
+writel ..##.. $#%#$
+writel ....#.. $#%#$
+writel ....#.. $#%#$
+writel ..###. $#%#$
+delay 1 $#%#$
+write1 $#%#$
+writel GO! $#%#$
+write GO! $#%#$
+write GO! $#%#$
+write GO! $#%#$
+write GO! $#%#$
+startMusic $#%#$
+connect $#%#$
+delay 8 $#%#$
+openPort 22 $#%#$
+writel Commentator: Okay, good start from Curs3 this round! He's through #PLAYERNAME#'s first port!! $#%#$
+delay 6 $#%#$
+openPort 21 $#%#$
+delay 8 $#%#$
+openPort 80 $#%#$
+writel Commentator: Curs3 is through 3 of #PLAYERNAME#'s Ports now!! This is a much better performance from him this time! $#%#$
+openPort 25 $#%#$
+delay 20 $#%#$
+writel Commentator: Curs3 just needs to PortHack and he's completely through #PLAYERNAME#'s defences!! $#%#$
+delay 11 $#%#$

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="news03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Hacker #PLAYERNAME# Surprises everyone!">
+Our newest Hacker_Wars member has won their very first battle!
+In a very surprising turn of events Hacker named '#PLAYERNAME#'
+has managed to completely destroy another Hacker Wars member, 
+known as '7rix'.
+
+We are all left wondering just how much this hacker is truely
+capable of and we cannot wait to see how they perform in their
+next hacking battle!
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

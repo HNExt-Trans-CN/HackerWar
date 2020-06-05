@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="unknownComp"
+	name="Lazarus Drop Server"
+	ip="93.75.49.143"
+	icon="chip"
+	allowsDefaultBootModule="true"
+	type="4">
+
+  <portsForCrack val="2" />
+  <ports>22,25,80,21</ports>
+  <portRemap>21=63</portRemap>
+  
+  <trace time="-1" />
+  <proxy time="-1" />
+  <adminPass pass="ky2agz9y" />
+  
+  <firewall level="6" solution="wbc58n" additionalTime="0.4" />
+  
+  <file path="home" name="example.txt">LMAO.
+Examples are overrated anyway...
+
+Is this the last example!!?!?!?!?!!?!?!?!?
+DUN DUN DUN!!!!</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <uploadServerDaemon name="Lazarus's Drop Server" folder="Upload" 
+                      needsAuth="false" color="230,220,220" />
+</Computer>

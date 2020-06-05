@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="assistant07" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+	<goal type="delay" time="6.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <!--missionStart val="1">addRankSilent</missionStart-->
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Eleanor Hammond</sender>
+    <subject>Update: Team Event Now Available</subject>
+    <body>Good job #PLAYERNAME#,
+
+It looks like you've got yourself quite the team there!
+Naix has also finished gathering Team mates now, so it's
+looking like:
+
+ Team Red: Captain: "Naix"
+   -  "5plinter"
+   -  "Ph4n745m"
+   -  "Ch1m3r4"
+ 
+ Team Blue: Captain: "#PLAYERNAME#"
+   -  "Grim4ce"
+   -  "r00t"
+   -  "Cryp70"
+	
+First team event has been published, and it's a new one
+ for this year. 'Capture The Flag' You can find out more
+ about how to play in the mission information. It's a
+ test on team's obversation.
+ 
+When you're ready to start, hit up the new contract on
+ the Battleboard.
+ 
+
+ - Eleanor Hammond
+
+Hacker Wars Assistant assigned to: #PLAYERNAME#
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

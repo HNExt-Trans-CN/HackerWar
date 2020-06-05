@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="assistant02" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionStart val="1">addRankSilent</missionStart>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Eleanor Hammond</sender>
+    <subject>Update: Round 3 Information</subject>
+    <body>Okay #PLAYERNAME#,
+It looks like you're up next again, this time you will be facing the
+ hacker known as 'T4lisman.'
+ 
+Going by his past experience and his performance last year,
+ I'd say he won't be proving much more of a challenge than your
+ last competitor. I've ran an nmap on his computer, we're
+ looking at that SMTP port I told you about earlier.
+ 
+He's got custom ports too, nasty stuff, just pay attention
+ to the port numbers you see on screen and everything should go
+ okay.
+ 
+ When you're ready to go, pick up the contract on the Battleboard.
+ 
+ - Eleanor Hammond
+
+Hacker Wars Assistant assigned to: #PLAYERNAME#
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

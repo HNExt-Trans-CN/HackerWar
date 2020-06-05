@@ -1,0 +1,10 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+write_silent $#%#$
+delay 3 $#%#$
+clearTerminal $#%#$
+writel Commentator: Well! I think he has surprised us all! #PLAYERNAME# has won the game! $#%#$
+delay 1 $#%#$
+writel Commentator: And with that he has successfully hacked 7rix's Computer!! $#%#$
+delay 1 $#%#$
+writel Commentator: Comiserations to our loser! But congratulations to our winner for this round! $#%#$
+delay 1 $#%#$

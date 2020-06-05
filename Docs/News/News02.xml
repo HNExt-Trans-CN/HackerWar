@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="news01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Hacker_Wars has officially commensed!">
+Hacker_Wars 2, a 2nd year of Hacker_Wars has started now with
+ many of the professional hackers you've seen last year but
+ also a great many new contestants too! Let's see how each of
+ our hackers do!
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

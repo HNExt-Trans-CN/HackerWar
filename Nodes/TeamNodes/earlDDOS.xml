@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="earl01"
+	name="Earl's DDOSER"
+	ip="89.92.34.112"
+	allowsDefaultBootModule="false"
+	type="3">
+
+  <portsForCrack val="2" />
+  <ports>22, 1433, 21</ports>
+  
+  <portRemap>22=29,21=94</portRemap>
+  
+  <trace time="60" />
+  <proxy time="1.2" />
+  
+  <adminPass pass="9991_rebmeced_ht15" />
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <file path="bin" name="NOT_SMTPOverlay.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX2">SENDING COMMAND: DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX3">SENDING COMMAND: DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX4">SENDING COMMAND: DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  
+</Computer>

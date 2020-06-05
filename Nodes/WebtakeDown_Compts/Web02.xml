@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="webhack02"
+	name="WebHack Mail Server"
+	ip="125.46.196.79"
+	icon="kellis"
+	allowsDefaultBootModule="true"
+	type="4">
+
+  <portsForCrack val="999" />
+  <ports>21,1433,80</ports>
+  <trace time="3" />
+  <proxy time="3.0" />
+  
+  <adminPass pass="74isthenew24" />
+  
+  <account username="#PLAYERNAME#" password="h4cking_is_l1fe" type="3" />
+  <account username="Matt" password="Orann" type="MAIL" />
+  <account username="ZakSw1f7" password="987_g0sp3lls_654" type="MAIL" />
+  <account username="NetAdmin" password="n0thing_1s_h3r3" type="MAIL" />
+  
+  <file path="home" name="example.txt">Yep,
+  another useless file right here... You must be getting tired
+  of opening these now!?!?!</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  
+<mailServer name="WebHack Mail" color="220,10,150" generateJunk="true">
+    <email recipient="NetAdmin" sender="Gh0st" subject="Bug Report #281">
+Yeah, sorry mate but I'm having trouble logging into the WebHack
+ server again. It's just not letting me login. I think my 
+ password might have been changed again. Can you help me?
+    </email>
+    <email recipient="NetAdmin" sender="Ev3" subject="RE: Gh0st Reset">
+Uh, Gh0st accused me the other day or resetting his password,
+ I don't get why I'd even want to touch his stupid account,
+ Just... sort his account please so I don't have to put up
+ with this crap again.
+    </email>
+    <email recipient="Matt" sender="Spam" subject="re: amazing features">
+Hey there Matt. Great job on the latest updates to HackNetOS it looks like
+ it's coming along nicely. Soon we'll be able to get the whole program up
+ and running and finally recover some of that hard work Bit has put into this.
+    </email>
+	<email recipient="ZakSw1f7" sender="Unknown" subject="Important Documents">
+Hey, Zak. It's me again, look I haven't heard from you in awhile
+ I need to know whether this thing is still a go? I've got all the our
+ scripts ready and waiting back on the FileServer, I just need your
+ authorization to deploy. Please reply soon!
+	</email>
+  </mailServer>
+</Computer>

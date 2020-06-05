@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+  <Instantly>	
+    <LaunchHackScript Filepath="Scripts/Battle03_Curs3/Part_01.txt" SourceComp="curse01" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	
+	<AddMissionToHubServer MissionFilepath="Missions/ActualBattles/Battle03_Curs3.xml" TargetComp="hackerHub" />
+	<LoadMission MissionName="Missions/FileRestore.xml" />
+  </Instantly>
+
+</ConditionalActions>

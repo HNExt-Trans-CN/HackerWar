@@ -1,0 +1,120 @@
+<html>
+
+<head>
+	<style>
+	body {
+		width: 550px;
+		background-color: black;
+		text-align: center;
+	}
+	img {
+		animation: scrollEffect 12s infinite;
+	}
+	p.WelcomeMsg {
+		font-size: 26pt;
+		font-family: "Nova Square";
+		color: rgb(220, 0, 20);
+		text-align: center;
+		width: 100%;
+		height: 50px;
+		padding: 0px;
+		margin: 10px 10px;
+		animation: scrollEffect 12s infinite;
+	}
+	div.post-container {
+		width: 450px;
+		height: 160px;
+		border: 2px solid red;
+		border-radius: 15px;
+		background-color: rgba(220, 10, 35, 0.4);
+		margin: 15px 50px;
+		animation: scrollEffect 12s infinite;
+		
+	}
+	h1.post-title {
+		font-size: 18pt;
+		color: red;
+		text-align: left;
+		font-weight: normal;
+		margin: 5px 2px;
+		font-family: "Consolas";
+	}
+	hr.post-divider {
+		border: 1px dashed red;
+		width: 94%;
+		border-radius: 5px;
+	}
+	p.post-contents {
+		color: lime;
+		font-size: 12pt;
+		text-align: right;
+		font-family: "Consolas";
+		padding: 2px;
+		margin: 5px 2px;
+	}
+	p.post-user {
+		color: rgb(120, 120, 120);
+		font-size: 12pt;
+		font-family: "Consolas";
+		text-align: left;
+		font-weight: normal;
+		margin: 5px 10px;
+	}
+	
+	@keyframes scrollEffect {
+		0% {
+			position: relative;
+			top: 0px;
+		}
+		40% {
+			position: relative;
+			top: -250px;
+		}
+		60% {
+			position: relative;
+			top: -250px;
+		}
+		100% {
+			position: relative;
+			top: 0px;
+		}
+	}
+	</style>
+</head>
+
+<body>
+	<img src="Webhack_Icon.png" width="150px" height="150px" style="margin:0px 200px;padding:0px;" />
+	<p class="WelcomeMsg">Welcome to WebHack</p>
+	
+	
+	<div class="posts-container">
+	
+		<div class="post-container">
+			<h1 class="post-title"> > Welcome to WebHack</h1>
+			<hr class="post-divider" />
+			<p class="post-contents">Hi there programmers and hackers alike! Welcome to
+ WebHack, a free online website dedicated to programmers and hackers
+ for sharing code and socialising.</p>
+			<p class="post-user">Posted By: Ev3  ---  17/05/17 16:23PM</p>
+		</div>
+		
+		<div class="post-container">
+			<h1 class="post-title"> > Well Played Everyone!</h1>
+			<hr class="post-divider" />
+			<p class="post-contents">I can't beleive it guys,
+ we finally cracked it! We finally solved all the puzzles!
+ I know I couldn't have done it without all your help! Thanks!</p>
+			<p class="post-user" style="position:relative;top:15px;">Posted By: Gh0st  ---  24/06/17 18:42PM</p>
+		</div>
+		
+		<div class="post-container">
+			<h1 class="post-title"> > Say Hello Everyone</h1>
+			<hr class="post-divider" />
+			<p class="post-contents">Good news, hackers and programmers. You're on TV,
+ I just checked the log, someone has taken a shine to our little group here ;)</p>
+			<p class="post-user" style="position:relative;top:15px;">Posted By: 4DM1N  ---  JUST NOW</p>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
+write_silent $#%#$
+delay 2 $#%#$
+clearTerminal $#%#$
+writel Oh no! It looks like Naix's Team has beat #PLAYERNAME#'s team to the punch! $#%#$
+delay 1 $#%#$
+delete /sys x-server.sys $#%#$
+writel #PLAYERNAME#'s, x-server gone!! What could possibly happen now!?!? $#%#$
+delay 1 $#%#$
+delete /bin SSHCrack.exe $#%#$
+makeFile bin SSHCrack.exe #SECURITYTRACER_PROGRAM# $#%#$
+delay 2 $#%#$
+hideRam $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+delay 1 $#%#$
+writel Naix, has gone straight for #PLAYERNAME#'s tools! $#%#$
+forkbomb $#%#$
+delay 5 $#%#$
+showRam $#%#$
+showNetMap $#%#$
+showDisplay $#%#$
+disconnect $#%#$

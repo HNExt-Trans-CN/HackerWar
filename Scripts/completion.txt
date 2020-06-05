@@ -1,0 +1,9 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
+delay 2.0 $#%#$
+write_silent $#%#$
+clearTerminal $#%#$
+writel --- TO BE CONTINUED --- $#%#$
+delay 0.5 $#%#$
+writel Thank You For Playing Hacker Wars $#%#$
+delay 0.5 $#%#$
+disconnect $#%#$

@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Welcome03" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="fileupload" target="toolStation" file="SSHCrack.exe" path="bin/22" destTarget="playerBackup" destPath="home/BACKUP/bin"/>
+	<goal type="fileupload" target="toolStation" file="FTPBounce.exe" path="bin/21" destTarget="playerBackup" destPath="home/BACKUP/bin"/>
+	<goal type="fileupload" target="toolStation" file="WebServerWorm.exe" path="bin/80" destTarget="playerBackup" destPath="home/BACKUP/bin"/>
+	<goal type="fileupload" target="playerComp" file="x-server.sys" path="sys" destTarget="playerBackup" destPath="home/BACKUP/sys"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/00/joiningTheCompetition04.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Unknown</sender>
+    <subject>Getting You A Backup Server</subject>
+    <body>Alright nice work, I can see from my logs you've successfully downloaded my tools.
+
+We're almost ready to get you set up, are you excited? Before we get stuck in we need to get you a backup server online.
+This way, if you do happen to lose a competition, and something happens to your files, you can get them back with just a few SCP commands.
+ 
+I've already set a backup server up for you, you just need to
+ upload all your files to it. So get stuck in, I've attached
+ the IP of your Backup Server, and a note detailing what you
+ should backup.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Backing Up Tips">Okay, now to backup your files! Simply navigate to the folder home/BACKUP and then use upload commands to upload the following.
+You need to backup:
+ - System Files. - Specifically X-SERVER.sys (CRUCIAL FOR GUI, unless you want to go back to the dark ages)
+ - All EXE Files - These are very important as some tools can be very useful and if you lose them, they are pretty much gone for good if you don't back them up.
+	  </note>
+	  <link comp="playerBackup" />
+	  <account comp="playerBackup" user="admin" pass="fkSoci3ty" />
+    </attachments>
+  </email>
+</mission>

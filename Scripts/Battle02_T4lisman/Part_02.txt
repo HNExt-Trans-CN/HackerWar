@@ -1,0 +1,10 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+write_silent $#%#$
+delay 3 $#%#$
+clearTerminal $#%#$
+writel Commentator: Nobody can beleive it! #PLAYERNAME# has beaten T4lisman too!! $#%#$
+delay 1 $#%#$
+writel Commentator: Nobody has expected this! #PLAYERNAME# is through to ANOTHER ROUND! $#%#$
+delay 1 $#%#$
+writel Commentator: Comiserations to our loser! But congratulations to our winner! $#%#$
+delay 1 $#%#$

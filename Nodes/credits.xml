@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="creditsSrv"
+	name="HW Credits Server"
+	ip="225.224.225.224"
+	allowsDefaultBootModule="true"
+	type="empty">
+
+  <portsForCrack val="0" />
+  <ports>80, 1433, 22</ports>
+  <trace time="-1" />
+  
+  <adminPass pass="r4nd0m_stuff" />
+  
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+
+    <file path="home" name="CreditsData.txt">
+^------- TO BE CONTINUED -------
+
+
+%-----  Hacker Wars  -----
+^Created by Admiral Joshua
+
+Special Thanks to:
+ - The Judge - Emotional Support ;)
+ - JacobTCG - Story Writing Aid
+ - C0d3d B4con - For help with hiding easter eggs around.
+ 
+^----- Danke Music -----
+(From the YouTube Audio Library)
+Free Usage for all!
+ 
+ "Beat Your Competition"
+   by Vibe Tracks
+	
+  "Cephelopod - Cephelopod"
+   by Kevin Macleod
+	
+  "Cold Rise"
+   by Gunnar Olsen
+	
+  "Drop It"
+   by Silent Partner  
+
+  "Epic TV Theme"
+   by Audionautix
+	
+  "Thunder - FloidBeats #45"
+   by FloidBeats
+	
+  "Tremsz"
+   by Gunnar Olsen
+-----------------------
+
+Thank you all for such a wonderful Hacknet Community!
+Whether it was feedback on the WorkShop or help on the
+Discord server! All of your support and help has been
+the best!!!
+</file>
+  
+  <CreditsDaemon Title="Hacker Wars Ending Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/completion.xml"/>
+</Computer>

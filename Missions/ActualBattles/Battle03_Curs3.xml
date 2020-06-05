@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="battle02_talisman" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="clearfolder" target="curse01" path="sys" />
+	<goal type="clearfolder" target="curse01" path="bin/cracks" />
+	<goal type="clearfolder" target="curse01" path="bin" />
+	<goal type="delay" time="2.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionStart val="1">loadConditionalActions:Actions/BattleActions/Start_Curs301.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/Success_Actions/Curs3_01_Success.xml</missionEnd>
+  <!--missionEnd>loadConditionalActions:Actions/Success_Actions/7rix_01_Success.xml</missionEnd-->
+  
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  
+  <posting title="Hacker Wars Round 5 : #PLAYERNAME#  vs  Curs3">
+We just can't wait to see more of the skills #PLAYERNAME# has got
+ how will he fair in his final, solo match against 'Curs3' ? 
+ 
+ Let's see how they do in our next round;
+ 
+   #PLAYERNAME#    vs.   Curs3
+</posting>
+  
+  <email>
+    <sender>Battleboard Bot</sender>
+    <subject>Opponent03: - Battle Started</subject>
+    <body>#PLAYERNAME#,
+
+This email is to inform you that you have started a battle with the Hacker
+ known as "Curs3". If this was not you, we recommend restarting your computer
+ immediately!
+ 
+ Otherwise, the battle has commenced! You will find your target's IP Address below.
+ 
+ Good luck!
+ Get going!
+ 
+ - Hacker_Wars Battleboard Bot</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Main Goals">1) Get Admin Access into Curs3's computer
+2) Wipe his "SYS" folder and "BIN" folder.
+3) ForkBomb.</note>
+	  <link comp="curse01" />
+    </attachments>
+  </email>
+</mission>

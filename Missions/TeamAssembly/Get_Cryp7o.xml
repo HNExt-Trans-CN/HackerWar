@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="getCrypto" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+	<!--goal type="filedownload" target="splinterLaptop" file="FTPBounce.exe" path="bin" /-->
+	<!--goal type="filedownload" target="splinterLaptop" file="SSHCrack.exe" path="bin" /-->
+	<!--goal type="filedownload" target="splinterLaptop" file="SMTPOverflow.exe" path="bin" /-->
+	<goal type="clearfolder" target="splinterLaptop" path="bin" />
+	<goal type="fileupload" target="splinterLaptop" file="FTPBounce.exe" path="bin" destTarget="cryptoServer01" destPath="home/Upload" />
+	<goal type="fileupload" target="splinterLaptop" file="SSHCrack.exe" path="bin" destTarget="cryptoServer01" destPath="home/Upload" />
+	<goal type="fileupload" target="splinterLaptop" file="SMTPOverflow.exe" path="bin" destTarget="cryptoServer01" destPath="home/Upload" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <!--missionStart val="1">addRankSilent</missionStart-->
+  <missionEnd val="8">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  
+  <posting title="The Great Cipher" requiredRank="21">Crypto wants to play a prank on one of the Hacker Wars Members.
+He needs you to steal some EXE files from one of them.</posting>
+  
+  <email>
+    <sender>Battleboard Bot</sender>
+    <subject>The Great Cipher</subject>
+    <body>#PLAYERNAME#,
+
+I've got a hilarious prank to play on one of the Hacker Wars
+ members. You remember 5plinter right? He's crazy proud, why
+ don't we show him a little fun Cryp7o style ;)
+ 
+I want you to break in to his Laptop and get admin access.
+From there, I need you to download all his tool files and
+ then delete them from his laptop. Once you've got the file
+ upload them to my computer (also linked below) I'm going to
+ encrypt them with a super secure password :)
+
+
+BATTLEBOARD REMINDER: When you have completed Cryp7o's
+ task he will become an official member of your team.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Mission Details">Download EXE tools from 5plinter's laptop and delete them. Then upload the files downloaded to Cryp7o's Toolstation in the folder "home/Upload"</note>
+	  <link comp="splinterLaptop" />
+	  <link comp="cryptoServer01" />
+    </attachments>
+  </email>
+</mission>

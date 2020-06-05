@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ctfMain03"
+	name="HW Server Farm #206"
+	ip="160.8.187.15"
+	allowsDefaultBootModule="false"
+	type="empty">
+
+  <portsForCrack val="2" />
+  <ports>80, 1433, 22</ports>
+  <trace time="-1" />
+  
+  <adminPass pass="c4pture_th3_fl4g_3" />
+  
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <file path="home" name="Observation_Test.txt">
+HINT: I hope that you are keeping track about those other
+ passwords too, and not just the ones that actually work...
+ 
+Also might be worth taking note of the actual working passwords too.</file>
+  
+  <encryptedFile path="home/secret" name="secret_stash.dec" extension=".txt" ip="XXX.XXX.XXX.XXX" header="Secret Stash File" pass="w1r3d">
+Congratulation on breaking the encryption of the second file.
+ You're 2/3 of the way there now, you've gotta crack
+  just one more...
+ 
+ Your next set of passwords are:
+   (once again, without the quotation marks)
+   - "cook1e"
+   - "cr4y0n"
+   - "sund14l"
+  </encryptedFile>
+  
+  <dlink target="ctfMain01" />
+  <dlink target="ctfMain02" />
+  <dlink target="ctfMain04" />
+
+</Computer>

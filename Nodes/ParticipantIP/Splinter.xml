@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="splinterRig"
+	name="Splinter's Gaming Rig"
+	ip="129.63.62.78"
+	allowsDefaultBootModule="true"
+	type="2">
+
+  <portsForCrack val="2" />
+  <ports>21,25,80</ports>
+  <trace time="-1" />
+  <proxy time="1.0" />
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="home/games/Hacknet" name="Hacknet.exe">#BINARY#</file>
+  
+  <file path="home/games/CallOfAge" name="Age.exe">#BINARY#</file>
+  <file path="home/movies" name="GameOfTracer.mp4.exe">#SECURITYTRACER_PROGRAM#</file>
+  
+  <file path="home" name="help.txt">Gonna need some help taking down this website:
+ http://hackthissite.org</file>
+ 
+ <file path="bin" name="Reward.txt">lmao. No reward for hacking this one mate,
+ unless you still haven't got ThemeChanger that is.</file>
+ 
+  <file path="home/IRC_1601" name="#962811_LOG">shadoxx: ...I have 17 terminal windows open right now.
+bai: r u a h4x0r??
+shadoxx: 2_1337_4_school
+bai: dang just don't hack me ok
+shadoxx: okay
+shadoxx: You could be infosec bai. Ur pretty good
+shadoxx: I was going to hack you, but then you appealed to my humanity.
+bai: social engineered af</file>
+
+</Computer>

@@ -1,0 +1,25 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+delay 30.0 $#%#$
+write_silent $#%#$
+clearTerminal $#%#$
+delay 0.5 $#%#$
+writel Goodbye #PLAYERNAME# $#%#$
+delay 1.0 $#%#$
+hideDisplay $#%#$
+delay 0.5 $#%#$
+hideRam $#%#$
+delay 0.5 #$#%#$
+hideNetMap $#%#$
+delay 0.5 $#%#$
+hideTerminal $#%#$
+delay 0.5 $#%#$
+forkbomb $#%#$
+delay 5 $#%#$
+showDisplay $#%#$
+delay 0.3 $#%#$
+showTerminal $#%#$
+delay 0.3 $#%#$
+showNetMap $#%#$
+delay 0.3 $#%#$
+showRam $#%#$
+delay 0.3 $#%#$

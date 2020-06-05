@@ -1,0 +1,73 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ctfMain01"
+	name="Hacker Wars CTF StartPoint"
+	ip="160.8.195.15"
+	allowsDefaultBootModule="false"
+	type="empty">
+
+  <portsForCrack val="2" />
+  <ports>21, 25</ports>
+  <trace time="-1" />
+  
+  <adminPass pass="c4pture_th3_fl4g" />
+  
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+ 
+  <file path="home" name="Instructions.txt"> --- Capture The Flag Instructions ---
+
+  - Each team is give a set of 3 passwords. Onle one of
+   these passwords will open the encrypted file.
+   
+  - Once each encrypted file has been opened another 3 passwords will be generated;
+   these will open the next encrypted file.
+  
+  - This will happen 3 times until the player is left with 4 seperate passwords.
+  
+  - To win the challenge the team must then enter all the passwords together in
+   reply to the mission email, however this may use different passwords altogether
+   (the final encrypted file will display instructions on this)
+  
+  - Your teammates will periodically help you out by sending messages through (Terminal / MsgBoard)
+</file>
+  <file path="home" name="ReadMe.txt">Welcome to the Capture the Flag server!
+This is the first server you will start your journey on. Capture the Flag is
+largely a gamemode about guessing and speed, but also it is a test of how 
+observent team members can be. As you proceed through each server you
+will find an encrypted file on each. The servers in question will each
+contain a password to unlock another encrypted file, until finally one team
+or the other team finds the final encrypted file providing them with details
+on a special string they must then reply to the original email with.
+
+It is strongly advised that teams take notes about each password they find,
+as they may prove very useful later on...
+
+You will find your first encrypted file at the connected nodes:
+
+Your first set of Passwords for the encrypted file are:
+  (without the quotation marks)
+    - "midn1gh7"
+    - "w3bs1te"
+    - "h4ndsh4k3"
+	
+First team to get the correct string in reply to the
+ email wins.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ HINT: Serving Order... 103,206,097,274</file>
+  
+  <customthemefile path="sys" name="Cyan_Tech.sys" themePath="Themes/CyanTech.xml" />
+  <customthemefile path="sys" name="Bubbles.sys" themePath="Themes/Bubbles.xml" />
+  <customthemefile path="sys" name="Special_HackerJam.sys" themePath="Themes/HackerJam_HW.xml" />
+  
+  <dlink target="ctfMain03" />
+  <dlink target="ctfMain04" />
+  <dlink target="playerComp" />
+  <dlink target="ctfMain02" />
+</Computer>

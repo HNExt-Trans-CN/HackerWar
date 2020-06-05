@@ -1,0 +1,19 @@
+<ConditionalActions>
+
+  <Instantly>
+
+    <RunFunction FunctionName="playCustomSong:Music/Tremsz.ogg" FunctionValue="1" />
+  
+    <LaunchHackScript Filepath="Scripts/Battle02_T4lisman/Part_02.txt" SourceComp="hackerHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false" />
+	
+	<CancelScreenBleedEffect />
+	
+	<HideNode TargetComp="talisman01" />
+	
+	<RunFunction FunctionName="addRankSilent" FunctionValue="6" />
+	
+	<AddThreadToMissionBoard ThreadFilepath="Docs/Threads/VictoryThreads/Win_T4lisman_01.txt" TargetComp="hackerForum" />
+	<AddMissionToHubServer MissionFilepath="Docs/News/News04.xml" TargetComp="hackerNews" AssignmentTag="top" />
+  </Instantly>
+
+</ConditionalActions>

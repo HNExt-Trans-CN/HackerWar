@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="fileRestore" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="delay" time="8.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Unknown</sender>
+    <subject>File Restoration</subject>
+    <body>Hi there #PLAYERNAME#,
+
+Unlucky my friend! You lost that round, but don't worry, 
+ you can have another go. First, you've gotta restore your
+ files though, which if you are reading this, means you already
+ have. I left you instructions on restoring a file on your
+ computer just in case you needed them.
+ 
+It might also be a good idea if you double check your "bin"
+ folder. Cause, some of the hackers, they like to replace
+ your tools... You may need to download some replacements from 
+ your Backup server!
+ 
+Once you have restored your files, the contract should be restored
+ on the Battleboard once again. So, as soon as you are ready, why
+ don't you have another go?
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here --> 
+	  <link comp="hackerHub" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bigDecision2" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="delay" time="35.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionStart>loadConditionalActions:Actions/gameOver.xml</missionStart>
+  <nextMission>Missions/02/completion02.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  
+  <email>
+    <sender>Unknown</sender>
+    <subject>Thank you for returning my file.</subject>
+    <body>Thank you for returning my file #PLAYERNAME#,
+	
+You've done the right thing, returned to me what was
+ wrongfully stolen. But I'm sorry, you know too much
+ and I cannot let you roam free any longer. This is
+ goodbye from me, this is probably the last time we
+ will ever talk... I'm sorry, but it had to be this
+ way.
+ 
+ I can't have anything linking back to me...
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

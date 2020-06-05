@@ -1,0 +1,201 @@
+Folder PATH listing for volume JRNs Data
+Volume serial number is 55AC-77F4
+D:.
+|   ExtensionInfo.xml
+|   HackerWarsLogo.png
+|   Hacker_Wars.gif
+|   HackReaper.gif
+|   intro.txt
+|   Logo.png
+|   MissionLogo.png
+|   NewsLogo.png
+|   SecretPlans.txt
+|   TreeDir.txt
+|   
++---Actions
+|   |   completion.xml
+|   |   completion2.xml
+|   |   Defeat_CTF.xml
+|   |   gameOver.xml
+|   |   StartingActions.xml
+|   |   
+|   +---BattleActions
+|   |       Defeat_Opponent01.xml
+|   |       Defeat_Opponent02.xml
+|   |       Defeat_Opponent03.xml
+|   |       Opponent01_7rix.xml
+|   |       Start_7rix01.xml
+|   |       Start_ctfMain01.xml
+|   |       Start_Curs301.xml
+|   |       Start_T4lisman01.xml
+|   |       Success_Opponent01.xml
+|   |       
+|   \---Success_Actions
+|           7rix_01_Success.xml
+|           Complete_CTF_01.xml
+|           Curs3_01_Success.xml
+|           T4lisman_01_Success.xml
+|           
++---Docs
+|   |   WelcomeHackers.txt
+|   |   WhoIsThisGuy.txt
+|   |   
+|   +---Battles
+|   |       Battle01_7rix.xml
+|   |       
+|   +---News
+|   |   |   News01.xml
+|   |   |   News02.xml
+|   |   |   News03.xml
+|   |   |   News04.xml
+|   |   |   
+|   |   \---StartingArticles
+|   |           News01.xml
+|   |           News02.xml
+|   |           
+|   \---Threads
+|       +---StartingThreads
+|       |       WelcomeHackers.txt
+|       |       WhoIsThisGuy.txt
+|       |       
+|       \---VictoryThreads
+|               Win_7rix_01.txt
+|               Win_T4lisman_01.txt
+|               
++---Factions
+|       hackerWar.xml
+|       
++---Missions
+|   |   CaptureTheFlag.xml
+|   |   FileRestore.xml
+|   |   StartingMission.xml
+|   |   
+|   +---00
+|   |       joiningTheCompetition01.xml
+|   |       joiningTheCompetition02.xml
+|   |       joiningTheCompetition03.xml
+|   |       joiningTheCompetition04.xml
+|   |       joiningTheCompetition05.xml
+|   |       
+|   +---01
+|   |       welcomeToHackerWars01.xml
+|   |       
+|   +---02
+|   |       bigDecision_01.xml
+|   |       bigDecision_02.xml
+|   |       bigDecision_03.xml
+|   |       bigDecsion_01.xml
+|   |       completion01.xml
+|   |       completion02.xml
+|   |       final_Police.xml
+|   |       final_Villain.xml
+|   |       
+|   +---ActualBattles
+|   |       Battle01_7rix.xml
+|   |       Battle02_T4lisman.xml
+|   |       Battle03_Curs3.xml
+|   |       
+|   +---AssistantMissions
+|   |       Assistant_01.xml
+|   |       Assistant_02.xml
+|   |       Assistant_03.xml
+|   |       Assistant_04.xml
+|   |       Assistant_05.xml
+|   |       Assistant_06.xml
+|   |       Assistant_07.xml
+|   |       Assistant_08.xml
+|   |       
+|   +---empty
+|   \---TeamAssembly
+|           Get_Cryp7o.xml
+|           Get_Grim4ce.xml
+|           Get_r00t.xml
+|           
++---Music
+|       Beat_Your_Competition.ogg
+|       Cephelopod_Cephelopod.ogg
+|       Cold_Rise.ogg
+|       Drop_It.ogg
+|       Epic_TV_Theme.ogg
+|       Epic_Unease.ogg
+|       Thunder - FloidBeats #045.ogg
+|       Tremsz.ogg
+|       
++---Nodes
+|   |   credits.xml
+|   |   hackerMain.xml
+|   |   HackerWar_Forum.xml
+|   |   HackerWar_Hub.xml
+|   |   HackerWar_News.xml
+|   |   hackerWar_team01.xml
+|   |   playerBackup.xml
+|   |   playerComputer.xml
+|   |   ToolStation.xml
+|   |   
+|   +---BigDecisionComps
+|   |       policeComp.xml
+|   |       unknownComp.xml
+|   |       webServer01.xml
+|   |       webServer02.xml
+|   |       
+|   +---CaptureTheFlagComps
+|   |       CTF_Main01.xml
+|   |       CTF_Main02.xml
+|   |       CTF_Main03.xml
+|   |       CTF_Main04.xml
+|   |       CTF_Main05.xml
+|   |       
+|   +---OpponentComps
+|   |       Contestant_Curs3.xml
+|   |       Contestant_Talisman.xml
+|   |       Contestant_Trix.xml
+|   |       
+|   +---ParticipantIP
+|   |       Alexander.xml
+|   |       Splinter.xml
+|   |       
+|   \---TeamNodes
+|           5plinter_Laptop1.xml
+|           Crypto_Server1.xml
+|           earlDDOS.xml
+|           Grim4ce_Server1.xml
+|           nastyBully01.xml
+|           rootsServer.xml
+|           
++---Scripts
+|   |   completion.txt
+|   |   completion2.txt
+|   |   CTF_Fail.txt
+|   |   gameOver.txt
+|   |   
+|   +---Battle01_7rix
+|   |       Part_00.txt
+|   |       Part_01.txt
+|   |       Part_02.txt
+|   |       
+|   +---Battle02_T4lisman
+|   |       Part_00.txt
+|   |       Part_01.txt
+|   |       Part_02.txt
+|   |       
+|   +---Battle03_Curs3
+|   |       Part_00.txt
+|   |       Part_01.txt
+|   |       Part_02.txt
+|   |       
+|   \---BattleScripts
+|           7rix_01.txt
+|           
++---Themes
+|   |   Bubbles.xml
+|   |   CyanTech.xml
+|   |   
+|   \---Backgrounds
+|           Bubbles.pdn
+|           Bubbles.png
+|           highTechFinal.png
+|           
+\---Web
+    |   index.html
+    |   
+    \---Cache

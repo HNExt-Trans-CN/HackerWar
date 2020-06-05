@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="alexPC"
+	name="Alexander Workstation"
+	ip="160.8.12.15"
+	allowsDefaultBootModule="false"
+	type="1">
+
+  <portsForCrack val="2" />
+  <ports>21,25,80</ports>
+  <trace time="-1" />
+  <proxy time="0.5" />
+  
+  <file path="home" name="example.txt">LMAO.
+What an example this file is turning out to be...</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <file path="home/notes" name="Alexander.txt">[Alexander]
+86.45.12.91</file>
+
+  <file path="bin" name="Reward.txt">As a reward for your troubles of hacking a
+  guy we've never seen before, a special tool just for you. Also, a special
+  theme too ;)</file>
+  
+  <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+  
+  <customthemefile path="sys" name="Cyan_Tech.sys" themePath="Themes/CyanTech.xml"/>
+
+</Computer>

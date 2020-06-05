@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackerData"
+	name="Hacker Wars Database"
+	ip="60.25.116.75"
+	allowsDefaultBootModule="true"
+	type="3">
+
+  <portsForCrack val="2" />
+  <ports>21,25,80</ports>
+  <trace time="-1" />
+  <proxy time="1.0" />
+  
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <customthemefile path="sys" name="Cyan_x-server.sys" themePath="Themes/CyanTech.xml"/>
+
+  <tracker />
+  
+  <file path="ParticipantsDB" name="Naix.txt">[Naix]
+[XXX.XX.XX.XXX]</file>
+  <file path="ParticipantsDB" name="Chimera.txt">[Ch1m3r4]
+[XXX.XX.XX.XXX]</file>
+  <file path="ParticipantsDB" name="Grimace.txt">[Grim4ce]
+[XXX.XX.XX.XXX]</file>
+  <file path="ParticipantsDB" name="Talisman.txt">[T4lisman]
+[XXX.XX.XX.XXX]</file>
+  <file path="ParticipantsDB" name="Phantom.txt">[Ph4n745m]
+[XXX.XX.XX.XXX]</file>
+  <file path="ParticipantsDB" name="Trix.txt">[7rix]
+[XXX.XX.XX.XXX]</file>
+  <file path="ParticipantsDB" name="Splinter.txt">[5plinter]
+[160.8.19.15]</file>
+<file path="ParticipantsDB" name="Curse.txt">[Curs3]
+[XXX.XX.XX.XXX]</file>
+  <file path="ParticipantsDB" name="Alexander.txt">[Alexander]
+[160.8.12.15]</file>
+<file path="ParticipantsDB" name="Root.txt">[r00t]
+[XXX.XX.XX.XXX]</file>
+<file path="ParticipantsDB" name="Crypto.txt">[Cryp7o]
+[XXX.XX.XX.XXX]</file>
+<file path="ParticipantsDB" name="Lightning.txt">[Lightn1ng]
+[XXX.XX.XX.XXX]</file>
+</Computer>

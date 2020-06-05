@@ -1,0 +1,18 @@
+<ConditionalActions>
+  
+  <OnConnect target="curse01" needsMissionComplete="false">
+    <!-- You can put any action that was described in the Actions section here -->
+	
+    <StartScreenBleedEffect AlertTitle="Hack Curs3" CompleteAction="Actions/BattleActions/Defeat_Opponent03.xml" TotalDurationSeconds="75.0">Get Admin on Curs3
+Delete 'sys' file(s)
+Delete Curs3's 'exe' tool(s)</StartScreenBleedEffect>
+  </OnConnect>
+  
+  <Instantly>
+    <!--HideAllNodes /-->
+    <ShowNode TargetComp="curse01" />
+  	<RunFunction FunctionName="playCustomSong:Music/Cephelopod_Cephelopod.ogg" FunctionValue="1" />
+	<LaunchHackScript Filepath="Scripts/Battle03_Curs3/Part_00.txt" SourceComp="curse01" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  </Instantly>
+
+</ConditionalActions>

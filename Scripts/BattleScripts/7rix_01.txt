@@ -1,0 +1,39 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+
+write_silent Commentator: Welcome to the Second round of Hacker_Wars! $#%#$
+write_silent Commentator: In a moment our 2 hackers will start! $#%#$
+write_silent Commentator: On the 1 side we have #PLAYERNAME# $#%#$
+write_silent Commentator: On the other side, we have 7rix... $#%#$
+delay 1 $#%#$
+write_silent GET READY! $#%#$
+writeL 3 $#%#$
+delay 1 $#%#$
+writeL 2 $#%#$
+delay 1 $#%#$
+writeL 1 $#%#$
+delay 1 $#%#$
+writeL GO GO GO!! $#%#$
+
+delay 3 $#%#$
+connect $#%#$
+delay 3 $#%#$
+
+write_silent Commentator: It looks like both of our contestants have already connected to each other's computers. $#%#$
+
+delay 10 $#%#$
+
+openPort 21 $#%#$
+writeL Commentator: Looks like Trix has managed to get through #PLAYERNAME#'s first port. She's doing very well. $#%#$
+delay 5 $#%#$
+openPort 22 $#%#$
+delay 5 $#%#$
+openPort 25 $#%#$
+delay 5 $#%#$
+writeL Commentator: Trix is nearly through his ports now! I think #PLAYERNAME# is starting to sweat a little!! $#%#$
+delay 35 $#%#$
+writeL Commentator: She's done it! Trix is into #PLAYERNAME#'s Computer! $#%#$
+delete /sys x-server.sys $#%#$
+writeL Commentator: Oh no!! There goes his System Files!! God this is not looking good! Can #PLAYERNAME# bring it back!?!?
+delay 10
+forkbomb $#%#$
+disconnect $#%#$

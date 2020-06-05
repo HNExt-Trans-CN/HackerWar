@@ -1,0 +1,58 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
+write_silent $#%#$
+delay 2 $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+write_silent $#%#$
+writel Commentator:  Welcome back to Hacker Wars $#%#$
+writel Commentator: ---------- Round 3 ---------- $#%#$
+write_silent $#%#$
+delay 2 $#%#$
+writel Commentator: Okay, now let's all hear a cheer for the new hacker that surprised us all! It's #PLAYERNAME#!! $#%#$
+delay 4 $#%#$
+writel Commentator: And on the other side, he's been here once before, and he's back for vengeance! It's T4lisman!! $#%#$
+delay 3 $#%#$
+writel Commentator: Ready everyone? $#%#$
+delay 2 $#%#$
+clearTerminal $#%#$
+writel ..###. $#%#$
+writel ......#. $#%#$
+writel ...##. $#%#$
+writel ......#. $#%#$
+writel ..###. $#%#$
+delay 1 $#%#$
+clearTerminal $#%#$
+writel ..###. $#%#$
+writel ......#. $#%#$
+writel ..###. $#%#$
+writel ..#... $#%#$
+writel ..###. $#%#$
+delay 1 $#%#$
+clearTerminal $#%#$
+writel ....#.. $#%#$
+writel ..##.. $#%#$
+writel ....#.. $#%#$
+writel ....#.. $#%#$
+writel ..###. $#%#$
+delay 1 $#%#$
+write1 $#%#$
+writel GO! $#%#$
+write GO! $#%#$
+write GO! $#%#$
+write GO! $#%#$
+write GO! $#%#$
+startMusic $#%#$
+connect $#%#$
+delay 12 $#%#$
+openPort 22 $#%#$
+writel Commentator: Doesn't look like it's going to be so easy for #PLAYERNAME# this time. T4lisman has made it through #PLAYERNAME#'s first port! $#%#$
+delay 12 $#%#$
+openPort 21 $#%#$
+delay 12 $#%#$
+openPort 80 $#%#$
+writel Commentator: T4lisman is through 3 of #PLAYERNAME#'s Ports now!! Our new hacker better pull this back fast!! $#%#$
+openPort 25 $#%#$
+delay 14 $#%#$
+writel Commentator: T4lisman is close now!! I think #PLAYERNAME# is really struggling this time! $#%#$
+delay 10 $#%#$

@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="getRoot" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+	<goal type="clearfolder" target="earl01" path="bin"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <!--missionStart val="1">addRankSilent</missionStart-->
+  <missionEnd val="8">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+
+  <posting title="The Route of the Problem" requiredRank="21">r00t needs your help tracking down a problem on one of her
+  servers. Something is causing it to keep crashing and she cannot figure out why. Use your hacking
+  skills to identify what has happened.</posting>
+  
+  <email>
+    <sender>Battleboard Bot</sender>
+    <subject>The Route of the Problem</subject>
+    <body>#PLAYERNAME#,
+
+I've got a task for you, I'm currently hosting a website
+ that I built for my friends to use. Only problem is it
+ has been mysteriously crashing recently and I cannot
+ figure out why. 
+ 
+I need you to login to the server and take a look at the
+ logs. See if you can find something/someone that is
+ causing the website to crash. As soon as you do,
+ I want that hacker taken down! So go ahead and connect
+ to him and take his system files!
+
+ 
+BATTLEBOARD REMINDER: When you have completed r00t's
+ task she will become an official member of your team.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Mission Details">Identify Hacker from Logs. Delete hacker's systems files and exe tools to stop him.</note>
+	  <link comp="rootServer01" />
+    </attachments>
+  </email>
+</mission>

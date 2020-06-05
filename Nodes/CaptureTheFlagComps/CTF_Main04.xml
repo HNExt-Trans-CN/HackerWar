@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ctfMain04"
+	name="HW Server Farm #097"
+	ip="160.8.183.15"
+	allowsDefaultBootModule="false"
+	type="empty">
+
+  <portsForCrack val="3" />
+  <ports>80, 1433, 22, 25</ports>
+  <trace time="-1" />
+  
+  <adminPass pass="c4pture_th3_fl4g_4" />
+  
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <!--file path="home" name="Observation_Test.txt">
+HINT: I hope that you are keeping track about those other
+ passwords too, and not just the ones that actually work... file-->
+  
+  <encryptedFile path="home/secret" name="secret_stash.dec" extension=".txt" ip="XXX.XXX.XXX.XXX" header="Secret Stash File" pass="sund14l">
+Looks like you've finally broken through the final file!
+ Congratulations! Only problem is now... what's the password to the email?
+ Well, you've still got one more decypher task to do yet.
+ 
+ Your next set of passwords are:
+   (once again, without the quotation marks)
+   - "l0g1c"
+   - "ov3rfl0w"
+   - "p4tch"
+   
+So, final encrypted file to find... The password to that one,
+ is a combination of all the working passwords you've just used.
+Uh oh! Weren't expecting that now were you!?!?! Well, you could
+ just guess... but that's probably gonna take you awhile...
+ Maybe... just maybe... a hint that you've passed over might help
+ this time...
+ 
+ 
+So, there is one more server you haven't discovered... I wonder
+ where that is then...
+  </encryptedFile>
+  
+  <dlink target="ctfMain01" />
+  <dlink target="ctfMain02" />
+  <dlink target="ctfMain03" />
+  <dlink target="ctfMain05" />
+</Computer>

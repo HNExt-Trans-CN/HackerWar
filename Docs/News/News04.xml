@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="news04">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#PLAYERNAME# Has done it again!">
+Once again our previously unknown hacker, #PLAYERNAME# has
+ surprised us with another amazing victory! 
+This time the hacker was pitted up against 'T4lisman'
+ another relatively new hacker that made it very far
+ in last year's tournaments! I think it's back to the
+ drawing board for him!
+ 
+With such an impressive solo act from #PLAYERNAME#, only
+ a couple of questions remains for this hacker. How is he
+ going to perform in the team stages later on and Who are
+ his team members going to be?
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

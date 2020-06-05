@@ -1,0 +1,11 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+write_silent $#%#$
+clearTerminal $#%#$
+delay 4 $#%#$
+clearTerminal $#%#$
+writel Commentator: Well how about that? #PLAYERNAME# made beating Curs3 look as easy as pie! $#%#$
+delay 1 $#%#$
+writel Commentator: #PLAYERNAME# has done it again! $#%#$
+delay 1 $#%#$
+writel Commentator: Comiserations to our loser! But congratulations to our winner! $#%#$
+delay 1 $#%#$

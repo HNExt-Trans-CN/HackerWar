@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+  <OnConnect target="talisman01" needsMissionComplete="false">
+    <!-- You can put any action that was described in the Actions section here -->	
+    <StartScreenBleedEffect AlertTitle="Hack T4lisman" CompleteAction="Actions/BattleActions/Defeat_Opponent02.xml" TotalDurationSeconds="90.0">Get Admin on T4lisman
+Delete 'sys' file(s)
+Delete T4lisman's 'exe' tool(s)</StartScreenBleedEffect>
+  </OnConnect>
+  
+  <Instantly>
+    <RunFunction FunctionName="playCustomSong:Music/Cephelopod_Cephelopod.ogg" FunctionValue="1" />
+	<LaunchHackScript Filepath="Scripts/Battle02_T4lisman/Part_00.txt" SourceComp="talisman01" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true" />
+  </Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="assistant04" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+	<goal type="delay" time="5.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <!--missionStart val="1">addRankSilent</missionStart-->
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Eleanor Hammond</sender>
+    <subject>Where to go next</subject>
+    <body>Congratulations again on getting this far #PLAYERNAME#,
+
+It seems Mr. Tovar has taken a great interest in you, he seems to have
+ made you team Captain of the second team. Naix is captain of the other
+ team. Going by the forums you're not liked very much at the moment.
+Don't worry though we can sort that:
+
+It's time for you to put together your team. You should see some new contracts
+ appearing on the Battleboard pretty soon.
+ 
+Each contract will be a challenge that one of the Hacker Wars
+ members wants you to do. By completing each challenge succesfully
+ the Hacker Wars member will then join your team.
+ 
+You'd better get started with each of the contracts before Naix gets
+ in on one of them! Good luck!
+ 
+ - Eleanor Hammond
+
+Hacker Wars Assistant assigned to: #PLAYERNAME#
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

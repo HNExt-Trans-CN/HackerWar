@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Welcome04" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="filechange" target="hackerData" file="Alexander.txt" path="ParticipantsDB" keyword="#PLAYERNAME#" caseSensitive="true" />
+	<goal type="filechange" target="hackerData" file="Alexander.txt" path="ParticipantsDB" keyword="38.165.91.234" caseSensitive="false" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/00/joiningTheCompetition05.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Unknown</sender>
+    <subject>The Real Hack</subject>
+    <body>#PLAYERNAME#,
+Phew! I bet that's a load off now that you've backed everything up!
+
+So, finally we've done all the boring bits, it's time to get you into Hacker Wars!
+Okay, I've done some digging around and I think I've found where they store their
+ database. I've attached the IP address below.
+  
+You need to get Administrator access on that server now. Once you're in, have a
+ look for a list of participants. You're looking for a hacker named "Alexander."
+Let's just say, he went on a business trip... You're replacing him.
+
+Just be careful, DO NOT RENAME THE FILE, WE DON'T WANT IT TO BE OBVIOUS
+ SOMEONE HAS HACKED IN. (That comes later)
+ 
+I've attached details on everything you'll need to modify in the file.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Required Information">Once you have access to the files:
+1)Locate the Hacker Entry "Alexander" You're replacing him, open that file.
+2) Modify the Hacker Name at the top "Alexander" with your player name! (#PLAYERNAME#)
+3) Modify the IP Address on the second line and replace with your own. This is very important.
+4) DO NOT RENAME THE FILE
+      </note>
+      <link comp="hackerData" />
+    </attachments>
+  </email>
+</mission>

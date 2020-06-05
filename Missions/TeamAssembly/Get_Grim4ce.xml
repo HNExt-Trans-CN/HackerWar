@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="getGrimace" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+	<goal type="filedownload" target="grimaceServer1" file="Evidence.docx" path="home" />
+	<goal type="fileupload" target="grimaceServer1" file="Evidence.docx" path="home" destTarget="nastyBully01" destPath="home"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <!--missionStart val="1">addRankSilent</missionStart-->
+  <missionEnd val="8">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+
+  <posting title="The Middle Man" requiredRank="21">Grimace likes to help others out, but she wants your help.
+A rather nasty piece of work is bullying a lot of other people,
+she needs your hacking skills to help her get even with the bully.</posting>
+  
+  <email>
+    <sender>Battleboard Bot</sender>
+    <subject>The Middle Man</subject>
+    <body>Hey #PLAYERNAME#,
+
+There is a rather nasty kid who is bullying a lot of
+ other kids online. I'd like your help to get back at
+ him. I've managed to forge a piece of evidence that
+ is going to get him into a lot of trouble. But I need
+ your help to deploy it. When you are ready I've linked
+ you to my server with an account below. Once you're in
+ download the file "evidence.docx"
+ 
+Once you have the file you should have no trouble
+ penetrating the bully's security. Once through
+ just upload the file into his HOME folder. Make sure
+ you clear the logs afterwards though. We don't want any
+ evidence pointing to someone else now do we?
+
+ 
+BATTLEBOARD REMINDER: When you have completed Grim4ce's
+ task she will become an official member of your team.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Mission Details">Download "evidence.docx" from Grim4ce's server. Once downloaded, upload it to the bully's home folder.</note>
+	  <link comp="grimaceServer1" />
+	  <account comp="grimaceServer1" user="admin" pass="pr0t3ct1on" />
+	  <link comp="nastyBully01" />
+    </attachments>
+  </email>
+</mission>

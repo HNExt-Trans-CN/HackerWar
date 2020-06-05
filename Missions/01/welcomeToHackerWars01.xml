@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Welcome05" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="delay" time="8.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <!--
+  < missionEnd val="45">addRank<missionEnd >
+  -->
+  
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>John Tovar</sender>
+    <subject>Welcome to Hacker Wars</subject>
+    <body>Hi there #PLAYERNAME#,
+
+I'm John Tovar, the head administrator of Hacker Wars,
+ I'm contacting you as I'd like to personally welcome you
+ to the competition!
+
+So, Welcome #PLAYERNAME# to Hacker Wars!
+
+Getting setup with our servers shouldn't be too difficult
+ for a Hacker such as yourself. I've provided you with IP address to our new and exclusive Hacker chat system.
+Here you will find the latest news as well as discussions between the other competitors.
+ 
+You will also find attached a login to our main Hub server where you will be able to see
+ who you are up against next and start a new game with another competitor.
+ 
+I think that covers everything, I will be watching out for you in the games!
+
+Good luck!
+ 
+ - John Tovar
+ CEO at Hacker Wars
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Getting Setup">Go Ahead and take a look at the discussion forum. There
+are some new messages talking about the competition.
+Once you've read in on the latest news, go ahead and
+ connect to the Main Hub. Your first opponent will
+ undoubtebly already be waiting for you there.</note>
+	  
+	  
+	  <link comp="hackerForum" />
+	  <link comp="hackerHub" />
+	  <account comp="hackerHub" user="#PLAYERNAME#" pass="h4cking_is_l1fe" />
+	  <link comp="hackerNews" />
+    </attachments>
+  </email>
+</mission>

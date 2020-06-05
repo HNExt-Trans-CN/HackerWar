@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <!--AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" /-->
+	<RunFunction FunctionName="playCustomSong:Music/Cephelopod_Cephelopod.ogg" val="1" />
+    <StartScreenBleedEffect AlertTitle="Hack 7rix" CompleteAction="Actions/Defeat_Opponent01.xml" TotalDurationSeconds="90.0">Get Admin on 7rix
+Delete 'sys' file(s)
+Wait for completion...</StartScreenBleedEffect>
+    <LaunchHackScript Filepath="Scripts/BattleScripts/7rix_01.txt" SourceComp="trixy01" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  </Instantly>
+
+</ConditionalActions>

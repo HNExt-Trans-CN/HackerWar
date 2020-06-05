@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="curse01"
+	name="Curs3's Challenger"
+	ip="160.8.243.15"
+	icon="chip"
+	allowsDefaultBootModule="false"
+	type="4">
+
+  <portsForCrack val="3" />
+  <ports>22,25,21</ports>
+  <portRemap>25=96,22=80</portRemap>
+  
+  <trace time="-1" />
+  
+  <admin type="progress" />
+  
+  <proxy time="-1" />
+  
+  <firewall level="6" solution="St0n3d" additionalTime="0.4"/>
+  
+  <adminPass pass="curs3_is_c00l" />
+  
+  <file path="home" name="example.txt">LMAO.
+What an example this file is turning out to be...</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <file path="bin" name="SQLMemCorrupt.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin/cracks" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin/cracks" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin" name="SecurityTracer.exe">#SQL_CRACK#</file>
+  
+</Computer>

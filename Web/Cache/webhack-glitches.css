@@ -1,0 +1,144 @@
+/* normal specs
+        div.loginForm {
+            position: absolute;
+            left: 700px;
+            top: 140px;
+            background-color: rgba(200, 20, 30, 0.4);
+            width: 530px;
+            height: 380px;
+            border-radius: 20px;
+            border-bottom-right-radius: 80px;
+            border-top-left-radius: 40px;
+            border: 2px solid red;
+            transform: skewX(-2deg);
+            animation: webhack-glitch-one 2s infinite;
+        }
+*/
+
+@keyframes webhack-loadin-login {
+  0% {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      top: 610px;
+      left: 30px;
+      opacity: 0;
+  }
+  15% {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      top: 610px;
+      left: 30px;
+      opacity: 0;
+  }
+  20% {
+      opacity: 1;
+  }
+  100% {
+      position: absolute;
+      left: 400px;
+      top: 150px;
+      width: 530px;
+      height: 380px;
+  }
+}
+
+@keyframes webhack-glitch-login {
+  position: absolute;
+  0% {
+    left: 400px;
+    top: 150px;
+    transform: scale(0.85);
+  }
+  9% {
+      left: 400px;
+      top: 150px;
+      opacity: 1;
+      transform: skew(-2deg);
+      transform: scale(0.85);
+  }
+  11% {
+    left: 404px;
+      top: 154px;
+      opacity: 0.4;
+      transform: skew(-4deg);
+      transform: scale(0.85);
+  }
+    12% {
+        opacity: 1;
+        transform: skew(-0deg);
+        transform: scale(0.85);
+    }
+  14% {
+    left: 400px;
+      top: 150px;
+      transform: skew(-2deg);
+      transform: scale(0.85);
+  }
+  18% {
+    left: 400px;
+      top: 150px;
+      transform: scale(0.85);
+  }
+  20% {
+    left: 396px;
+      top: 146px;
+      transform: scale(0.85);
+  }
+  22% {
+    left: 400px;
+      top: 150px;
+      transform: scale(0.85);
+  }
+  100% {
+    left: 400px;
+      top: 150px;
+      transform: scale(0.85);
+  }
+}
+
+@keyframes webhack-glitch-register {
+  position: absolute;
+  0% {
+    left: 700px;
+      top: 110px;
+  }
+  9% {
+    left: 700px;
+      top: 110px;
+      opacity: 1;
+      transform: skew(-2deg);
+  }
+  11% {
+    left: 704px;
+      top: 114px;
+      opacity: 0.4;
+      transform: skew(-4deg);
+  }
+    12% {
+        opacity: 1;
+        transform: skew(-0deg);
+    }
+  14% {
+    left: 700px;
+      top: 110px;
+      transform: skew(-2deg);
+  }
+  18% {
+    left: 700px;
+      top: 110px;
+  }
+  20% {
+    left: 696px;
+      top: 106px;
+  }
+  22% {
+    left: 700px;
+      top: 110px;
+  }
+  100% {
+    left: 700px;
+      top: 110px;
+  }
+}

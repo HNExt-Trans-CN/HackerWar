@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerBackup"
+	name="#PLAYERNAME#'s Backup Server"
+	ip="5.5.5.5"
+	allowsDefaultBootModule="false"
+	type="empty">
+
+  <portsForCrack val="0" />
+  <ports>21, 25</ports>
+  <trace time="-1" />
+  <proxy time="-1" />
+  
+  <adminPass pass="fkSocie3ty"/>
+  
+  <file path="home" name="example.txt">This is a file!
+You can write whatever you want here.</file>
+
+   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+   <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">YOUR BACKUP GOES IN THE FOLDER THIS FILE IS CONTAINED IN</file>
+  <file path="home" name="Server_Info.txt">#PLAYERNAME#'s Backup Server
+  This should never be linked with another computer except #PLAYERNAME#'s
+  As it contains a full air-gapped backup of #PLAYERNAME#'s Data!</file>
+  
+  <file path="home/BACKUP/sys" name="SYS_FILES_GO_HERE">-_-</file>
+  <file path="home/BACKUP/bin" name="EXE_FILES_GO_HERE">-_-</file>
+  <file path="home/BACKUP/home" name="EVERYTHING_ELSE_HERE">-_-</file>
+  
+  <dlink target="playerComp" />
+</Computer>

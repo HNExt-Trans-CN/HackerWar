@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="news01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Naix has done it again!">
+Well, Hacker_Wars 2 has started off with one hell of a bang this year!
+With a phenominal performance in the first round between two rival hackers:
+ Naix   vs.  Splinter
+Both players proved very competitive as they raced through one another's ports,
+ pinging their connections all over the country trying desperately to evade trace
+ and destroy the other ones proxy!
+ 
+After much work with his terminal Splinter managed to break through ports 22;21 and
+ but he just wasn't ready for Port 554, and Naix has taken the win!
+ 
+We have a couple of new contestants this year, let's see how each one of them faces
+ in our next round!
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

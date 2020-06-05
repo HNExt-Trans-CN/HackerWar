@@ -1,0 +1,19 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
+write_silent $#%#$
+delay 2 $#%#$
+hideRam $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+clearTerminal $#%#$
+writel 7rix has made it into #PLAYERNAME#'s computer! OMG! She's hidden his modules, how is he going to be able to see what's going on now? $#%#$
+delay 2 $#%#$
+delete /sys x-server.sys $#%#$
+write1 Oh no! 7rix has taken #PLAYERNAME#'s X-Server.sys! What can #PLAYERNAME# do now? $#%#$
+delay 2 $#%#$
+write I think this is game over for #PLAYERNAME#. Yep! This is it, she's thrown them a ForkBomb now! $#%#$
+forkbomb $#%#$
+delay 5 $#%#$
+showRam $#%#$
+showNetMap $#%#$
+showDisplay $#%#$
+disconnect $#%#$

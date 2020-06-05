@@ -1,0 +1,44 @@
+<CustomFaction name="Hacker Wars Leaderboard" id="hackerWar" playerVal="0">
+  
+  <Action ValueRequired="1">
+    <!--AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" /-->
+	<AddMissionToHubServer MissionFilepath="Missions/ActualBattles/Battle01_7rix.xml" TargetComp="hackerHub" />
+  </Action>
+  
+  <Action ValueRequired="5">
+	<!-- Switching Over; Loading Assistant Missions and Clearing Things up after win -->
+	<!-- This also loads in some new Threads and News Articles to the News and Forum servers -->
+	<LoadMission MissionName="Missions/AssistantMissions/Assistant_01.xml" />
+  </Action>
+
+  <Action ValueRequired="6">
+    <AddMissionToHubServer MissionFilepath="Missions/ActualBattles/Battle02_T4lisman.xml" TargetComp="hackerHub" />
+  </Action>
+  
+  <Action ValueRequired="12">
+    <LoadMission MissionName="Missions/AssistantMissions/Assistant_03.xml" />
+  </Action>
+  
+  <Action ValueRequired="13">
+    <AddMissionToHubServer MissionFilepath="Missions/ActualBattles/Battle03_Curs3.xml" TargetComp="hackerHub" />
+  </Action>
+  
+  <Action ValueRequired="20">
+    <LoadMission MissionName="Missions/AssistantMissions/Assistant_05.xml" />
+  </Action>
+  
+  <Action ValueRequired="21">
+    <AddMissionToHubServer MissionFilepath="Missions/TeamAssembly/Get_Cryp7o.xml" TargetComp="hackerHub"/>
+	<AddMissionToHubServer MissionFilepath="Missions/TeamAssembly/Get_Grim4ce.xml" TargetComp="hackerHub"/>
+	<AddMissionToHubServer MissionFilepath="Missions/TeamAssembly/Get_r00t.xml" TargetComp="hackerHub"/>
+  </Action>
+  
+  <Action ValueRequired="45">
+    <!--AddMissionToHubServer MissionFilepath="Missions/CaptureTheFlag.xml" TargetComp="hackerHub" /-->
+	<LoadMission MissionName="Missions/AssistantMissions/Assistant_07.xml" />
+  </Action>
+  
+  <Action ValueRequired="46">
+    <AddMissionToHubServer MissionFilepath="Missions/CaptureTheFlag.xml" TargetComp="hackerHub" />
+  </Action>
+</CustomFaction>

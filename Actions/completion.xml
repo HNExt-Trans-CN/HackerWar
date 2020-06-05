@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <!-- You can put any action that was described in the Actions section here -->
+	<RunFunction FunctionName="playCustomSong:Music/Epic_TV_Theme.ogg" FunctionValue="1" />
+	<LaunchHackScript Filepath="Scripts/completion.txt" SourceComp="creditsSrv" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false" />
+  </Instantly>
+
+</ConditionalActions>

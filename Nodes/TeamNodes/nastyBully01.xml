@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nastyBully01"
+	name="Travis' Toaster"
+	ip="17.45.216.164"
+	allowsDefaultBootModule="false"
+	type="3">
+
+  <portsForCrack val="1" />
+  <ports>22, 1433, 21</ports>
+  
+  <portRemap>22=80</portRemap>
+  
+  <trace time="40" />
+  <proxy time="-1" />
+  
+  <adminPass pass="R4nd0mSp4m" />
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <file path="bin" name="NOT_SMTPOverlay.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  
+  
+</Computer>

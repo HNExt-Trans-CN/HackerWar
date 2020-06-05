@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bigDecision2" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="delay" time="35.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/02/completion01.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  
+  <email>
+    <sender>Int. Cyber Devision</sender>
+    <subject>Thanks for the tip.</subject>
+    <body>Hey there #PLAYERNAME#,
+
+I have recently been informed that you have submitted
+ a report to us linked to a case we've been working on
+ for quite some time, dating all the way back to the first
+ Hacker Wars I don't know how you came across this evidence
+ but it will be the perfect to finally close this case against Lazarus.
+ 
+You can be asserted that we will keep this tip completely
+ anonymous so you will not need to worry about getting
+ found out.
+ 
+ - Agent Eriksson
+ Co-Founder of International Cyber Division
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

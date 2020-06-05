@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trixy01"
+	name="7rix's Laptop"
+	ip="160.8.255.15"
+	icon="laptop"
+	allowsDefaultBootModule="false"
+	type="4">
+
+  <portsForCrack val="3" />
+  <ports>22,21,80</ports>
+  <portRemap>22=32</portRemap>
+  
+  <trace time="-1" />
+
+  <admin type="progress" />
+  
+  <proxy time="1.0" />
+  
+  <adminPass pass="tr1xy_is_c00l" />
+  
+  
+  
+  <file path="home" name="example.txt">LMAO.
+What an example this file is turning out to be...</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <file path="bin/cracks" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin/cracks" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin/cracks" name="WebServerWorm.exe">#WEB_CRACK#</file>
+</Computer>

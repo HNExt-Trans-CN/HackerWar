@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rootServer01"
+	name="r00t's FileDump"
+	ip="160.8.212.15"
+	allowsDefaultBootModule="false"
+	type="3">
+
+  <portsForCrack val="2" />
+  <ports>22, 1433, 21</ports>
+  
+  <portRemap>22=13,21=45</portRemap>
+  
+  <trace time="60" />
+  <proxy time="1.2" />
+  
+  <adminPass pass="s3rious5tuff" />
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <file path="bin" name="NOT_SMTPO.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+
+  
+  <file path="log" name="@0001_FATAL_ERROR_CONNECTION_TIMEOUT">Unknown Fatal Error Caused by:
+Earl's DDOSER: 89.92.34.112</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX1">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX2">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX3">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX4">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX5">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX6">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX7">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX8">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX9">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X10">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X11">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X12">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X13">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  
+  <dlink target="hackerHub" />
+  <dlink target="earl01" />
+</Computer>

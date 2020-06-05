@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Welcome02" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+	<goal type="filedownload" target="toolStation" file="SSHCrack.exe" path="bin/22"/>
+	<goal type="filedownload" target="toolStation" file="FTPBounce.exe" path="bin/21"/>
+	<goal type="filedownload" target="toolStation" file="WebServerWorm.exe" path="bin/80"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/00/joiningTheCompetition03.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Unknown</sender>
+    <subject>Hacker Wars</subject>
+    <body>Hello there,
+You may not know me but I know you.
+I know all the many things you are capable of, and all the many things you will soon be capable of too.
+	
+I heard you wanted to join Hacker Wars, show people what you are really made of. But they turned you down?
+Yeah, sadly they push more people out than they like to let you believe on their adverts.
+I feel for you kiddo, and that's why I'm going to help you out. 
+	
+That's right #PLAYERNAME# We're gonna hack you a place into Hacker Wars! Kind of ironic isn't it?
+	
+First, you are going to need to get yourself some tools. Go ahead, connect up to the server
+I've linked and grab the tools you're gonna need from there now!
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Mission Overview">Get Some Tools
+Connect to the attached computer and access the BIN folder.
+Download each of the .exe files in there.</note>
+	  <link comp="toolStation" />
+    </attachments>
+  </email>
+</mission>

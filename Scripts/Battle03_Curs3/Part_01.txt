@@ -1,0 +1,23 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
+write_silent $#%#$
+delay 2 $#%#$
+clearTerminal $#%#$
+writel Curs3 has made it into #PLAYERNAME#'s computer! Is it really a surprise to see such a talented hacker do his thing!? $#%#$
+delay 1 $#%#$
+delete /sys x-server.sys $#%#$
+write1 This is it for #PLAYERNAME#, x-server gone!! What could possibly happen now!?!? $#%#$
+delay 1 $#%#$
+delete /bin SSHCrack.exe $#%#$
+makeFile bin SSHCrack.exe #SECURITYTRACER_PROGRAM# $#%#$
+delay 2 $#%#$
+hideRam $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+delay 1 $#%#$
+writel Curs3, come on leave them alone! Don't mess with their tools too!! $#%#$
+forkbomb $#%#$
+delay 5 $#%#$
+showRam $#%#$
+showNetMap $#%#$
+showDisplay $#%#$
+disconnect $#%#$

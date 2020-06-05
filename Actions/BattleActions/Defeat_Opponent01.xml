@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <!--AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" /-->
+	<!--RunFunction FunctionName="playCustomSong:Music/Cephelopod_Cephelopod.ogg" val="1" /-->
+    <!--CancelScreenBleedEffect /-->
+	
+    <LaunchHackScript Filepath="Scripts/Battle01_7rix/Part_01.txt" SourceComp="trixy01" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	
+	<AddMissionToHubServer MissionFilepath="Missions/ActualBattles/Battle01_7rix.xml" TargetComp="hackerHub" />
+	<LoadMission MissionName="Missions/FileRestore.xml" />
+	
+  </Instantly>
+
+</ConditionalActions>

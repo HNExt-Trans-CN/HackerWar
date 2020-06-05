@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Welcome05" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="delay" time="15.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionStart>setFaction:hackerWar</missionStart>
+  <missionEnd val="1">playCustomSong:Music/Beat_Your_Competition.ogg</missionEnd>
+  <nextMission>Missions/01/welcomeToHackerWars01.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Unknown</sender>
+    <subject>Congratulations</subject>
+    <body>Well done #PLAYERNAME#,
+Now, if all has gone to plan, you should be receiving an email from the director
+ of Hacker Wars welcoming you and getting you set up.
+  
+That's all from me for now! Good luck! I've no doubts we'll speak again soon.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

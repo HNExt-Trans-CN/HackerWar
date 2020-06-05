@@ -1,0 +1,20 @@
+<ConditionalActions>
+  
+  <OnConnect target="ctfMain01" needsMissionComplete="false">
+    <!-- You can put any action that was described in the Actions section here -->
+	
+    <StartScreenBleedEffect AlertTitle="Capture The Flag" CompleteAction="Actions/Defeat_CTF.xml" TotalDurationSeconds="840.0">14 Minutes
+You have been given the Decypher tool, use it.
+Find the password(s) before Naix's Team.</StartScreenBleedEffect>
+  </OnConnect>
+  
+  <Instantly>
+    <!--HideAllNodes /-->
+	<HideAllNodes />
+	<ShowNode TargetComp="playerComp" />
+    <ShowNode TargetComp="ctfMain01" />
+	<AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+  	<RunFunction FunctionName="playCustomSong:Music/Thunder - FloidBeats #045.ogg" FunctionValue="1" />
+  </Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackerHub"
+	name="Hacker Wars Battleboard"
+	ip="160.8.1.15"
+	icon="chip"
+	allowsDefaultBootModule="true"
+	type="4">
+
+  <portsForCrack val="4" />
+  <ports>21,25,80</ports>
+  <trace time="-1" />
+  <proxy time="2.0" />
+  
+  <adminPass pass="whatAKn*bhead" />
+  
+  <account username="#PLAYERNAME#" password="h4cking_is_l1fe" type="3" />
+  
+  <file path="home" name="example.txt">LMAO.
+What an example this file is turning out to be...</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+
+  <!--variableMissionListingServer name="Hacker Wars Battleboard" iconPath="MissionLogo.png" articleFolderPath="Missions/ActualBattles" color="220,20,30" assigner="true" public="false" title="Hacker Wars Battleboard" /-->
+  <!--variableMissionListingServer name="Hacker_Wars Battleboard" iconPath="MissionLogo.png" articleFolderPath="Docs/Battles" color="220,20,30" assigner="true" public="false" title="Hacker_Wars Battleboard"/-->
+  <!-- MAY NEED   -->
+  <missionHubServer groupName="Hacker_Wars" missionFolderPath="Missions/empty" serviceName="Hacker_Wars Battleboard" themeColor="220,20,30" lineColor="255,20,30" backgroundColor="25,0,15" allowAbandon="false"/>
+  
+  <dlink target="hackerForum" />
+  <dlink target="hackerNews" />
+</Computer>

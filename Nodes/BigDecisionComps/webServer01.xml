@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="webserv1"
+	name="CSC WebServer"
+	ip="45.19.216.87"
+	icon="kellis"
+	allowsDefaultBootModule="true"
+	type="4">
+
+  <portsForCrack val="3" />
+  <ports>22,25,80,21</ports>
+  <portRemap>21=63</portRemap>
+  
+  <trace time="75" />
+  <proxy time="-1" />
+  <adminPass pass="ui542u425" />
+  
+  <file path="home" name="example.txt">LMAO.
+What an example this file is turning out to be...</file>
+
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+
+  <file path="home" name="New_Favourite_Language.txt">Gotta admit, after making a h4ckerN3t
+Extension, my new favourite programming language... is definitely *not* going to be...
+
+
+   "eXt3ns1ble_M4rkup_L4ng4ug3"</file>
+   
+   <file path="home" name="6_times_7.txt">The Answer to the ultimate question: 00101010</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <eosDevice name="Stantonius's WPhone 9" id="stantonPhone1" icon="ePhone2" empty="false">
+    <note>WebServer #2 Work Login:
+Username: admin
+Password: 8qzmxgnj25
+</note>
+    <!--mail username="@jmail.com" pass="" /-->
+	<file path="eos/videos" name="pron.mp4">#BINARY#</file>
+</eosDevice>
+  
+  <dlink target="webserv2" />
+  <dlink target="cyberDrop" />
+  <dlink target="unknownComp" />
+</Computer>

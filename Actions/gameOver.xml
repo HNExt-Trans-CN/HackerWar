@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <!-- You can put any action that was described in the Actions section here -->
+	<LaunchHackScript Filepath="Scripts/gameOver.txt" SourceComp="creditsSrv" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false" />
+  </Instantly>
+
+</ConditionalActions>

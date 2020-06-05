@@ -1,0 +1,12 @@
+<ConditionalActions>
+  <Instantly>
+    <CancelScreenBleedEffect />
+    <ShowNode TargetComp="playerComp" />
+    <ShowNode TargetComp="hackerMain" />
+    <ShowNode TargetComp="hackerHub" />
+    <ShowNode TargetComp="hackerForum" />
+    <ShowNode TargetComp="hackerNews" />
+    <ShowNode TargetComp="playerBackup" />
+    <ShowNode TargetComp="toolStation" />
+  </Instantly>
+</ConditionalActions>

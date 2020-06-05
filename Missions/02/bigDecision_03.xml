@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bigDecision2" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="fileupload" target="webserv2" file="Key_Data.dec" path="Project_Database" destTarget="unknownComp" destPath="Upload/Uploads"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/02/final_Villain.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+
+  <email>
+    <sender>Unknown</sender>
+    <subject>I see you've been doing well</subject>
+    <body>Hey there #PLAYERNAME#,
+
+I have to say I'm quite impressed with how well you've
+ done during Hacking Wars. I don't regret choosing you
+ out of all the failed applicants to enter into the
+ competition.
+ 
+I have a favour to ask, I could use your help. It's
+ kind of embarassing being the one who helped you 
+ hack Hacker Wars.
+ 
+Someone has stolen a file from me, and it's really important.
+ I NEED that file back, and I can't get into their system,
+ my IP would show up red flags everywhere, so it's up to you.
+ 
+I must stress this file is TOP SECRET, and I cannot have
+ you read it, you're just going to have to trust me.
+ 
+ Good luck! I'm sure you won't need it.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <link comp="ctfMain01" />
+    </attachments>
+  </email>
+</mission>

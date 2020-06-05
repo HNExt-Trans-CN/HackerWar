@@ -1,0 +1,51 @@
+<CustomTheme>
+  <!-- This defines the layout of the windows. The valid choices are:
+  blue, green, white, mint, greencompact, riptide, colamaeleon and riptide2 - corresponding to the themes of those colors in the base game-->
+  <themeLayoutName>green</themeLayoutName>
+
+  <!-- This is a path to the background image file. It should be 1920x1080, and a .jpg or .png file.
+  If this is left out, the theme will automatically generate a dynamic background for the theme-->
+  <backgroundImagePath>Themes/Backgrounds/Bubbles.png</backgroundImagePath>
+  
+  <!-- Main Colors - these will define the main feel of the theme -->
+  <!-- Color of nodes on the netmap, and many other derived colors. -->
+  <defaultHighlightColor>10,110,200</defaultHighlightColor>
+  <defaultTopBarColor>0,65,160,40</defaultTopBarColor>
+  <!-- This is used for the outlines of the module windows -->
+  <moduleColorSolidDefault>0,110,180</moduleColorSolidDefault>
+  <moduleColorStrong>8,25,60,100</moduleColorStrong>
+  <moduleColorBacking>0,10,15,1</moduleColorBacking>
+
+  <exeModuleTopBar>10,45,220,80</exeModuleTopBar>
+  <exeModuleTitleText>160,160,255,255</exeModuleTitleText>
+
+  <!-- Extra Options -->
+  <warningColor>255,50,0</warningColor>
+  <subtleTextColor>10,80,110</subtleTextColor>
+  <darkBackgroundColor>8,10,20</darkBackgroundColor>
+  <indentBackgroundColor>5,5,20,20</indentBackgroundColor>
+  <outlineColor>10,70,150</outlineColor>
+  <lockedColor>85,25,25,180</lockedColor>
+  <brightLockedColor>160,0,0</brightLockedColor>
+  <brightUnlockedColor>0,160,0</brightUnlockedColor>
+  <unlockedColor>25,85,25</unlockedColor>
+  <lightGray>110,160,200</lightGray>
+  <shellColor>0,0,255</shellColor>
+  <shellButtonColor>105,167,188</shellButtonColor>
+  <semiTransText>20,80,160,50</semiTransText>
+  <terminalTextColor>20,180,255</terminalTextColor>
+  <topBarTextColor>126,126,126,100</topBarTextColor>
+  <superLightWhite>2,2,2,30</superLightWhite>
+  <connectedNodeHighlight>222,0,0,195</connectedNodeHighlight>
+  <netmapToolTipColor>20,180,255,0</netmapToolTipColor>
+  <netmapToolTipBackground>0,0,5,5</netmapToolTipBackground>
+  <topBarIconsColor>255,255,255</topBarIconsColor>
+  <thisComputerNode>195,120,20</thisComputerNode>
+  <scanlinesColor>220,220,255,15</scanlinesColor>
+  
+  <!-- AlienFX Colors used for Alienware (and other) hardware with variable LED lights that Hacknet can set dynamically -->
+  <AFX_KeyboardMiddle>0,120,255</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>255,150,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>0,120,255</AFX_WordLogo>
+  <AFX_Other>0,100,255</AFX_Other>
+</CustomTheme>

@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="assistant03" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+	<goal type="delay" time="48.0" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/AssistantMissions/Assistant_04.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Eleanor Hammond</sender>
+    <subject>Good Job!</subject>
+    <body>Good job #PLAYERNAME#!
+
+That's another win! You're really starting to show some
+ promise in this competition! If you keep this up you'll
+ be well on your way to the team battle rounds. 
+ 
+ Be careful though, save a trick
+  or two for the bigger opponents won't you.
+ 
+Whilst you wait for the next match, why don't you take
+ another look at the News and Forum, there's some new
+ information there.
+ 
+ - Eleanor Hammond
+ 
+Hacker Wars Assistant assigned to: #PLAYERNAME#
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <link comp="hackerForum" />
+	  <link comp="hackerNews" />
+    </attachments>
+  </email>
+</mission>
