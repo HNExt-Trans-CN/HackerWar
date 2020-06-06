@@ -1,15 +1,12 @@
-As the world continues to develop, computers get faster and faster every day.
-In an ever-evolving world, many cyber security firms rise up to help protect
-valuable data and servers. But it wasn't long before the people started to use
-technology for bad. Hackers, both amateur and professional. And so the
-government created a new scheme. A competition, known as...
+随着世界的发展，计算机已经一天比一天快。
+在这世界之中，许多网络安全公司崛起，来保护客户那珍贵的数据。
+但是不久，一些有心之人便利用这些技术来作恶。
+于是，政府为了整顿这一现象，举办了一场比赛，名为...
                                        
-|_|  _.  _ |   _  ._   \     / _. ._ _ 
-|  | (_| (_ |< (/_ |     \/\/ (_| | _> 
+|_|  _.  _ |   _  ._   \    / _. ._  _ 
+| | (_| (_ |< (/_ |     \/\/ (_| |  _> 
                                        
 
-Open to all hackers; professional, hacktivists and even script kiddies
-would join in. A simple game of elimination in which each hacker would
-engage in a...
-Direct player to player combat between two or more computers. First to
-gain full control over their opponents computer wins!
+面向于所有黑客，专业人士、黑客主义者甚至是脚本小子都将会参与进来。
+这只是一个简单的淘汰游戏，只不过每个黑客都会参与进来争夺自己的一席之地...
+在两台或多台计算机直接进行黑客与黑客之间的战斗。最先攻克并完全控制对手的计算机来获胜！

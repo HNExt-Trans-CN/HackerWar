@@ -1,6 +1,7 @@
 <HacknetExtension>
   <!-- Max name length is 128 characters -->
-	<Name>Hacker Wars</Name>
+  <Language>zh-cn</Language>
+	<Name>[CN]Hacker Wars</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of nodes that start out as being visible-->
@@ -16,12 +17,19 @@
   <StartingActions>Actions/StartingActions.xml</StartingActions>	
 
   <!-- Description that appears within Hacknet -->
+  <!-- If it is translated into Chinese, there will be garbled characters. Decide whether to translate according to the final situation. -->
   <Description> ________________Hacker Wars________________
+为防止世界各地持续进行的网络攻击，政府举办了
+一场竞赛名为"Hacker War",在这场竞赛之中，
+每个黑客都将有机会与其他黑客同台竞技，并且
+尽自己所能成为排行榜之首！</Description>
+  <!-- <Description> ________________Hacker Wars________________
 In a desperate attempt to stop the constant Cyber-Attacks
 that are happening throughout the world, the government have
 created a new game; Hacker Wars, in which each Hacker is
 given the chance to go head to head against other hackers as
-they try and make it to the top of the leaderboard!</Description>
+they try and make it to the top of the leaderboard!</Description> -->
+
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/hackerWar.xml</Faction>
@@ -62,40 +70,32 @@ they try and make it to the top of the leaderboard!</Description>
         public string WorkshopTags;
         public string WorkshopPreviewImagePath;
   -->
-  <WorkshopDescription>As the world continues to develop, computers get faster and faster every day.
+  <WorkshopDescription>随着世界的发展，计算机现在正在变得越来越快。
 
-But it wasn't long before the people started to use
-technology for bad. Hackers, both amateur and professional. And so the
-government created a new scheme. A competition, known as...
+但是不久，一些有心之人便利用这些技术来作恶。
+于是，政府为了整顿这一现象，举办了一场比赛，名为...
 
 Hacker Wars
 
-Open to all hackers; professional, hacktivists and even script kiddies
-would join in. A simple game of elimination in which each hacker would
-engage in a...
-Direct player to player combat between two or more computers. First to
-gain full control over their opponents computer wins!
------------------------------------------------------------------------------------------------
-I would also like to submit this project for:
-#HackerJam
------------------------------------------------------------------------------------------------
-(No this is not multiplayer, sorry. Though I could probably work on a
-Multiplayer game based off this someday if you guys want me to)
+面向于所有黑客，专业人士、黑客主义者甚至是脚本小子都将会参与进来。
+这只是一个简单的淘汰游戏，只不过每个黑客都会参与进来争夺自己的一席之地...
+在两台或多台计算机直接进行黑客与黑客之间的战斗。最先攻克并完全控制对手的计算机来获胜！
 
-Features of this Extension Include:
-- A new Royalty Free Soundtrack
-- A completely new Storyline
-- A Big Decision
-- No Labyrinths requirements whatsoever (Whilst I both have an love Labyrinths, I wanted everybody to be able to play this extension, including those who don't have Labyrinths.)</WorkshopDescription>
+(啊，这不是多人游戏。虽然我可能有一天会以此创作一个多人游戏如果你们希望的话。)
+
+特点:
+- 无版税乐曲
+- 完整的故事线
+- 不需要迷宫DLC (虽然我的确喜欢迷宫DLC，但是我更希望所有人都能玩到这个扩展，其中便包括没有购买迷宫DLC的玩家。)</WorkshopDescription>
 
   <!-- Language that this is set to. -->
-  <WorkshopLanguage>English</WorkshopLanguage>
+  <WorkshopLanguage>Chinese</WorkshopLanguage>
 
   <!-- Sets the visibility of this item on the workshop.
   0 = public
   1 = friends only
   2 = private (self only)-->
-  <WorkshopVisibility>0</WorkshopVisibility>
+  <WorkshopVisibility>1</WorkshopVisibility>
 
   <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
   of workshop item in Hacknet is "Extension", so leave this as-is for now.-->
@@ -115,6 +115,6 @@ Features of this Extension Include:
   When this happens, make sure that you keep that version of the file and store the ID somewhere - without it, you wont be able to push out updates to your extension,
   and if it's removed, publishing to the workshop will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
   Do not manually modify this unless you already know your Publish ID from a previous submission. A new ID will only be generated if this says "NONE"-->
-  <WorkshopPublishID>937939681</WorkshopPublishID>
+  <WorkshopPublishID>none</WorkshopPublishID>
   
 </HacknetExtension>
