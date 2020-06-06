@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="webhack03"
-	name="Backdrop FileServer"
+	name="后台文件服务器"
 	ip="125.46.212.79"
 	icon="server"
 	allowsDefaultBootModule="true"
@@ -17,9 +17,9 @@
   <account username="Matt" password="Orann" type="MAIL" />
   <account username="ZakSw1f7" password="987_g0sp3lls_654" type="MAIL" />
   
-  <file path="home" name="example.txt">Yep,
-  another useless file right here... You must be getting tired
-  of opening these now!?!?!</file>
+  <file path="home" name="example.txt">Yep
+  另一个毫无卵用的文件...我猜你一定厌倦打开这些玩意了吧!?!?
+ </file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   

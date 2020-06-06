@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="splinterLaptop"
-	name="5plinter's Laptop"
+	name="5plinter的笔记本"
 	ip="160.8.231.15"
 	allowsDefaultBootModule="false"
 	type="2">

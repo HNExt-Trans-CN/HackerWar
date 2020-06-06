@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="webhack01"
-	name="WebHack WebServer #02"
+	name="WebHack 网页服务器 #02"
 	ip="125.46.185.79"
 	icon="kellis"
 	allowsDefaultBootModule="true"
@@ -15,24 +15,24 @@
   
   <account username="#PLAYERNAME#" password="h4cking_is_l1fe" type="3" />
   
-  <file path="home" name="example.txt">Yep,
-  another useless file right here... You must be getting tired
-  of opening these now!?!?!</file>
+  <file path="home" name="example.txt">Yep
+  另一个毫无卵用的文件...我猜你一定厌倦打开这些玩意了吧!?!?
+ </file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
   <addWebServer name="WebHack WebServer #01" url="Web/home.html" />
   
-  <eosDevice name="Zak's PwnPhone" id="zakPhone1" icon="ePhone2" empty="false">
-    <note>Admin Account
-Username: Admin
-Password: password123</note>
-    <note>Not Admin Account
-Lol! okay that last one was a troll but I bet I got you on that ;) xD
-Username: Admin
-Password: 987_g0sp3lls_654</note>
+  <eosDevice name="Zak的 越狱手机" id="zakPhone1" icon="ePhone2" empty="false">
+    <note>管理员账户
+账户名: Admin
+密码: password123</note>
+    <note>非管理员账户
+LoL,上面那个只是个假账户，不过我猜你中招了xD 
+账户名: Admin
+密码: 987_g0sp3lls_654</note>
     <mail username="test@jmail.com" pass="thisIstheaccountpass" />
     <mail username="test2@jmail.com" pass="YouCanHaveLotsOfThese" />
-    <file path="eos/test" name="crackedFile.txt">This is mostly useful for jailbroken phones</file>
+    <file path="eos/test" name="crackedFile.txt">这对于越狱的手机最有用</file>
   </eosDevice>
 </Computer>

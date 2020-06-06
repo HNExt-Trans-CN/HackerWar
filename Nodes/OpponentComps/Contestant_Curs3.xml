@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="curse01"
-	name="Curs3's Challenger"
+	name="Curs3的 挑战者"
 	ip="160.8.243.15"
 	icon="chip"
 	allowsDefaultBootModule="false"
@@ -20,8 +20,8 @@
   
   <adminPass pass="curs3_is_c00l" />
   
-  <file path="home" name="example.txt">LMAO.
-What an example this file is turning out to be...</file>
+  <file path="home" name="example.txt">XSWL
+这个文件真是一个例子... </file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   

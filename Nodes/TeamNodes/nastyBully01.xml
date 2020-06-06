@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="nastyBully01"
-	name="Travis' Toaster"
+	name="Travis的烤面包机"
 	ip="17.45.216.164"
 	allowsDefaultBootModule="false"
 	type="3">

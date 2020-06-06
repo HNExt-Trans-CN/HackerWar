@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="grimaceServer1"
-	name="Grim4ce's Paradox"
+	name="Grim4ce的潘多拉魔盒"
 	ip="160.8.224.15"
 	allowsDefaultBootModule="false"
 	type="3">
@@ -17,19 +17,19 @@
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
-  <file path="home/EvidenceTemplates" name="evidence01.docx">[EVIDENCE TITLE HERE]
-[WHO EVIDENCE IS SENT TO HERE]
-[WHO EVIDENCY IS ABOUT HERE]
-[TARGET IP]
+  <file path="home/EvidenceTemplates" name="evidence01.docx">[证据标题]
+[向谁发送证据]
+[有关谁的证据]
+[目标IP]
 
 #BINARY#</file>
-<file path="home/EvidenceTemplates" name="evidence02.pptx">SLIDE OUTLINE:
-SLIDE 1 [EVIDENCE TITLE HERE]
-SLIDE 2 [WHO EVIDENCY IS ABOUT HERE]
-SLIDE 3 [WHO EVIDENCE IS SENT TO HERE]
+<file path="home/EvidenceTemplates" name="evidence02.pptx">幻灯片大纲:
+幻灯片 1 [证据标题]
+幻灯片 2 [有关谁的证据]
+幻灯片 3 [向谁发送证据]
 
 #BINARY#</file>
-   <file path="home" name="Evidence.docx">[Travis Chat Screenshots]
+   <file path="home" name="Evidence.docx">[Travis 聊天截图]
 [Travis Boyer]
 [17.45.216.164]
 

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="splinterRig"
-	name="Splinter's Gaming Rig"
+	name="Splinter的游戏装备"
 	ip="129.63.62.78"
 	allowsDefaultBootModule="true"
 	type="2">
@@ -16,19 +16,18 @@
   <file path="home/games/CallOfAge" name="Age.exe">#BINARY#</file>
   <file path="home/movies" name="GameOfTracer.mp4.exe">#SECURITYTRACER_PROGRAM#</file>
   
-  <file path="home" name="help.txt">Gonna need some help taking down this website:
+  <file path="home" name="help.txt">需要帮助以关闭下面这网站:
  http://hackthissite.org</file>
  
- <file path="bin" name="Reward.txt">lmao. No reward for hacking this one mate,
- unless you still haven't got ThemeChanger that is.</file>
+ <file path="bin" name="奖励.txt">除非您还没有得到ThemeChanger，否则黑这玩意没有任何奖励。</file>
  
-  <file path="home/IRC_1601" name="#962811_LOG">shadoxx: ...I have 17 terminal windows open right now.
-bai: r u a h4x0r??
+  <file path="home/IRC_1601" name="#962811_LOG">shadoxx: ...我现在开了17个终端
+bai: 沵湜個嫼愙??
 shadoxx: 2_1337_4_school
-bai: dang just don't hack me ok
-shadoxx: okay
-shadoxx: You could be infosec bai. Ur pretty good
-shadoxx: I was going to hack you, but then you appealed to my humanity.
-bai: social engineered af</file>
+bai: 好吧别黑我可以吗
+shadoxx: 好
+shadoxx: 你可以成为一个信息安全方面的专家。你做的不错。. Ur pretty good
+shadoxx: 我本来是想要黑你的，但是你激起了我的人性
+bai: 简单的社会工程学</file>
 
 </Computer>

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="rootServer01"
-	name="r00t's FileDump"
+	name="r00t的 文件缓存"
 	ip="160.8.212.15"
 	allowsDefaultBootModule="false"
 	type="3">
@@ -22,21 +22,21 @@
   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
 
   
-  <file path="log" name="@0001_FATAL_ERROR_CONNECTION_TIMEOUT">Unknown Fatal Error Caused by:
-Earl's DDOSER: 89.92.34.112</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX1">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX2">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX3">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX4">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX5">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX6">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX7">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX8">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX9">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X10">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X11">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X12">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
-  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X13">DDOS_ATTACK PACKET_DATA:#BINARYSMALL#</file>
+  <file path="log" name="@0001_FATAL_ERROR_CONNECTION_TIMEOUT">未知致命错误:
+Earl的 DDOS攻击器: 89.92.34.112</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX1">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX2">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX3">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX4">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX5">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX6">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX7">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX8">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.XX9">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X10">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X11">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X12">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
+  <file path="log" name="@0002_Connection:_from_XXX.XXX.XXX.X13">DDOS_攻击 数据包_内容:#BINARYSMALL#</file>
   
   <dlink target="hackerHub" />
   <dlink target="earl01" />

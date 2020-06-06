@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="trixy01"
-	name="7rix's Laptop"
+	name="7rix的笔记本"
 	ip="160.8.255.15"
 	icon="laptop"
 	allowsDefaultBootModule="false"
@@ -20,8 +20,8 @@
   
   
   
-  <file path="home" name="example.txt">LMAO.
-What an example this file is turning out to be...</file>
+  <file path="home" name="example.txt">XSWL
+这个文件真是一个例子... </file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   

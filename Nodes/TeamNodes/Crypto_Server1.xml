@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="cryptoServer01"
-	name="Crypto's ToolBox"
+	name="Crypto的工具盒"
 	ip="160.8.230.15"
 	allowsDefaultBootModule="false"
 	type="3">

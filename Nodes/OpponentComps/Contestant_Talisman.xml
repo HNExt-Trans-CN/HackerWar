@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="talisman01"
-	name="T4lisman's Battlestation"
+	name="T4lisman的战机"
 	ip="160.8.253.15"
 	icon="kellis"
 	allowsDefaultBootModule="false"
@@ -20,8 +20,8 @@
   
   <adminPass pass="tr1xy_is_c00l" />
   
-  <file path="home" name="example.txt">LMAO.
-What an example this file is turning out to be...</file>
+  <file path="home" name="example.txt">XSWL
+这个文件真是一个例子... </file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="webhack02"
-	name="WebHack Mail Server"
+	name="WebHack 邮件服务器"
 	ip="125.46.196.79"
 	icon="kellis"
 	allowsDefaultBootModule="true"
@@ -18,35 +18,32 @@
   <account username="ZakSw1f7" password="987_g0sp3lls_654" type="MAIL" />
   <account username="NetAdmin" password="n0thing_1s_h3r3" type="MAIL" />
   
-  <file path="home" name="example.txt">Yep,
-  another useless file right here... You must be getting tired
-  of opening these now!?!?!</file>
+  <file path="home" name="example.txt">Yep
+  另一个毫无卵用的文件...我猜你一定厌倦打开这些玩意了吧!?!?
+ </file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
   
 <mailServer name="WebHack Mail" color="220,10,150" generateJunk="true">
-    <email recipient="NetAdmin" sender="Gh0st" subject="Bug Report #281">
-Yeah, sorry mate but I'm having trouble logging into the WebHack
- server again. It's just not letting me login. I think my 
- password might have been changed again. Can you help me?
+    <email recipient="NetAdmin" sender="Gh0st" subject="Bug 反馈 #281">
+啊，对不起打扰你了，但是我在登入我的账号的时候遇到了些问题。他不让我登入
+我觉得我的密码可能被篡改了，你能帮助我吗？
     </email>
-    <email recipient="NetAdmin" sender="Ev3" subject="RE: Gh0st Reset">
-Uh, Gh0st accused me the other day or resetting his password,
- I don't get why I'd even want to touch his stupid account,
- Just... sort his account please so I don't have to put up
- with this crap again.
+    <email recipient="NetAdmin" sender="Ev3" subject="RE: Gh0st 重置">
+嗯，前几天Gh0st说我重置了他的密码，
+我不清楚我为何要碰他那蠢账号，
+只是...哎,请整顿下他的账号，这样我就不必再忍受这种废话了。
     </email>
-    <email recipient="Matt" sender="Spam" subject="re: amazing features">
-Hey there Matt. Great job on the latest updates to HackNetOS it looks like
- it's coming along nicely. Soon we'll be able to get the whole program up
- and running and finally recover some of that hard work Bit has put into this.
+    <email recipient="Matt" sender="Spam" subject="re: 惊人的功能">
+hi,你好，Matt。在HackNetOS的最新更新方面你做得很好，看起来进展不错。 
+不久，我们将能够启动并运行整个程序，并最终恢复Bit投入其中的一些重要的工作。
     </email>
-	<email recipient="ZakSw1f7" sender="Unknown" subject="Important Documents">
-Hey, Zak. It's me again, look I haven't heard from you in awhile
- I need to know whether this thing is still a go? I've got all the our
- scripts ready and waiting back on the FileServer, I just need your
- authorization to deploy. Please reply soon!
+	<email recipient="ZakSw1f7" sender="Unknown" subject="重要档案">
+Hey, Zak。是我。
+我已经有一段时间没有收到你的消息了，我想知道这件事是否还在进行中？ 
+我已经准备好所有脚本并放到文件服务器里边了，我只需要您的授权即可进行部署。
+请尽快回复！
 	</email>
   </mailServer>
 </Computer>
