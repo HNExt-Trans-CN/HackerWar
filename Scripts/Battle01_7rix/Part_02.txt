@@ -2,9 +2,9 @@ config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
 write_silent $#%#$
 delay 3 $#%#$
 clearTerminal $#%#$
-writel Commentator: Well! I think he has surprised us all! #PLAYERNAME# has won the game! $#%#$
+writel 主持人: 啊，我觉得他已经震撼了全场!#PLAYERNAME#取得了这场比赛的胜利! $#%#$
 delay 1 $#%#$
-writel Commentator: And with that he has successfully hacked 7rix's Computer!! $#%#$
+writel 主持人: 并且他已经成功黑入了7rix的计算机!! $#%#$
 delay 1 $#%#$
-writel Commentator: Comiserations to our loser! But congratulations to our winner for this round! $#%#$
+writel 主持人: 为我们的败者遗憾，为我们的胜者表示祝贺! $#%#$
 delay 1 $#%#$

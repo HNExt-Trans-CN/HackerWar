@@ -5,15 +5,15 @@ stopMusic $#%#$
 clearTerminal $#%#$
 delay 2 $#%#$
 write_silent $#%#$
-writel Commentator:  Welcome back to Hacker Wars $#%#$
-writel Commentator: ---------- Round 3 ---------- $#%#$
+writel 主持人:  欢迎回到 Hacker Wars $#%#$
+writel 主持人: ---------- 回合 3 ---------- $#%#$
 write_silent $#%#$
 delay 2 $#%#$
-writel Commentator: Okay, now let's all hear a cheer for the new hacker that surprised us all! It's #PLAYERNAME#!! $#%#$
+writel 主持人: 好的，让我们为这位另我们都感到惊讶的新黑客欢呼。他是#PLAYERNAME#! $#%#$
 delay 4 $#%#$
-writel Commentator: And on the other side, he's been here once before, and he's back for vengeance! It's T4lisman!! $#%#$
+writel 主持人: 另一边，他曾今来过这，现在他为了复仇而来。他是T4lisman!! $#%#$
 delay 3 $#%#$
-writel Commentator: Ready everyone? $#%#$
+writel 主持人: 所有人，准备好了吗? $#%#$
 delay 2 $#%#$
 clearTerminal $#%#$
 writel ..###. $#%#$
@@ -46,13 +46,13 @@ startMusic $#%#$
 connect $#%#$
 delay 12 $#%#$
 openPort 22 $#%#$
-writel Commentator: Doesn't look like it's going to be so easy for #PLAYERNAME# this time. T4lisman has made it through #PLAYERNAME#'s first port! $#%#$
+writel 主持人: 似乎这一次对于#PLAYERNAME#并不简单。T4lisman已经破解了#PLAYERNAME#的第一个端口。 $#%#$
 delay 12 $#%#$
 openPort 21 $#%#$
 delay 12 $#%#$
 openPort 80 $#%#$
-writel Commentator: T4lisman is through 3 of #PLAYERNAME#'s Ports now!! Our new hacker better pull this back fast!! $#%#$
+writel 主持人: T4lisman已经攻破了#PLAYERNAME# 3个端口了!! 我们的新黑客最好赶快了!! $#%#$
 openPort 25 $#%#$
 delay 14 $#%#$
-writel Commentator: T4lisman is close now!! I think #PLAYERNAME# is really struggling this time! $#%#$
+writel 主持人: T4lisman 很快就要突破了!! 我认为这次#PLAYERNAME#真的得挣扎了! $#%#$
 delay 10 $#%#$

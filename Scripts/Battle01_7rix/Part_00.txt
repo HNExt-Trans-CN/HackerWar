@@ -5,16 +5,16 @@ stopMusic $#%#$
 clearTerminal $#%#$
 delay 2 $#%#$
 write_silent $#%#$
-writel Commentator: Welcome to the Second round of Hacker Wars! $#%#$
+writel 主持人: 欢迎来到第二轮的Hacker_Wars竟赛！ $#%#$
 write_silent $#%#$
 delay 3 $#%#$
-writel Commentator: In a moment our 2 hackers will start! $#%#$
+writel 主持人: 主持人: 稍等片刻两名黑客就会开始！ $#%#$
 delay 2 $#%#$
-writel Commentator: On the 1 side we have: #PLAYERNAME# $#%#$
+writel 主持人: 主持人: 一边是#PLAYERNAME# $#%#$
 delay 3 $#%#$
-writel Commentator: And on the other side we have a relatively new Hacker, 7rix! $#%#$
+writel 主持人: 另一边，是我们的新进选手,7rix! $#%#$
 delay 2 $#%#$
-writel Commentator: Ready everyone? $#%#$
+writel 主持人: 所有人，准备好了吗？Ready everyone? $#%#$
 delay 2 $#%#$
 clearTerminal $#%#$
 writel ..###. $#%#$
@@ -47,13 +47,13 @@ startMusic $#%#$
 connect $#%#$
 delay 15 $#%#$
 openPort 22 $#%#$
-writel Commentator: It looks like 7rix has made it through #PLAYERNAME#'s first port! This is getting tense! $#%#$
+writel 主持人: 似乎7rix已经突破了#PLAYERNAME#的第一个端口，真是越来越令人紧张了。 $#%#$
 delay 15 $#%#$
 openPort 21 $#%#$
 delay 12 $#%#$
 openPort 80 $#%#$
-writel Commentator: 7rix has made light work of #PLAYERNAME#'s Web Server Port!! $#%#$
+writel 主持人: 7rix已经攻克了#PLAYERNAME#的网页服务器端口!! $#%#$
 openPort 25 $#%#$
 delay 8 $#%#$
-writel Commentator: 7rix is nearly through their ports! I think #PLAYERNAME# is starting to sweat a little! $#%#$
+writel 主持人: 7rix已经快攻克他所有的端口了！我觉得#PLAYERNAME#已经开始流汗了。 $#%#$
 delay 10 $#%#$

@@ -2,8 +2,8 @@ config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
 delay 2.0 $#%#$
 write_silent $#%#$
 clearTerminal $#%#$
-writel --- TO BE CONTINUED --- $#%#$
+writel --- 未完待续 --- $#%#$
 delay 0.5 $#%#$
-writel Thank You For Playing Hacker Wars $#%#$
+writel 感谢您游玩 Hacker Wars $#%#$
 delay 0.5 $#%#$
 disconnect $#%#$

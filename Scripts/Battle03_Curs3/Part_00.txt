@@ -5,17 +5,17 @@ stopMusic $#%#$
 clearTerminal $#%#$
 delay 2 $#%#$
 write_silent $#%#$
-writel Commentator:  Welcome back to Hacker Wars $#%#$
-write1 Commentator: It's been one hell of a year for Hacker Wars so far! Last round was one hell of a battle. Let's hope for an even more exciting one now!! $#%#$
-writel Commentator: ---------- Round 5 ---------- $#%#$
+writel 主持人:  欢迎回到Hacker Wars $#%#$
+write1 主持人: 到目前为止，对于Hacker Wars来说是个地狱般的一年!上一轮简直是地狱般的较量。让我们期待这轮会不会变得更加精彩!! $#%#$
+writel 主持人: ---------- 回合 5 ---------- $#%#$
 write_silent $#%#$
 delay 2 $#%#$
-writel Commentator: On the one side, #PLAYERNAME#! $#%#$
+writel 主持人: 这一边是 #PLAYERNAME#! $#%#$
 delay 4 $#%#$
-writel Commentator: And on the other side, Sadly our last round didn't go so well for him, but can he keep himself in the competition this time? $#%#$
-writel Commentator:  It's Curs3!! $#%#$
+writel 主持人: 另一方面，可悲的是我们的最后一轮对他来说并不顺利，但是这次他能继续参加比赛吗？$#%#$
+writel 主持人: 他是 Curs3!! $#%#$
 delay 3 $#%#$
-writel Commentator: Ready everyone? $#%#$
+writel 主持人: 所有人准备! $#%#$
 delay 2 $#%#$
 clearTerminal $#%#$
 writel ..###. $#%#$
@@ -48,13 +48,13 @@ startMusic $#%#$
 connect $#%#$
 delay 8 $#%#$
 openPort 22 $#%#$
-writel Commentator: Okay, good start from Curs3 this round! He's through #PLAYERNAME#'s first port!! $#%#$
+writel 主持人: 好的，这次Curs3有了个好开头! 他已经破解了#PLAYERNAME#第一个端口!! $#%#$
 delay 6 $#%#$
 openPort 21 $#%#$
 delay 8 $#%#$
 openPort 80 $#%#$
-writel Commentator: Curs3 is through 3 of #PLAYERNAME#'s Ports now!! This is a much better performance from him this time! $#%#$
+writel 主持人: Curs3 已经破解了#PLAYERNAME#第二个端口!! 这次他要比之前的表现好太多了 $#%#$
 openPort 25 $#%#$
 delay 20 $#%#$
-writel Commentator: Curs3 just needs to PortHack and he's completely through #PLAYERNAME#'s defences!! $#%#$
+writel 主持人: Curs3 只需要Porthack就可以完全摧毁 #PLAYERNAME#的防御!! $#%#$
 delay 11 $#%#$

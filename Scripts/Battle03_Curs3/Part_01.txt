@@ -2,10 +2,10 @@ config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
 write_silent $#%#$
 delay 2 $#%#$
 clearTerminal $#%#$
-writel Curs3 has made it into #PLAYERNAME#'s computer! Is it really a surprise to see such a talented hacker do his thing!? $#%#$
+writel Curs3 已经进入了#PLAYERNAME#的电脑里! 看看这位如此有才华的黑客会做些什么事情。 $#%#$
 delay 1 $#%#$
 delete /sys x-server.sys $#%#$
-write1 This is it for #PLAYERNAME#, x-server gone!! What could possibly happen now!?!? $#%#$
+write1 #PLAYERNAME#的x-server被删了!! 接下来还会发生什么呢!?!? $#%#$
 delay 1 $#%#$
 delete /bin SSHCrack.exe $#%#$
 makeFile bin SSHCrack.exe #SECURITYTRACER_PROGRAM# $#%#$
@@ -14,7 +14,7 @@ hideRam $#%#$
 hideNetMap $#%#$
 hideDisplay $#%#$
 delay 1 $#%#$
-writel Curs3, come on leave them alone! Don't mess with their tools too!! $#%#$
+writel Curs3! 别管他们了! 别弄乱他的工具! $#%#$
 forkbomb $#%#$
 delay 5 $#%#$
 showRam $#%#$

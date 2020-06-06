@@ -2,10 +2,10 @@ config [TARGET_COMP] [SOURCE_COMP] 0.1 $#%#$
 write_silent $#%#$
 delay 2 $#%#$
 clearTerminal $#%#$
-writel Oh no! It looks like Naix's Team has beat #PLAYERNAME#'s team to the punch! $#%#$
+writel 啊，Naix的团队似乎已经完全控制了#PLAYERNAME#团队的计算机！ $#%#$
 delay 1 $#%#$
 delete /sys x-server.sys $#%#$
-writel #PLAYERNAME#'s, x-server gone!! What could possibly happen now!?!? $#%#$
+writel #PLAYERNAME#'的x-server 已经被删了!!究竟现在还能发生什么呢!?!? $#%#$
 delay 1 $#%#$
 delete /bin SSHCrack.exe $#%#$
 makeFile bin SSHCrack.exe #SECURITYTRACER_PROGRAM# $#%#$
@@ -14,7 +14,7 @@ hideRam $#%#$
 hideNetMap $#%#$
 hideDisplay $#%#$
 delay 1 $#%#$
-writel Naix, has gone straight for #PLAYERNAME#'s tools! $#%#$
+writel Naix现在正在直取#PLAYERNAME#的工具！ $#%#$
 forkbomb $#%#$
 delay 5 $#%#$
 showRam $#%#$

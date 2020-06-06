@@ -5,12 +5,12 @@ hideRam $#%#$
 hideNetMap $#%#$
 hideDisplay $#%#$
 clearTerminal $#%#$
-writel 7rix has made it into #PLAYERNAME#'s computer! OMG! She's hidden his modules, how is he going to be able to see what's going on now? $#%#$
+writel 7rix 已经进入了#PLAYERNAME#的电脑里! OMG! 她隐藏了他的模块，现在他怎么知道现在究竟发生了什么啊? $#%#$
 delay 2 $#%#$
 delete /sys x-server.sys $#%#$
-write1 Oh no! 7rix has taken #PLAYERNAME#'s X-Server.sys! What can #PLAYERNAME# do now? $#%#$
+write1 啊这，7rix已经删掉了#PLAYERNAME#的X-Server.sys! #PLAYERNAME# 现在还能做些啥呢? $#%#$
 delay 2 $#%#$
-write I think this is game over for #PLAYERNAME#. Yep! This is it, she's thrown them a ForkBomb now! $#%#$
+write 我觉得#PLAYERNAME#已经输掉了本轮的比赛。啊我猜是的，她已经ForkBomb #PLAYERNAME#的电脑! $#%#$
 forkbomb $#%#$
 delay 5 $#%#$
 showRam $#%#$

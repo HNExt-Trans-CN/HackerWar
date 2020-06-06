@@ -1,11 +1,11 @@
 config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
 
-write_silent Commentator: Welcome to the Second round of Hacker_Wars! $#%#$
-write_silent Commentator: In a moment our 2 hackers will start! $#%#$
-write_silent Commentator: On the 1 side we have #PLAYERNAME# $#%#$
-write_silent Commentator: On the other side, we have 7rix... $#%#$
+write_silent 主持人: 欢迎来到第二轮的Hacker_Wars竟赛！ $#%#$
+write_silent 主持人: 稍等片刻两名黑客就会开始！  $#%#$
+write_silent 主持人: 一边是#PLAYERNAME# $#%#$
+write_silent 主持人: 另一边，是7rix... $#%#$
 delay 1 $#%#$
-write_silent GET READY! $#%#$
+write_silent 准备! $#%#$
 writeL 3 $#%#$
 delay 1 $#%#$
 writeL 2 $#%#$
@@ -18,22 +18,22 @@ delay 3 $#%#$
 connect $#%#$
 delay 3 $#%#$
 
-write_silent Commentator: It looks like both of our contestants have already connected to each other's computers. $#%#$
+write_silent 主持人: 似乎我们的选手们都已经连上了对方的电脑。 $#%#$
 
 delay 10 $#%#$
 
 openPort 21 $#%#$
-writeL Commentator: Looks like Trix has managed to get through #PLAYERNAME#'s first port. She's doing very well. $#%#$
+writeL 主持人: 似乎Trix已经突破了#PLAYERNAME#的第一个端口，做得好。 $#%#$
 delay 5 $#%#$
 openPort 22 $#%#$
 delay 5 $#%#$
 openPort 25 $#%#$
 delay 5 $#%#$
-writeL Commentator: Trix is nearly through his ports now! I think #PLAYERNAME# is starting to sweat a little!! $#%#$
+writeL 主持人: Trix已经快要完全突破他的所有端口了！我觉得#PLAYERNAME#已经开始出汗了。 $#%#$
 delay 35 $#%#$
-writeL Commentator: She's done it! Trix is into #PLAYERNAME#'s Computer! $#%#$
+writeL 主持人: 她做到了！Trix现在攻破了#PLAYERNAME#的电脑！ $#%#$
 delete /sys x-server.sys $#%#$
-writeL Commentator: Oh no!! There goes his System Files!! God this is not looking good! Can #PLAYERNAME# bring it back!?!?
+writeL 主持人: 啊天哪，她删掉了他的系统文件，#PLAYERNAME#能把他找回来吗!?!?
 delay 10
 forkbomb $#%#$
 disconnect $#%#$

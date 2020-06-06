@@ -3,9 +3,9 @@ write_silent $#%#$
 clearTerminal $#%#$
 delay 4 $#%#$
 clearTerminal $#%#$
-writel Commentator: Well how about that? #PLAYERNAME# made beating Curs3 look as easy as pie! $#%#$
+writel 主持人: #PLAYERNAME# 已经将Curs3如同蛋糕一样粉碎! $#%#$
 delay 1 $#%#$
-writel Commentator: #PLAYERNAME# has done it again! $#%#$
+writel 主持人: #PLAYERNAME# 再次战胜了他的对手! $#%#$
 delay 1 $#%#$
-writel Commentator: Comiserations to our loser! But congratulations to our winner! $#%#$
+writel 主持人: 为我们的败者遗憾，为我们的胜者表示祝贺! $#%#$
 delay 1 $#%#$

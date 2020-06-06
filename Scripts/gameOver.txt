@@ -3,7 +3,7 @@ delay 30.0 $#%#$
 write_silent $#%#$
 clearTerminal $#%#$
 delay 0.5 $#%#$
-writel Goodbye #PLAYERNAME# $#%#$
+writel 再见了 #PLAYERNAME# $#%#$
 delay 1.0 $#%#$
 hideDisplay $#%#$
 delay 0.5 $#%#$
