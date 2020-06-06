@@ -14,48 +14,48 @@
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
 
     <file path="home" name="CreditsData.txt">
-^------- TO BE CONTINUED -------
+^------- 未完待续 -------
 
 
 %-----  Hacker Wars  -----
-^Created by Admiral Joshua
+^作者: Admiral Joshua
 
-Special Thanks to:
- - The Judge - Emotional Support ;)
- - JacobTCG - Story Writing Aid
- - C0d3d B4con - For help with hiding easter eggs around.
+特别鸣谢:
+ - The Judge - 鼓舞着我 ;)
+ - JacobTCG - 故事写作辅助
+ - C0d3d B4con - 帮助隐藏彩蛋
+ - gao_cai_sheng - 中文翻译
  
 ^----- Danke Music -----
-(From the YouTube Audio Library)
-Free Usage for all!
+(来自YouTube音频库)
+免费供所有人使用！
  
  "Beat Your Competition"
-   by Vibe Tracks
+   作者 Vibe Tracks
 	
   "Cephelopod - Cephelopod"
-   by Kevin Macleod
+   作者 Kevin Macleod
 	
   "Cold Rise"
-   by Gunnar Olsen
+   作者 Gunnar Olsen
 	
   "Drop It"
-   by Silent Partner  
+   作者 Silent Partner  
 
   "Epic TV Theme"
-   by Audionautix
+   作者 Audionautix
 	
   "Thunder - FloidBeats #45"
-   by FloidBeats
+   作者 FloidBeats
 	
   "Tremsz"
-   by Gunnar Olsen
+   作者 Gunnar Olsen
 -----------------------
 
-Thank you all for such a wonderful Hacknet Community!
-Whether it was feedback on the WorkShop or help on the
-Discord server! All of your support and help has been
-the best!!!
+谢谢整个Hacknet社区！
+无论是来自创意工坊的反馈还是Discord上的帮助，
+你们一直以来的帮助与支持都帮助了我很多，感谢你们!!!
 </file>
   
-  <CreditsDaemon Title="Hacker Wars Ending Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/completion.xml"/>
+  <CreditsDaemon Title="Hacker Wars 创作者" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/completion.xml"/>
 </Computer>

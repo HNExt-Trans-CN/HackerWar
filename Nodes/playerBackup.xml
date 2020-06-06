@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="playerBackup"
-	name="#PLAYERNAME#'s Backup Server"
+	name="#PLAYERNAME#的备份服务器"
 	ip="5.5.5.5"
 	allowsDefaultBootModule="false"
 	type="empty">
@@ -12,14 +12,14 @@
   
   <adminPass pass="fkSocie3ty"/>
   
-  <file path="home" name="example.txt">This is a file!
-You can write whatever you want here.</file>
+  <file path="home" name="example.txt">这是个文件
+你可以在这里写任何东西。</file>
 
    <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
-   <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">YOUR BACKUP GOES IN THE FOLDER THIS FILE IS CONTAINED IN</file>
-  <file path="home" name="Server_Info.txt">#PLAYERNAME#'s Backup Server
-  This should never be linked with another computer except #PLAYERNAME#'s
-  As it contains a full air-gapped backup of #PLAYERNAME#'s Data!</file>
+   <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">请将你需要备份的文件全数放入此文件夹</file>
+  <file path="home" name="Server_Info.txt">#PLAYERNAME#的备份服务器
+  除了#PLAYERNAME#的计算机，任何计算机都禁止与该计算机连接。
+  该计算机包含了#PLAYERNAME#的备份的完整数据</file>
   
   <file path="home/BACKUP/sys" name="SYS_FILES_GO_HERE">-_-</file>
   <file path="home/BACKUP/bin" name="EXE_FILES_GO_HERE">-_-</file>

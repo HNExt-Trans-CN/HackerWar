@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="hackerForum"
-	name="Hacker Wars Forums"
+	name="Hacker Wars 论坛"
 	ip="160.8.2.15"
 	allowsDefaultBootModule="true"
 	type="3">

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="blueTeamChat"
-	name="#PLAYERNAME# Team's Msgboard"
+	name="#PLAYERNAME# 队伍的聊天版"
 	ip="160.8.11.15"
 	allowsDefaultBootModule="true"
 	type="3">
@@ -10,13 +10,13 @@
   <trace time="-1" />
   <proxy time="0.5" />
   
-  <file path="home" name="example.txt">LMAO.
-What an example this file is turning out to be...</file>
+  <file path="home" name="example.txt">xswl
+多么绝妙的一个例子文件...</file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
 
   
-  <messageBoard name="Blue Team's MsgBoard">
+  <messageBoard name="蓝队聊天版">
   </messageBoard>
    
    <dlink target="hackerHub" />

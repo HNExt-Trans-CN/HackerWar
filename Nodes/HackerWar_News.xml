@@ -15,12 +15,12 @@
   
   <!--account username="#PLAYERNAME#" password="h4cking_is_l1fe" type="MISSIONLIST" /-->
   
-  <file path="home" name="example.txt">LMAO.
-What an example this file is turning out to be...</file>
+  <file path="home" name="example.txt">xswl
+多么绝妙的一个例子文件...</file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
 
-  <variableMissionListingServer name="Hacker_Wars News Feed" iconPath="NewsLogo.png" articleFolderPath="Docs/News/StartingArticles" color="230,10,50" assigner="false" public="true" title="Hacker_Wars News"/>
+  <variableMissionListingServer name="Hacker_Wars 新闻提要" iconPath="NewsLogo.png" articleFolderPath="Docs/News/StartingArticles" color="230,10,50" assigner="false" public="true" title="Hacker_Wars 新闻"/>
   <!--missionHubServer groupName="Hacker_Wars Battleboard" serviceName="Hacker_Wars Battleboard" missionFolderPath="Missions/Battles" themeColor="220,20,30" lineColor="255,80,80" backgroundColor="25,0,5" allowAbandon="false"/-->
   
   <dlink target="hackerForum" />

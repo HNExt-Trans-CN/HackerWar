@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="playerComp"
-	name="#PLAYERNAME#'s PC"
+	name="#PLAYERNAME#的个人电脑"
 	ip="38.165.91.234"
 	allowsDefaultBootModule="false"
 	type="empty">
@@ -14,7 +14,7 @@
   <account username="#PLAYERNAME#" password="8EZTttuB" type="ADMIN" />
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
-  <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">YOUR BACKUP GOES IN THE FOLDER THIS FILE IS CONTAINED IN</file>
+  <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">请将你需要备份的文件全数放入此文件夹</file>
   
   <dlink target="playerBackup" />
   

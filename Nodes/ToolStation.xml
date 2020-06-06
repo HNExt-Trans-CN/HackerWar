@@ -15,13 +15,11 @@
   <file path="bin/22" name="SSHCrack.exe">#SSH_CRACK#</file>
   <file path="bin/21" name="FTPBounce.exe">#FTP_CRACK#</file>
   <file path="bin/80" name="WebServerWorm.exe">#WEB_CRACK#</file>
-  <file path="bin" name="EXE_Info.txt">Here you will find my entire Executable collection
-  free to access for any experienced hacker. I will be adding executables here from time to
-  time, be sure to stop by every now and again for some new tools.
+  <file path="bin" name="EXE_Info.txt">此处你可以找到我的工具集，免费供所有有需要的黑客使用，我也会时不时在此添加新获取到的工具。
   
-  I have sorted each Exe into the Default Port Number they often crack. Sorry for the Proxy too,
-  Often annoying for SCP'ing but it helps stops those pesky SPAM bots.
+  我已经为每个工具以常用破解端口分类。
+  SCP确实会很恼人，但这对阻止机器人很有用处I
   
- Assuming you got this far in the text file: You will also find a handy ThemeChanger
-  file in the Home/Themes folder.</file>
+假设您已经在文本文件中找到了这一点: 您还将找到一个ThemeChanger
+他在 Home/Themes 里 .</file>
 </Computer>

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="hackerData"
-	name="Hacker Wars Database"
+	name="Hacker Wars 数据库"
 	ip="60.25.116.75"
 	allowsDefaultBootModule="true"
 	type="3">
