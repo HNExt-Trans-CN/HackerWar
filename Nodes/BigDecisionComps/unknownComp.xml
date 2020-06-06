@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="unknownComp"
-	name="Lazarus Drop Server"
+	name="Lazarus的文件上传服务器"
 	ip="93.75.49.143"
 	icon="chip"
 	allowsDefaultBootModule="true"
@@ -16,14 +16,14 @@
   
   <firewall level="6" solution="wbc58n" additionalTime="0.4" />
   
-  <file path="home" name="example.txt">LMAO.
-Examples are overrated anyway...
+  <file path="home" name="example.txt">XSWL
+反正例子被高估了...
 
-Is this the last example!!?!?!?!?!!?!?!?!?
+这是最后一个例子文件吗!!?!?!?!?!!?!?!?!?
 DUN DUN DUN!!!!</file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
-  <uploadServerDaemon name="Lazarus's Drop Server" folder="Upload" 
+  <uploadServerDaemon name="Lazarus的文件上传服务器" folder="Upload" 
                       needsAuth="false" color="230,220,220" />
 </Computer>

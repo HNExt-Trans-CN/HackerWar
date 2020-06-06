@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ctfMain05"
-	name="HW Server Farm #274"
+	name="HW 服务器场 #274"
 	ip="160.8.176.15"
 	allowsDefaultBootModule="false"
 	type="empty">
@@ -18,16 +18,13 @@ HINT: I hope that you are keeping track about those other
  passwords too, and not just the ones that actually work... file-->
   
   <encryptedFile path="home/secret" name="secret_stash.dec" extension=".txt" ip="XXX.XXX.XXX.XXX" header="Secret Stash File" pass="midn1gh7_w1r3d_sund14l_ov3rfl0w">
-Congrats, you've decrypted all the files...
-Alright, so you want to know the final password to complete the
- mission? Well, would it annoy you if I told you it had nothing
- to do with the password to this file?
+恭喜，您已经解密了所有文件...
+好了，所以您想知道最终密码?
+如果我告诉您它与该文件的密码无关，会惹恼您吗? XD
  
-The password you are looking for... is infact, all the passwords
- you've discovered put together... or rather, just the 3rd of the
- 3 passwords in each group. Ready? Go for it! As a further note
- however, make sure to seperate each password with an '_' underscore
- character.
+最终密码其实就在你收集到所有的密码里边...
+或更确切地说，每组密码中的第三个密码。 
+请注意，请确保每个密码之间都使用一个'_'下划线字符。
  
  
  
@@ -40,9 +37,9 @@ The password you are looking for... is infact, all the passwords
  
 
  
-As a bonus however, just to confuse you even more...
- These 4 simple words must be in REVERSE order to when you discovered
- them. Really hope you were keeping note of those passwords ;)
+但是，作为奖励，又或者只是让你更加困惑...
+这4个简单的单词必须与您发现它们时的顺序相反。 
+真的希望您能记住这些密码 ;)
   </encryptedFile>
   
   <dlink target="ctfMain01" />

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ctfMain01"
-	name="Hacker Wars CTF StartPoint"
+	name="Hacker Wars CTF 起点"
 	ip="160.8.195.15"
 	allowsDefaultBootModule="false"
 	type="empty">
@@ -13,44 +13,37 @@
   
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
  
-  <file path="home" name="Instructions.txt"> --- Capture The Flag Instructions ---
+  <file path="home" name="说明.txt"> --- 夺旗 竞赛 说明 ---
 
-  - Each team is give a set of 3 passwords. Onle one of
-   these passwords will open the encrypted file.
+  - 每个小组都会被提供3组密码。 这些密码中只有一个可以解密被加密的文件。
    
-  - Once each encrypted file has been opened another 3 passwords will be generated;
-   these will open the next encrypted file.
+  - 打开每个加密文件后，将另外生成3个密码。 这些密码为解锁下一个加密文件的密码。
   
-  - This will happen 3 times until the player is left with 4 seperate passwords.
+  - 这将发生3次，直到剩下4个单独的密码。
   
-  - To win the challenge the team must then enter all the passwords together in
-   reply to the mission email, however this may use different passwords altogether
-   (the final encrypted file will display instructions on this)
+  - 为了赢得挑战，参赛队伍必须随后输入所有密码以回复任务电子邮件，但是，这可能会完全使用不同的密码
+   (最终的加密文件将在此显示说明)
   
-  - Your teammates will periodically help you out by sending messages through (Terminal / MsgBoard)
+  - 您的队友将通过终端或留言板发送消息来帮助您
 </file>
-  <file path="home" name="ReadMe.txt">Welcome to the Capture the Flag server!
-This is the first server you will start your journey on. Capture the Flag is
-largely a gamemode about guessing and speed, but also it is a test of how 
-observent team members can be. As you proceed through each server you
-will find an encrypted file on each. The servers in question will each
-contain a password to unlock another encrypted file, until finally one team
-or the other team finds the final encrypted file providing them with details
-on a special string they must then reply to the original email with.
+  <file path="home" name="ReadMe.txt">欢迎来到夺旗竞赛服务器! 
+这是您将开始旅程的第一台服务器。夺旗很大程度上是一种关于猜测和速度的游戏模式，
+但它也是对观察员团队成员能力的考验。 在遍历每个服务器时，将在每个服务器上找到
+一个加密文件。 服务器将各自包含用于解锁另一个加密文件的密码，直到最终一个团队
+或另一个团队找到最终的加密文件，并为它们提供有关特殊字符串的详细信息，
+然后他们必须使用原始字符串来答复。
 
-It is strongly advised that teams take notes about each password they find,
-as they may prove very useful later on...
+强烈建议团队记录发现的每个密码，因为以后可能会非常有用...
 
-You will find your first encrypted file at the connected nodes:
+您将在连接的节点上找到第一个加密文件:
 
-Your first set of Passwords for the encrypted file are:
-  (without the quotation marks)
+加密文件的第一组密码是：
+  (不带引号)
     - "midn1gh7"
     - "w3bs1te"
     - "h4ndsh4k3"
 	
-First team to get the correct string in reply to the
- email wins.
+第一支获得正确字符串并回复电子邮件的团队获胜。
  
  
  
@@ -60,7 +53,7 @@ First team to get the correct string in reply to the
  
  
  
- HINT: Serving Order... 103,206,097,274</file>
+ 提示: 服务订单... 103,206,097,274</file>
   
   <customthemefile path="sys" name="Cyan_Tech.sys" themePath="Themes/CyanTech.xml" />
   <customthemefile path="sys" name="Bubbles.sys" themePath="Themes/Bubbles.xml" />

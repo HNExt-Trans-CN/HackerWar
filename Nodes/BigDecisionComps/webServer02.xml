@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="webserv2"
-	name="CSC WebServer #2 BACKUP"
+	name="CSC 网页服务器 #2 备份"
 	ip="255.255.255.254"
 	icon="kellis"
 	allowsDefaultBootModule="true"
@@ -14,36 +14,34 @@
   <proxy time="-1" />
   <adminPass pass="8qzmxgnj25" />
   
-  <file path="home" name="example.txt">LMAO.
-What an example this file is turning out to be...</file>
+  <file path="home" name="example.txt">XSWL
+这个文件真是一个例子... </file>
 
-  <file path="home" name="PwdDetails.txt">Okay, so our Brute-Force algorithm was
- running all night we have finally got the password. I realise you are away right
- now, but the password will be here for you as and when you want to look at the
- encrypted data, for your eyes only.
+  <file path="home" name="PwdDetails.txt">好的，暴力破解程序整夜都在运行，我们终于得到了密码。
+   我知道您现在不在了，但是当您要查看加密的数据时，密码将只为您提供。
  
  Password: rJmt7bxK9C</file>
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
-  <file path="Project_Database/OculeOS" name="ProjectInfo.txt">#BINARY_SMALL#</file>
+  <file path="Project_Database/OculeOS" name="项目概要.txt">#BINARY_SMALL#</file>
   <file path="Project_Database/OculeOS/Data" name="52623554314514.dat">#BINARY_SMALL#</file>
   <file path="Project_Database/OculeOS/Data" name="78476726561513.dat">#BINARY_SMALL#</file>
   <file path="Project_Database/OculeOS/Data" name="87949784894897.dat">#BINARY_SMALL#</file>
   <file path="Project_Database/OculeOS/Data" name="34255556341554.dat">#BINARY_SMALL#</file>
   <file path="Project_Database/OculeOS" name="OculeOS.exe">#BINARY_SMALL#</file>
   
-  <file path="Project_Database/Passlock Password Manager/Libraries" name="PyCrypto.lbr">#BINARY#</file>
-  <file path="Project_Database/Passlock Password Manager" name="Passlock_Password_Manager.py">#BINARYSMALL#</file>
-  <file path="Project_Database/Passlock Password Manager/Accounts" name="Test1.accounts">Hotmail
+  <file path="Project_Database/密码管理器/Libraries" name="PyCrypto.lbr">#BINARY#</file>
+  <file path="Project_Database/密码管理器" name="Passlock_Password_Manager.py">#BINARYSMALL#</file>
+  <file path="Project_Database/密码管理器/Accounts" name="Test1.accounts">Hotmail
 Steam
 Facebook</file>
-  <file path="Project_Database/Passlock Password Manager/Accounts" name="Test1.accounts.dat">#BINARYSMALL#</file>
+  <file path="Project_Database/密码管理器/Accounts" name="Test1.accounts.dat">#BINARYSMALL#</file>
   
-  <file path="Project_Database/Hacking_The_Pi" name="Target_ReleaseDate.txt">This Project is target for release:
- As soon as Half-Life 3 comes out.</file>
-  <file path="Project_Database/Hacking_The_Pi" name="When I get bored.txt">00110001 00001010 00110010 00001010 00110011 00001010 00110100 00001010 00110101 00001010 00110110 00001010 00110111 00001010 00111000 00001010 00111001 00001010 00110001 00110000 00001010 00110001 00110001 00001010 00110001 00110010 00001010 00110001 00110011 00001010 00110001 00110100 00001010 00110001 00110101 00001010 00110001 00110110 00001010 00110001 00110111 00001010 00110001 00111000 00001010 00110001 00111001 00001010 00110010 00110000 
+  <file path="Project_Database/Hacking_The_Pi" name="Target_ReleaseDate.txt">该项目发布目标:
+  Half-Life 3 问世。</file>
+  <file path="Project_Database/Hacking_The_Pi" name="当我无聊之时.txt">00110001 00001010 00110010 00001010 00110011 00001010 00110100 00001010 00110101 00001010 00110110 00001010 00110111 00001010 00111000 00001010 00111001 00001010 00110001 00110000 00001010 00110001 00110001 00001010 00110001 00110010 00001010 00110001 00110011 00001010 00110001 00110100 00001010 00110001 00110101 00001010 00110001 00110110 00001010 00110001 00110111 00001010 00110001 00111000 00001010 00110001 00111001 00001010 00110010 00110000 
   
-  To Be Continued...</file>
+  未完待续...</file>
 
   
   <file path="Project_Database/Cyber_Defender" name="Cyber_Defender.exe">#SECURITYTRACER_PROGRAM#</file>
@@ -55,44 +53,36 @@ Facebook</file>
   <file path="Project_Database/Cyber_Defender/Data" name="93443486454.dat">#BINARY#</file>
   <file path="Project_Database/Cyber_Defender/Data" name="53878345644.dat">#BINARY#</file>
   
-  <encryptedFile path="Project_Database" name="Secret_Project_Name.dec" extension=".txt" ip="XXX.XX.XX.XXX" header="Top Secret Project">
+  <encryptedFile path="Project_Database" name="机密_计划_名字.dec" extension=".txt" ip="XXX.XX.XX.XXX" header="头号机密计划">
 #############################################################
-##              TOP SECRET:       Project Plans            ##
-##                 --New Project Division--                ##
+##              头号机密:               项目计划            ##
+##                      --新项目部--                        ##
 #############################################################
 
 </encryptedFile>
   
-  <encryptedFile path="Project_Database" name="Key_Data.dec" extension=".txt" ip="XXX.XX.XX.XXX" header="Mission Objective" pass="rJmt7bxK9C">
+  <encryptedFile path="Project_Database" name="Key_Data.dec" extension=".txt" ip="XXX.XX.XX.XXX" header="任务目标" pass="rJmt7bxK9C">
 #############################################################
-##              TOP SECRET:       Stuxnet v2.0             ##
-##               --GOVERNMENT ATTACK PLANS--               ##
+##                 头号机密:       Stuxnet v2.0             ##
+##                     --攻击政府计划--                     ##
 #############################################################
 
-Okay, so I've finally got hold of the original Stuxnet virus
-and I move to weaponize the code again. It's time for 
-this virus to be used for something even better. For some
-time now I have been angry for the government, for a great
-many reasons. For one, I lost my Father to the government
-and they didn't even care. Just another 'casualty of war.'
-I cannot stand it any longer! It is time they pay for what
-they have done. I have finally created the perfect virus!
+好，我终于掌握了Stuxnet病毒的源代码并且把它重新部署了。
+是时候让这玩意做些好事情了。一段时间以来，由于我个人的原因，
+我一直都十分仇视政府。因为政府，我失去了我的父亲，但那些官僚
+似乎一点也不在乎，他们只把这当做一个“战争伤亡”。现在，我受
 
-Only one thing stands in my way! That is some of the world's
-top hackers.
+只有一样事物挡在我的面前，那便是世界上那些该死的头号黑客们。
  -  'T4lisman'
  -  '#PLAYERNAME#'
  -  'r00t'
 
-but it looks like they want to get themselves into 
-Hacker Wars, maybe I could help them out. That might
-get them off my back. At least long enough so that I
-can set #PLAYERNAME# up, make it look like they did it.
-It would be most believable considering how talented
-they are.
+不过似乎他想参与进Hacker Wars，也许我能帮助他们。即使他们可能会
+背叛我，但只要能为我争取到足够长的时间，我就能扳倒#PLAYERNAME#，
+就像他们对我父亲干的一样。
 
 
-I've collated all my stuxnet raw code below:
+我在下面整理了我获取到所有的Stuxnet原始代码:
 #BINARY#
 
  - Lazarus Z.

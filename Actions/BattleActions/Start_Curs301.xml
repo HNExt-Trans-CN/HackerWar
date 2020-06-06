@@ -3,9 +3,9 @@
   <OnConnect target="curse01" needsMissionComplete="false">
     <!-- You can put any action that was described in the Actions section here -->
 	
-    <StartScreenBleedEffect AlertTitle="Hack Curs3" CompleteAction="Actions/BattleActions/Defeat_Opponent03.xml" TotalDurationSeconds="75.0">Get Admin on Curs3
-Delete 'sys' file(s)
-Delete Curs3's 'exe' tool(s)</StartScreenBleedEffect>
+    <StartScreenBleedEffect AlertTitle="Hack Curs3" CompleteAction="Actions/BattleActions/Defeat_Opponent03.xml" TotalDurationSeconds="75.0">Curs3 电脑的管理员权限
+删除 'sys' 文件
+删除 Curs3的 'exe' 工具</StartScreenBleedEffect>
   </OnConnect>
   
   <Instantly>

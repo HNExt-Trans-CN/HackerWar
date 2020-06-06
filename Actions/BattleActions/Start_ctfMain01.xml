@@ -3,9 +3,9 @@
   <OnConnect target="ctfMain01" needsMissionComplete="false">
     <!-- You can put any action that was described in the Actions section here -->
 	
-    <StartScreenBleedEffect AlertTitle="Capture The Flag" CompleteAction="Actions/Defeat_CTF.xml" TotalDurationSeconds="840.0">14 Minutes
-You have been given the Decypher tool, use it.
-Find the password(s) before Naix's Team.</StartScreenBleedEffect>
+    <StartScreenBleedEffect AlertTitle="Capture The Flag" CompleteAction="Actions/Defeat_CTF.xml" TotalDurationSeconds="840.0">限时14分钟
+你已被给予文件解密工具
+在Naix的团队前找到密码</StartScreenBleedEffect>
   </OnConnect>
   
   <Instantly>

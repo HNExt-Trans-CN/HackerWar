@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ctfMain03"
-	name="HW Server Farm #206"
+	name="HW 服务器场 #206"
 	ip="160.8.187.15"
 	allowsDefaultBootModule="false"
 	type="empty">
@@ -14,18 +14,16 @@
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
   <file path="home" name="Observation_Test.txt">
-HINT: I hope that you are keeping track about those other
- passwords too, and not just the ones that actually work...
+提示: 我希望您也看看其他密码，而不只是实际使用的密码...
  
-Also might be worth taking note of the actual working passwords too.</file>
+也可能需要注意实际的工作密码。</file>
   
   <encryptedFile path="home/secret" name="secret_stash.dec" extension=".txt" ip="XXX.XXX.XXX.XXX" header="Secret Stash File" pass="w1r3d">
-Congratulation on breaking the encryption of the second file.
- You're 2/3 of the way there now, you've gotta crack
-  just one more...
+祝贺您破解了第二个文件的加密。
+ 你已经破解了2/3的文件了。
  
- Your next set of passwords are:
-   (once again, without the quotation marks)
+你的下一组密码组:
+   (不带引号)
    - "cook1e"
    - "cr4y0n"
    - "sund14l"

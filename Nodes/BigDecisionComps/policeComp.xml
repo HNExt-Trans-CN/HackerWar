@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="cyberDrop"
-	name="ICD Drop Server"
+	name="ICD 文件上传服务器"
 	ip="12.24.89.36"
 	icon="chip"
 	allowsDefaultBootModule="true"
@@ -16,13 +16,13 @@
   
   <firewall level="6" solution="6fxtrm" additionalTime="0.4" />
   
-  <file path="home" name="example.txt">LMAO.
-Examples are overrated anyway...
+  <file path="home" name="example.txt">XSWL
+反正例子被高估了...
 
-Is this the last example!!?!?!?!?!!?!?!?!?
+这是最后一个例子文件吗!!?!?!?!?!!?!?!?!?
 DUN DUN DUN!!!!</file>
 
-  <uploadServerDaemon name="International Cyber Division Drop Server" folder="Upload" 
+  <uploadServerDaemon name="国际警察网络上传服务器" folder="Upload" 
                       needsAuth="false" color="220,0,10"/>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>

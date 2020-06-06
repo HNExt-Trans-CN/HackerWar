@@ -2,9 +2,9 @@
   
   <OnConnect target="talisman01" needsMissionComplete="false">
     <!-- You can put any action that was described in the Actions section here -->	
-    <StartScreenBleedEffect AlertTitle="Hack T4lisman" CompleteAction="Actions/BattleActions/Defeat_Opponent02.xml" TotalDurationSeconds="90.0">Get Admin on T4lisman
-Delete 'sys' file(s)
-Delete T4lisman's 'exe' tool(s)</StartScreenBleedEffect>
+    <StartScreenBleedEffect AlertTitle="Hack T4lisman" CompleteAction="Actions/BattleActions/Defeat_Opponent02.xml" TotalDurationSeconds="90.0">获取 T4lisman电脑的管理员权限
+删除 'sys' 文件
+删除 T4lisman的 'exe' 工具</StartScreenBleedEffect>
   </OnConnect>
   
   <Instantly>

@@ -3,9 +3,9 @@
   <OnConnect target="trixy01" needsMissionComplete="false">
     <!-- You can put any action that was described in the Actions section here -->
 	
-    <StartScreenBleedEffect AlertTitle="Hack 7rix" CompleteAction="Actions/BattleActions/Defeat_Opponent01.xml" TotalDurationSeconds="100.0">Get Admin on 7rix
-Delete 'sys' file(s)
-Delete 7rix's 'exe' tool(s)</StartScreenBleedEffect>
+    <StartScreenBleedEffect AlertTitle="Hack 7rix" CompleteAction="Actions/BattleActions/Defeat_Opponent01.xml" TotalDurationSeconds="100.0">7rix 电脑的管理员权限
+删除 'sys' 文件
+删除 7rix的 'exe' 工具</StartScreenBleedEffect>
 
   </OnConnect>
   

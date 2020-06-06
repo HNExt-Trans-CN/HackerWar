@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ctfMain02"
-	name="HW Server Farm #103"
+	name="HW 服务器场 #103"
 	ip="160.8.191.15"
 	allowsDefaultBootModule="false"
 	type="empty">
@@ -13,20 +13,20 @@
   
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
-  <file path="home" name="Orders Of Magnitude.txt">You've successfully connected to the first
-  Capture the Flag server. You will find an encrypted file in the /home folder.
-  From here, you are looking to get access to the file contents within. The
-  password will be one of the passwords you were given before.
+  <file path="home" name="Orders Of Magnitude.txt">你已经成功连接上了第一个夺旗竞赛服务器。
+  您将在home文件夹中找到一个加密文件。
+  从这里开始，您正在寻找访问其中文件内容的密码。
+  密码就是你之前找到的4个密码其中一个。
   
-HINT: You will probably need to think of this order
- if you want to beat the other team: 1_3_3_2</file>
+提示:您可能需要考虑这个顺序
+ 如果你想要痛击其他队伍的话: 1_3_3_2</file>
   
   <encryptedFile path="home/secret" name="secret_stash.dec" extension=".txt" ip="XXX.XXX.XXX.XXX" header="Secret Stash File" pass="midn1gh7">
-Congratulation on breaking the encryption of the first file.
- But this is just one of many...
+祝贺您破解了第一个文件的加密。
+  但这只是众多文件之中的一个...
  
- Your next set of passwords are:
-   (once again, without the quotation marks)
+ 你的下一组密码组:
+   (不带引号)
    - "w0rld"
    - "h4ndl3"
    - "w1r3d"
