@@ -3,15 +3,13 @@
   <goals>
   </goals>
   <nextMission>NONE</nextMission>
-  <posting title="Hacker #PLAYERNAME# Surprises everyone!">
-Our newest Hacker_Wars member has won their very first battle!
-In a very surprising turn of events Hacker named '#PLAYERNAME#'
-has managed to completely destroy another Hacker Wars member, 
-known as '7rix'.
+  <posting title="#PLAYERNAME# 震撼全场!">
+我们新的Hacker_Wars选手赢得了他们的第一场战斗！
+在令人惊讶之中，#PLAYERNAME#
+设法彻底摧毁了另一位名为7rix的Hacker Wars选手。
 
-We are all left wondering just how much this hacker is truely
-capable of and we cannot wait to see how they perform in their
-next hacking battle!
+我们都在想这个黑客到底有多少能耐，
+迫不及待地想看看他们在下一次黑客大战中的表现！
   </posting>
   <email>
     <sender>NONE</sender>

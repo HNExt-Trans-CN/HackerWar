@@ -1,34 +1,31 @@
 welcomeAll
 ------------------------------------------
 #Speech
-Welcome to the second year of Hacker Wars!
+欢迎来到Hacker Wars第二年的赛季！
 ------------------------------------------
->Welcome to the second year...
+>欢迎来到Hacker Wars...
 
-Holy crap I'm so excited! They had some
-crazy ass hackers out there last year.
-Yeah, you remember when that guy took the
-entire elgoog server down?
+我靠，我好兴奋啊，去年这有着些巨疯狂的黑客。
+你们还记得那个家伙什么时候
+把整个elgoog服务器都关闭了吗？
 ------------------------------------------
->that guy took the entire elgoog server...
+>你们还记得那个家伙什么时候
+把整个elgoog服务器...
 
-Wait! He did what now? HOLY S***!!
+等下，他现在做了什么?我草...
 ------------------------------------------
->HOLY S***...
+>我草...
 
-Now now, no need for all that language
-is there? Though I have to admit that's
-pretty impressive!
+冷静一下，没必要爆粗。
+不过我不得不承认这确实令人印象深刻。
 ------------------------------------------
->no need for all that language
+>没必要爆粗
 
-There's always one person that has to be
-like that isn't there?
+总有一个像这样的人,不是么?
 ------------------------------------------
->There's always one person that has to...
+>总有一个像这样的...
 
-Of course! No forum is complete without
-that someone... Even if they are 
-annoying as hell.
+那当然了，即使他们很恼人，但是少了这种人
+论坛就很难说是完整了的。
 ------------------------------------------
 ------------------------------------------

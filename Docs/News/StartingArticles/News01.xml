@@ -3,19 +3,18 @@
   <goals>
   </goals>
   <nextMission>NONE</nextMission>
-  <posting title="Naix has done it again!">
-Well, Hacker_Wars 2 has started off with one hell of a bang this year!
-With a phenominal performance in the first round between two rival hackers:
+  <posting title="Naix再次做到了!">
+好吧，Hacker_Wars 2从一开始就十分惊人!
+在两名专业黑客之间的第一轮比赛中便表现出色:
  Naix   vs.  Splinter
-Both players proved very competitive as they raced through one another's ports,
- pinging their connections all over the country trying desperately to evade trace
- and destroy the other ones proxy!
+事实证明，这两个玩家都非常有竞争力，因为他们在彼此的端口中厮杀，
+在全国范围内互ping，拼命逃避追踪并摧毁另一个代理！
  
-After much work with his terminal Splinter managed to break through ports 22;21 and
- but he just wasn't ready for Port 554, and Naix has taken the win!
+在Splinter已经在他自己终端上工作了好一阵子之后，
+他终于攻克了22端口和21端口，但是当他准备破解554端口时，
+Naix便已经取得胜利了! 
  
-We have a couple of new contestants this year, let's see how each one of them faces
- in our next round!
+今年我们有几个新的参赛者，让我们看看他们每个人在下一轮比赛中将如何面对！
   </posting>
   <email>
     <sender>NONE</sender>
