@@ -14,24 +14,16 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Unknown</sender>
-    <subject>File Restoration</subject>
-    <body>Hi there #PLAYERNAME#,
+    <sender>未知人士</sender>
+    <subject>文件恢复</subject>
+    <body>你好 #PLAYERNAME#,
 
-Unlucky my friend! You lost that round, but don't worry, 
- you can have another go. First, you've gotta restore your
- files though, which if you are reading this, means you already
- have. I left you instructions on restoring a file on your
- computer just in case you needed them.
+啊真不走运啊老哥。你输了那一轮，但别担心，你可以再来一次。但是首先，你得恢复你的文件，虽然， 如果你读到这里，这意味着你已经恢复了一些文件了。我给你留下了恢复电脑文件的说明，以防万一你需要它。
  
-It might also be a good idea if you double check your "bin"
- folder. Cause, some of the hackers, they like to replace
- your tools... You may need to download some replacements from 
- your Backup server!
+仔细检查下你的 "bin"文件夹或许是个好主意。因为，一些黑客，他们喜欢替换你的工具...你可能需要从你的备份服务器上下载一些替换工具!
  
-Once you have restored your files, the contract should be restored
- on the Battleboard once again. So, as soon as you are ready, why
- don't you have another go?
+恢复文件后，战台上应该会再次有合同。
+所以，只要你准备好了，为什么不再来一次呢？
 </body>
     <attachments>
       <!-- Add attachments like links and notes here --> 
