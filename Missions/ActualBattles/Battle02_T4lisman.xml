@@ -43,7 +43,7 @@
  - Hacker_Wars 战台 机器人</body>
     <attachments>
       <!-- Add attachments like links and notes here -->
-	  <note title="主要目标">1) 获取T4lisman计算机的管理员权限。
+	  <note title="主要目标">1) 获取T4lisman计算机管理员权限
 2) 清空她的SYS文件夹和BIN文件夹。
 3) ForkBomb。</note>
 	  <link comp="talisman01" />

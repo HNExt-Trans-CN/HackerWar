@@ -17,9 +17,9 @@
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
    
-  <file path="home/Encryptions" name="FTPBounce.exe.dec">ENCRYPTED DATA GOES HERE, LOL</file>
-  <file path="home/Encryptions" name="SSHCrack.exe.dec">ENCRYPTED DATA GOES HERE, LOL</file>
-  <file path="home/Encryptions" name="SMTPOverflow.exe.dec">ENCRYPTED DATA GOES HERE, LOL</file>
+  <file path="home/Encryptions" name="FTPBounce.exe.dec">这里贴上加密数据XD</file>
+  <file path="home/Encryptions" name="SSHCrack.exe.dec">这里贴上加密数据XD</file>
+  <file path="home/Encryptions" name="SMTPOverflow.exe.dec">这里贴上加密数据XD</file>
   
   <encryptedFile path="home" name="SSHCrack.exe.dec" extension=".exe" ip="XXX.XXX.XXX.XXX" header="Encrypted with the PyCrypto Suite." pass="cryp7o_is_b3st">
 #SSH_CRACK#

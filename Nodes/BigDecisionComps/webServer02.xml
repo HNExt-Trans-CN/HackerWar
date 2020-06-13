@@ -23,12 +23,12 @@
  密码: rJmt7bxK9C</file>
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
-  <file path="Project_Database/OculeOS" name="项目概要.txt">#BINARY_SMALL#</file>
-  <file path="Project_Database/OculeOS/Data" name="52623554314514.dat">#BINARY_SMALL#</file>
-  <file path="Project_Database/OculeOS/Data" name="78476726561513.dat">#BINARY_SMALL#</file>
-  <file path="Project_Database/OculeOS/Data" name="87949784894897.dat">#BINARY_SMALL#</file>
-  <file path="Project_Database/OculeOS/Data" name="34255556341554.dat">#BINARY_SMALL#</file>
-  <file path="Project_Database/OculeOS" name="OculeOS.exe">#BINARY_SMALL#</file>
+  <file path="Project_Database/OculeOS" name="项目概要.txt"> #BINARYSMALL# </file>
+  <file path="Project_Database/OculeOS/Data" name="52623554314514.dat">#BINARYSMALL#</file>
+  <file path="Project_Database/OculeOS/Data" name="78476726561513.dat">#BINARYSMALL#</file>
+  <file path="Project_Database/OculeOS/Data" name="87949784894897.dat">#BINARYSMALL#</file>
+  <file path="Project_Database/OculeOS/Data" name="34255556341554.dat">#BINARYSMALL#</file>
+  <file path="Project_Database/OculeOS" name="OculeOS.exe">#BINARYSMALL#</file>
   
   <file path="Project_Database/密码管理器/Libraries" name="PyCrypto.lbr">#BINARY#</file>
   <file path="Project_Database/密码管理器" name="Passlock_Password_Manager.py">#BINARYSMALL#</file>

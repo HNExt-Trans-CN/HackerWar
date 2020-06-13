@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="toolStation"
-	name="UNKNOWN's Tool Server"
+	name="未知人士的工具服务器"
 	ip="12.12.12.12"
 	allowsDefaultBootModule="false"
 	type="empty">

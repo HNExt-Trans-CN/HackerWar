@@ -39,7 +39,8 @@
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->
-	  <note title="任务细节">Download "evidence.docx" from Grim4ce's server. Once downloaded, upload it to the bully's home folder.</note>
+	  <note title="任务细节">从Grim4ce的服务器下载"evidence.docx"。
+下载好之后上传到霸凌者电脑的home文件夹</note>
 	  <link comp="grimaceServer1" />
 	  <account comp="grimaceServer1" user="admin" pass="pr0t3ct1on" />
 	  <link comp="nastyBully01" />
