@@ -17,24 +17,25 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Unknown</sender>
-    <subject>Getting You A Backup Server</subject>
-    <body>Alright nice work, I can see from my logs you've successfully downloaded my tools.
+    <sender>未知人士</sender>
+    <subject>获取你的备份服务器</subject>
+    <body>好吧，干得不错，从我的日志中可以看到你已经成功下载了我的工具。
 
-We're almost ready to get you set up, are you excited? Before we get stuck in we need to get you a backup server online.
-This way, if you do happen to lose a competition, and something happens to your files, you can get them back with just a few SCP commands.
+我们马上就要为你准备好了，你兴奋吗？
+在我们开始之前，我们需要给你建立一个在线备份服务器。
+这样一来，如果你在比赛中输掉了比赛，而你的文件又正巧出了些问题，
+你只需要几条SCP命令就可以把那些文件找回来了。
  
-I've already set a backup server up for you, you just need to
- upload all your files to it. So get stuck in, I've attached
- the IP of your Backup Server, and a note detailing what you
- should backup.
+ 我已经给你设置了一个备份服务器，你只需要把你所有的文件上传到里面就可以了。
+ 所以，你就快去吧，我已经附上了你的备份服务器的IP，
+ 我给你留了个笔记，详细说明了你应该备份的内容。
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->
-	  <note title="Backing Up Tips">Okay, now to backup your files! Simply navigate to the folder home/BACKUP and then use upload commands to upload the following.
-You need to backup:
- - System Files. - Specifically X-SERVER.sys (CRUCIAL FOR GUI, unless you want to go back to the dark ages)
- - All EXE Files - These are very important as some tools can be very useful and if you lose them, they are pretty much gone for good if you don't back them up.
+	  <note title="备份提示">好了，现在要备份你的文件了! 只需进到到文件夹home/BACKUP，然后使用upload命令上传以下内容。
+你需要备份:
+ - 系统文件.   - 特别是 x-server.sys (这玩意对GUI至关重要，除非你想回到只有指令行的时代。)
+ - 所有EXE文件 - 这些都是非常重要的，因为有些工具是非常有用的，如果你丢失了，如果你不备份，它们就很难再被找到了。
 	  </note>
 	  <link comp="playerBackup" />
 	  <account comp="playerBackup" user="admin" pass="fkSoci3ty" />

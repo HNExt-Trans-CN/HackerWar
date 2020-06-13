@@ -16,20 +16,17 @@
   -->
   <email>
     <sender>Eleanor Hammond</sender>
-    <subject>Good job on that CTF Event</subject>
-    <body>Good job #PLAYERNAME#,
+    <subject>为你在CTF活动的表现喝彩</subject>
+    <body>好样的 #PLAYERNAME#,
 	
-That was some amazing work there! That was really
- impressive! You just flew through each of those encrypted
- files. 
+真是惊人的工作！这真的令人印象深刻！你飞快地浏览了每一个加密文件。
  
  - Eleanor Hammond
 
-Hacker Wars Assistant assigned to: #PLAYERNAME#
+Hacker Wars #PLAYERNAME# 的助手
 
 
-(Show Node isn't working atm, so see attachments to get
- netmap back.)
+(如果ShowNode没有工作，请用附件的连接来恢复网络地图。)
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

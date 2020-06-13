@@ -16,27 +16,22 @@
   -->
   
   <email>
-    <sender>Unknown</sender>
-    <subject>I see you've been doing well</subject>
-    <body>Hey there #PLAYERNAME#,
+    <sender>未知人士</sender>
+    <subject>看来你做的不错嘛</subject>
+    <body>你好啊 #PLAYERNAME#,
 
-I have to say I'm quite impressed with how well you've
- done during Hacking Wars. I don't regret choosing you
- out of all the failed applicants to enter into the
- competition.
+我不得不说，我对你在Hacker Wars中的表现印象深刻。
+因此我不后悔在所有失败的申请者中选择你参加比赛。
  
-I have a favour to ask, I could use your help. It's
- kind of embarassing being the one who helped you 
- hack Hacker Wars.
+我想请你帮个忙。帮你黑进Hacker Wars的人有点尴尬啊。
  
-Someone has stolen a file from me, and it's really important.
- I NEED that file back, and I can't get into their system,
- my IP would show up red flags everywhere, so it's up to you.
+有人偷了我的一个文件，而且这个文件对我非常重要。
+我需要拿回那个文件，但我无法黑入他们的系统，
+一旦我的IP连接，他们就会有所警惕，所以就靠你了。
  
-I must stress this file is TOP SECRET, and I cannot have
- you read it, you're just going to have to trust me.
+我必须强调这个文件是最高机密，我不能让你看，你要相信我。
  
- Good luck! I'm sure you won't need it.
+ 祝你好运！虽然我相信你不会需要它。
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

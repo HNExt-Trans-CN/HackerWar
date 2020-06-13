@@ -20,36 +20,30 @@
   -->
   <email>
     <sender>John Tovar</sender>
-    <subject>Welcome to Hacker Wars</subject>
-    <body>Hi there #PLAYERNAME#,
+    <subject>欢迎来到Hacker Wars</subject>
+    <body>你好! #PLAYERNAME#,
 
-I'm John Tovar, the head administrator of Hacker Wars,
- I'm contacting you as I'd like to personally welcome you
- to the competition!
+ 我是 John Tovar，Hacker Wars的总管。
+ 我之所以联系你，是因为我想亲自欢迎你参加比赛!
 
-So, Welcome #PLAYERNAME# to Hacker Wars!
+所以说，欢迎 #PLAYERNAME# 来到Hacker Wars!
 
-Getting setup with our servers shouldn't be too difficult
- for a Hacker such as yourself. I've provided you with IP address to our new and exclusive Hacker chat system.
-Here you will find the latest news as well as discussions between the other competitors.
+ 对于你这样的黑客来说，连接到我们的服务器应该不会太难。
+ 我已经为你提供了我们新的专属黑客聊天系统的IP，在这里你可以找到最新的新闻以及其他竞争对手之间的讨论。
  
-You will also find attached a login to our main Hub server where you will be able to see
- who you are up against next and start a new game with another competitor.
+ 你还会发现附件中的一个链接和账户密码来连接到我们的主服务器，在那里你将能够看到你的下一个对手是谁，与其他竞争对手开启一场新的比赛。
  
-I think that covers everything, I will be watching out for you in the games!
+ 我想这已经涵盖了一切，我会在比赛中关注你的!
 
-Good luck!
+祝你好运!
  
  - John Tovar
- CEO at Hacker Wars
+ Hacker Wars 的 CEO
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->
-	  <note title="Getting Setup">Go Ahead and take a look at the discussion forum. There
-are some new messages talking about the competition.
-Once you've read in on the latest news, go ahead and
- connect to the Main Hub. Your first opponent will
- undoubtebly already be waiting for you there.</note>
+	  <note title="开始准备">去看看讨论区吧。有一些有关比赛的消息。
+一旦你读完了新消息，就去到战台吧。你的第一个对手无疑已经在那里等着你了。</note>
 	  
 	  
 	  <link comp="hackerForum" />

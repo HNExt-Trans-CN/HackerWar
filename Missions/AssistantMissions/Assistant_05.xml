@@ -15,27 +15,26 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Battleboard Bot</sender>
-    <subject>Congratulations #PLAYERNAME#!</subject>
+    <sender>战台机器人</sender>
+    <subject>祝贺你 #PLAYERNAME#!</subject>
     <body>#PLAYERNAME#,
-Hacker names that are listed below have made it through to the next set of challenges.
-These challenges will involve both team building and much harder hacks.
+下面列出的黑客名字已经通过了下一组挑战。
+这些挑战将涉及到团队建设和更难的黑客。
 
-This email is also a special congratulations to the following people for making it
- through the Solo hacks.
+顺便也祝贺以下人员通过了单独对战的挑战。
  
-   Hackers Through:
+   名单:
     - "5plinter"
     - "Naix"
     - "Grim4ce"
     - "Cryp7o"
-	-  "Ph4n745m"
-    -  "Ch1m3r4"
+  	- "Ph4n745m"
+    - "Ch1m3r4"
     - "#PLAYERNAME#"
     - "r00t"
  
-  From all the Hacker Wars team;
-     We wish you the best of luck in the next set of challenges!
+  来自所有Hacker Wars团队成员
+    希望你能在下一个挑战中有着最好的运气！
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

@@ -16,18 +16,15 @@
   -->
   
   <email>
-    <sender>Unknown</sender>
-    <subject>Thank you for returning my file.</subject>
-    <body>Thank you for returning my file #PLAYERNAME#,
+    <sender>未知人士</sender>
+    <subject>谢谢你归还我的文件</subject>
+    <body>谢谢你归还我的文件 #PLAYERNAME#,
 	
-You've done the right thing, returned to me what was
- wrongfully stolen. But I'm sorry, you know too much
- and I cannot let you roam free any longer. This is
- goodbye from me, this is probably the last time we
- will ever talk... I'm sorry, but it had to be this
- way.
+你做了正确的事情，把被偷走的文件还给了我。
+但是很抱歉，你知道的太多了，我不能再让你自由自在的游荡了。
+这是我的告别，这可能是我们最后一次谈话...我很抱歉，但不得不这样做。
  
- I can't have anything linking back to me...
+ 我不能让任何东西与我相关联...
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

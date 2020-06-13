@@ -19,35 +19,33 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   
-  <posting title="Hacker Wars Round 3 : T4lisman  vs  #PLAYERNAME#">
-Well, #PLAYERNAME# Has surprised us all with his impressive battle
- against the Hacker Wars member '7rix.' 
+  <posting title="Hacker Wars 回合 3 : T4lisman  vs  #PLAYERNAME#">
+#PLAYERNAME# 已经让我们大家惊讶于他与Hacker Wars成员'7rix'之间的战斗。
  
- Let's see how they do in our next round;
+ 让我们看看他这一轮会如何迎战
  
    #PLAYERNAME#    vs.   T4lisman
 </posting>
   
   <email>
-    <sender>Battleboard Bot</sender>
-    <subject>Opponent02: - Battle Started</subject>
+    <sender>战台机器人</sender>
+    <subject>对手02: - 战斗开始</subject>
     <body>#PLAYERNAME#,
 
-This email is to inform you that you have started a battle with the Hacker
- known as "T4lisman". If this was not you, we recommend restarting your computer
- immediately!
+这封邮件是为了通知您，您已经开始与名为 "T4lisman"的黑客进行战斗。
+如果你对此一无所知，我们建议立即重启你的电脑!
  
- Otherwise, the battle has commenced! You will find your target's IP Address below.
+ 否则，战斗就将开始，ip已经写在下方了
  
- Good luck!
- Get going!
+ 祝你好运!
+ 前进吧!
  
- - Hacker_Wars Battleboard Bot</body>
+ - Hacker_Wars 战台 机器人</body>
     <attachments>
       <!-- Add attachments like links and notes here -->
-	  <note title="Main Goals">1) Get Admin Access into T4lisman's computer
-2) Wipe his "SYS" folder and "BIN" folder.
-3) ForkBomb.</note>
+	  <note title="主要目标">1) 获取T4lisman计算机的管理员权限。
+2) 清空她的SYS文件夹和BIN文件夹。
+3) ForkBomb。</note>
 	  <link comp="talisman01" />
     </attachments>
   </email>

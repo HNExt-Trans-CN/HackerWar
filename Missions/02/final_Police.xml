@@ -15,22 +15,21 @@
   -->
   
   <email>
-    <sender>Int. Cyber Devision</sender>
-    <subject>Thanks for the tip.</subject>
-    <body>Hey there #PLAYERNAME#,
+    <sender>国际网络犯罪部</sender>
+    <subject>感谢您的提示</subject>
+    <body>尊敬的 #PLAYERNAME# 
+    您好,
 
-I have recently been informed that you have submitted
- a report to us linked to a case we've been working on
- for quite some time, dating all the way back to the first
- Hacker Wars I don't know how you came across this evidence
- but it will be the perfect to finally close this case against Lazarus.
+我最近接到通知，你向我们提交了一份报告，
+与我们一直在调查的一个案子有关，可以追溯到第一次黑客大战。 
+我不知道你是怎么找到这些证据的，
+但这将是对Lazarus的案子最终结案的最佳证据。
+
  
-You can be asserted that we will keep this tip completely
- anonymous so you will not need to worry about getting
- found out.
+您可以放心，我们会将此证据以匿名人士身份上交至法庭，所以您不必担心会被发现。
  
  - Agent Eriksson
- Co-Founder of International Cyber Division
+ 国际网络犯罪部联合创始人
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

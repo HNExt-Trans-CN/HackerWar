@@ -17,36 +17,29 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
 
-  <posting title="The Middle Man" requiredRank="21">Grimace likes to help others out, but she wants your help.
-A rather nasty piece of work is bullying a lot of other people,
-she needs your hacking skills to help her get even with the bully.</posting>
+  <posting title="中间人" requiredRank="21">Grim4ce喜欢帮助别人，但她希望现在得到您的帮助。
+一件相当讨厌的工作让许多人遭到霸凌，
+她需要您的黑客技术来帮助她教训霸凌者。</posting>
   
   <email>
-    <sender>Battleboard Bot</sender>
-    <subject>The Middle Man</subject>
-    <body>Hey #PLAYERNAME#,
+    <sender>站台机器人</sender>
+    <subject>中间人</subject>
+    <body>你好 #PLAYERNAME#,
 
-There is a rather nasty kid who is bullying a lot of
- other kids online. I'd like your help to get back at
- him. I've managed to forge a piece of evidence that
- is going to get him into a lot of trouble. But I need
- your help to deploy it. When you are ready I've linked
- you to my server with an account below. Once you're in
- download the file "evidence.docx"
- 
-Once you have the file you should have no trouble
- penetrating the bully's security. Once through
- just upload the file into his HOME folder. Make sure
- you clear the logs afterwards though. We don't want any
- evidence pointing to someone else now do we?
+有一个熊孩子正在网上欺凌许多其他人。我希望你能教训教训他。
+我设法制造了些能将使他拖入麻烦的一些证据。
+但是我需要您的帮助来部署它。准备就绪后，
+我已经在下面附上了个我服务器的账号密码，
+连接它并下载文件"evidence.docx"
 
- 
-BATTLEBOARD REMINDER: When you have completed Grim4ce's
- task she will become an official member of your team.
+下载好文件之后，就把去黑入霸凌者的电脑。然后将文件上传到他的HOME文件夹中。
+但是请确保你清除日志。我们现在不希望有任何证据指向别人。
+
+战台提醒: 当你完成Grim4ce的任务后 他将成为你团队的正式成员。
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->
-	  <note title="Mission Details">Download "evidence.docx" from Grim4ce's server. Once downloaded, upload it to the bully's home folder.</note>
+	  <note title="任务细节">Download "evidence.docx" from Grim4ce's server. Once downloaded, upload it to the bully's home folder.</note>
 	  <link comp="grimaceServer1" />
 	  <account comp="grimaceServer1" user="admin" pass="pr0t3ct1on" />
 	  <link comp="nastyBully01" />

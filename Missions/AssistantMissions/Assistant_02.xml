@@ -15,25 +15,21 @@
   -->
   <email>
     <sender>Eleanor Hammond</sender>
-    <subject>Update: Round 3 Information</subject>
-    <body>Okay #PLAYERNAME#,
-It looks like you're up next again, this time you will be facing the
- hacker known as 'T4lisman.'
+    <subject>更新: 回合 3 基本情报</subject>
+    <body>好的 #PLAYERNAME#,
+看来你又更上一层了呢，这一次你要面对的黑客名为"T4lisman"。
  
-Going by his past experience and his performance last year,
- I'd say he won't be proving much more of a challenge than your
- last competitor. I've ran an nmap on his computer, we're
- looking at that SMTP port I told you about earlier.
+ 根据他过去的经验和去年的表现，我觉得他不会比你的上一个竞争者更有挑战性了。
+ 我已经在他的电脑上跑了一个nmap，且正在查看之前告诉你的那个SMTP端口。
  
-He's got custom ports too, nasty stuff, just pay attention
- to the port numbers you see on screen and everything should go
- okay.
+ 他也设置了自定义端口，的确是个烦人玩意，
+ 不过只要注意屏幕上看到的端口号，一切应该都没问题。
  
- When you're ready to go, pick up the contract on the Battleboard.
+ 当你准备好的时候，就去战台领取任务吧。
  
  - Eleanor Hammond
 
-Hacker Wars Assistant assigned to: #PLAYERNAME#
+Hacker Wars #PLAYERNAME# 的助手
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

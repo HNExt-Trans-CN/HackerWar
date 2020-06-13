@@ -17,27 +17,23 @@
   -->
   <email>
     <sender>Eleanor Hammond</sender>
-    <subject>Where to go next</subject>
-    <body>Congratulations again on getting this far #PLAYERNAME#,
+    <subject>下一步干什么</subject>
+    <body>再次恭喜你取得了胜利 #PLAYERNAME#,
 
-It seems Mr. Tovar has taken a great interest in you, he seems to have
- made you team Captain of the second team. Naix is captain of the other
- team. Going by the forums you're not liked very much at the moment.
-Don't worry though we can sort that:
+看来Tovar先生对你很有兴趣，让你做了二队的队长。Naix是另一队的队长。
+从论坛来讲，你似乎现在不是很受欢迎。
+别担心，我们可以解决这个问题。
 
-It's time for you to put together your team. You should see some new contracts
- appearing on the Battleboard pretty soon.
+现在是你组建队伍的时候了。你应该很快就会在战台上看到一些新的合约。
  
-Each contract will be a challenge that one of the Hacker Wars
- members wants you to do. By completing each challenge succesfully
- the Hacker Wars member will then join your team.
+每份合约都是Hacker Wars成员希望你去完成的挑战。
+只要成功完成每一项挑战，那名Hacker Wars成员就会加入你的队伍。
  
-You'd better get started with each of the contracts before Naix gets
- in on one of them! Good luck!
+你最好在Naix决定好他的队友之前开始完成每一份合约! 祝你们好运!
  
  - Eleanor Hammond
 
-Hacker Wars Assistant assigned to: #PLAYERNAME#
+Hacker Wars #PLAYERNAME# 的助手
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

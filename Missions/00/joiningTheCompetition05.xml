@@ -16,13 +16,12 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>Unknown</sender>
-    <subject>Congratulations</subject>
-    <body>Well done #PLAYERNAME#,
-Now, if all has gone to plan, you should be receiving an email from the director
- of Hacker Wars welcoming you and getting you set up.
+    <sender>未知人士</sender>
+    <subject>恭喜</subject>
+    <body>干得不错 #PLAYERNAME#,
+现在，如果一切都按计划进行，你应该会收到一封来自Hacker Wars总监的邮件，来欢迎你的到来，并为你做好准备。
   
-That's all from me for now! Good luck! I've no doubts we'll speak again soon.
+我就先说到这里吧! 祝你们好运！我相信我们很快就会再见面的。
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

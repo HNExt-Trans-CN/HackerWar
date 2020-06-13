@@ -15,23 +15,20 @@
   -->
   <email>
     <sender>Eleanor Hammond</sender>
-    <subject>Good Job!</subject>
-    <body>Good job #PLAYERNAME#!
+    <subject>干得漂亮!</subject>
+    <body>干得漂亮 #PLAYERNAME#!
 
-That's another win! You're really starting to show some
- promise in this competition! If you keep this up you'll
- be well on your way to the team battle rounds. 
+ 恭喜你又赢了！你在这场比赛中真的展现出了你的实力！
+ 如果你继续保持这样的状态，你就能顺利进入小组赛了。
+
+ 不过要小心，留一两招给大的对手吧。
  
- Be careful though, save a trick
-  or two for the bigger opponents won't you.
- 
-Whilst you wait for the next match, why don't you take
- another look at the News and Forum, there's some new
- information there.
+ 在你等待下一场比赛的时候，为什么不再看看新闻和论坛呢，
+ 那里有一些新的信息。
  
  - Eleanor Hammond
  
-Hacker Wars Assistant assigned to: #PLAYERNAME#
+Hacker Wars #PLAYERNAME# 的助手
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->
