@@ -1,552 +1,618 @@
 <!--DOCTYPE html-->
 <html>
-    <link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet" />
-    <link href="animations/webhack-glitches.css" rel="stylesheet">
-    <style>
-        div.overlay {
-            background-color: black;
-            opacity: 0.2;
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-        }
-        img.background-image {
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            z-index: -2;
-        }
-        body {
-            background-size: cover;
-            font-family: "Nova Square";
-        }
-        em.web {
-            color: rgb(0, 120, 200);
-            font-size: 34px;
-            font-style: normal;
-            position: absolute;
-            top: 5px;
-            left: 15px;
-        }
-        em.hack {
-            color: rgb(220, 30, 20);
-            font-size: 36px;
-            font-style: normal;
-            position: absolute;
-            top: 50px;
-            left: 10px;
-        }
-        h1.site-logo {
-            position: fixed;
-            left: 65px;
-            top: -10px;
-        }
-        @keyframes sideNav-slideIn {
-            0% {
-                width: 165px;
-            }
-            100% {
-                width: 60px;
-            }
-        }
-        div.sideNav {
-            height: 100%;
-            width: 60px;
-            text-align: center;
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            background-color: rgb(15, 15, 15);
-            overflow: hidden;
-        }
-        @keyframes sideNav-slideout {
-            0% {
-                width: 60px;
-            }
-            100% {
-                width: 165px;
-            }
-        }
-        hr.navDivider {
-            border: 1px solid rgb(200, 0, 0);
-            opacity: 0.6;
-            width: 95%;
-        }
-        img.sideNavButton:hover {
-            border-bottom: 1px solid red;
-            border-top: 1px solid red;
-            margin: 1px 2px;
-        }
-        a {
-            width: 120px;
-            height: 55px;
-            text-decoration: none;
-            color: rgba(200, 40, 40, 0.8);
-        }
-        a:hover {
-            color: rgba(230, 90, 40, 0.8);
-        }
-        a:hover img.sideNavButton {
-            border-bottom: 1px solid red;
-            border-top: 1px solid red;
-            margin: 1px 2px;
-        }
-        img.sideNavButton {
-            margin: 2px;
-            position: relative;
-            top: 2px;
-            left: -2px;
-            padding: 5px;
-            border-radius: 10px;
-            margin: 2px;
-        }
-        img.sideNavButton-logo {
-            margin: 2px;
-            position: relative;
-            top: 2px;
-            left: -2px;
-            padding: 5px;
-            border-radius: 10px;
-            margin: 2px;
-        }
-        div.posts-container {
-            position: absolute;
-            top: -230px;
-            left: -200px;
-        }
-        div.post-container {
-            text-align: center;
-            background-color: rgba(210, 30, 30, 0.4);
-            width: 620px;
-            height: 280px;
-            border-radius: 20px;
-            border-bottom-right-radius: 80px;
-            border-top-left-radius: 40px;
-            border: 2px solid red;
-            
-            position: absolute;
-            left: 560px;
-
-            transform: scale(0.8);
-                    }
-
-        div.post-create {
-            text-align: center;
-            background-color: rgba(210, 30, 30, 0.4);
-            width: 640px;
-            height: 280px;
-            border-radius: 20px;
-            border-bottom-right-radius: 80px;
-            border-top-left-radius: 40px;
-            border: 2px solid red;
-            position: fixed;
-            left: 10px;
-            top: 270px;
-            transform: scale(0.8);
-        }
-        input.postHeader {
-            color: red;
-            text-align: right;
-            margin: 2px 5px;
-            padding: 2px;
-            width: 95%;
-            font-size: 34px;
-            background-color: transparent;
-            border: none;
-            font-family: "Nova Square";
-        }
-        img.inputImg {
-            width: 140px;
-            height: 150px;
-            position: absolute;
-            left: 15px;
-            top: 100px;
-            border-radius: 20px;
-        }
-        textarea.postContent {
-            color: lime;
-            font-family: "Nova Square";
-            font-size: 20px;
-            border-radius: 30px;
-            border-bottom-right-radius: 60px;
-            width: 370px;
-            height: 140px;
-            position: absolute;
-            top: 80px;
-            left: 160px;
-            text-align: left;
-            margin: 5px;
-            padding: 10px 12px;
-            background-color: transparent;
-            border: none;
-        }
-        hr.postHR {
-            border: 2px solid red;
-            width: 90%;
-        }
-        h1.postHeader {
-            color: red;
-            text-align: right;
-            margin: 2px 5px;
-            padding: 2px;
-            width: 95%;
-            font-size: 34px;
-        }
-        p.postContent {
-            color: lime;
-            font-family: "Nova Square";
-            font-size: 20px;
-            border-radius: 30px;
-            border-bottom-right-radius: 60px;
-            width: 430px;
-            height: 150px;
-            position: relative;
-            top: -168px;
-            left: 160px;
-            text-align: left;
-            margin: 5px;
-            padding: 10px 12px;
-        }
-        img.postImg {
-            width: 150px;
-            height: 160px;
-            position: relative;
-            left: -225px;
-            top: 0px;
-            border-radius: 20px;
-        }
-        p.postUser {
-          font-size: 18px;
-          font-family: "Nova Square";
-          color: lightgray;
-          position: absolute;
-          top: 235px;
-          left: 130px;
-        }
-        u.username {
-          color: lime;
-        }
-        input.imgSource {
-            width: 450px;
-            background-color: transparent;
-            border: 2px dashed green;
-            padding: 2px;
-            font-size: 14px;
-            border-radius: 20px;
-            position: absolute;
-            top: 255px;
-            left: 10px;
-            color: green;
-        }
-        input.btnPost {
-            background-color: transparent;
-            padding: 5px 10px;
-            height: 155px;
-            font-family: "Nova Square";
-            font-size: 18px;
-            border: 1px dashed lime;
-            color: lime;
-            position: absolute;
-            top: 85px;
-            left: 565px;
-            border-radius: 8px;
-            border-bottom-right-radius: 30px;
-            border-top-left-radius: 15px;
-        }
-        div.alertDialog {
-            color: red;
-            width: 490px;
-            height: 160px;
-            animation: alert-show 8s 1;
-            position: absolute;
-            top: 110px;
-            left: 80px;
-            background-color: rgba(200, 20, 20, 0.55);
-            opacity: 0;
-            border-radius: 10px;
-            border-bottom-right-radius: 60px;
-            border-top-left-radius: 30px;
-            border: 1px solid red;
-        }
-        p.alert-title {
-            font-size: 22px;
-            margin: 0px auto;
-            padding: 1px;
-            text-align: center;
-            font-family: "Nova Square";
-            color: gold;
-        }
-        h2.alert-text {
-            color: red;
-            font-size: 26px;
-            font-family: "Nova Square";
-            width: 360px;
-            position: absolute;
-            left: 120px;
-        }
-        div.alert-mark {
-            width: 0;
-	    height: 0;
-	    border-left: 50px solid transparent;
-            border-right: 50px solid transparent;
-	    border-bottom: 100px solid rgba(220, 180, 0, 0.3);
-            animation: alert-flash .5s infinite;
-            position: absolute;
-            left: 10px;
-        }
-        h2.alert-mark {
-            position: absolute;
-            left: -10px;
-            top: -30px;
-            color: gold;
-            font-size: 65px;
-            position: absolute;
-            font-style: normal;
-        }
-        @keyframes alert-flash {
-            0% {
-              opacity: 0;
-            }
-            50% {
-              opacity: 1;
-            }
-            100% {
-              opacity: 0;
-            }
-        }
-        @keyframes alert-show {
-            0% {
-                opacity: 0;
-            }
-            25% {
-                opacity: 1;
-            }
-            75% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
-        div.postControl {
-          position: absolute;
-          top: 240px;
-          left: 2px;
-          background-color: rgba(70, 40, 40, 0.4);
-          color: red;
-          height: 40px;
-          border-radius: 15px;
-          border-top-right-radius: 50px;
-          border-bottom-right-radius: 50px;
-          border-bottom-left-radius: 30px;
-          text-align: center;
-          width: 110px;
-          z-index: 5;
-        }
-        div.postControl:hover {
-          background-color: rgba(60, 30, 30, 0.9);
-        }
-
-        h1.post-controls {
-            font-size: 22px;
-            font-family: "Nova Square";
-            margin: 0px;
-            padding: 0px;
-            font-size: 12px;
-        }
-        div.post-delete {
-            text-align: center;
-            background-color: rgba(210, 30, 30, 0.4);
-            width: 350px;
-            height: 180px;
-            border-radius: 20px;
-            border-bottom-right-radius: 80px;
-            border-top-left-radius: 40px;
-            border: 2px solid red;
-            position: fixed;
-            left: 80px;
-            top: 200px;
-        }
-        input.postDeleteOption {
-            height: 40px;
-            width: 50px;
-            background-color: transparent;
-            border-radius: 10px;
-            border: 2px dashed lime;
-            padding: 2px;
-        } 
-        a.post-delete {
-            position: absolute;
-            top: 5px;
-            left: -35px;
-            z-index: 5;
-            font-style: normal;
-        }
-        a.post-edit {
-            position: absolute;
-            top: 5px;
-            left: 25px;
-            z-index: 5;
-            font-style: normal;
-        }
-        h2.post-delete-bar {
-            color: gold;
-            font-size: 20px;
-            text-align: center;
-            position: relative;
-            top: 0px;
-            margin: 0px auto;
-            font-family: "Nova Square";
-            font-weight: normal;
-            animation: alert-flash 1s infinite;
-        }
-        input.postDeleteOption {
-            color: lime;
-            border: 1px dashed lime;
-            padding: 5px;
-            width: 90px;
-            font-family: "Nova Square";
-            font-size: 20px;
-        }
-        h2.post-delete-title {
-            color: red;
-            font-family: "Nova Square";
-            font-size: 20px;
-        }
-        em.del-PostTitle {
-            color: orange;
-            font-style: normal;
-        }
-        select.postPrivacy {
-            background-color: rgba(200, 30, 30, 0.8);
-            border: 1px dashed lime;
-            border-radius: 5px;
-            color: lime;
-            font-family: "Nova Square";
-            position: absolute;
-            top: 90px;
-            left: 20px;
-            border-radius: 20px;
-            width: 130px;
-            text-align: center;
-            z-index: 2;
-            font-size: 14px;
-        }
-        option.privacyOption {
-            background-color: rgba(200, 20, 20, 0.8);
-            color: lime;
-            text-align: center;
-        }
-		body {
-			transform: scale(0.5);
-		}
-    </style>
-    <title>WebHack - Home</title>
-    <img class="background-image" src="Cache/New-matrix-wallpaper-1920x1080.jpg" height="100%" width="100%" />
-    <div class="overlay"></div>
-    <body>
-        <h1 class="site-logo"><em class="web">WEB</em><br><em class="hack">HACK</em></h1>
-        
-        <div class="sideNav">
-                          <a title="WebHack Logo" href="#"><img class="sideNavButton-logo" src="Cache/WebHack%20ICON - Transparent.png" height="55px" width="55px" />Navbar v1.0</a>
-                        <hr class="navDivider">
-            <a title="Go Home" href="home.php"><img class="sideNavButton" src="Cache/home.png" height="50px" width="50px" />返回主页</a>
-            <hr class="navDivider">
-            <a title="About Us" href="home?about"><img class="sideNavButton" src="Cache/alert.png" height="50px" width="50px" />关于我们</a>
-            <hr class="navDivider">
-            <a title="Social" href="home?social"><img class="sideNavButton" src="Cache/messages.png" height="50px" width="50px" />社交网站</a>
-            <hr class="navDivider">
-            <a title="Projects" href="home?projects"><img class="sideNavButton" src="Cache/book2.png" height="50px" width="50px" />项目一览</a>
-            <hr class="navDivider">
-            <a title="Create a new Post" href="home?create"><img class="sideNavButton" src="Cache/paperclip.png" height="50px" width="50px" />发布讨论帖</a>
-            <hr class="navDivider">
-                        <a title="Login" href="login.php"><img class="sideNavButton" src="Cache/power.png" height="50px" width="50px" />登入</a>
-                                                  </div>
-
+<link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet" />
+<link href="animations/webhack-glitches.css" rel="stylesheet">
 <style>
+    div.overlay {
+        background-color: black;
+        opacity: 0.2;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
 
-@keyframes post-fadeIn { from { opacity:0; } to { opacity:1; } }
+    img.background-image {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: -2;
+    }
 
-</style>
-                        <div class="posts-container">
+    body {
+        background-size: cover;
+        font-family: "Nova Square";
+    }
 
-                                    <style> div#post1 {
-        // opacity: 0;
+    em.web {
+        color: rgb(0, 120, 200);
+        font-size: 34px;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        left: 15px;
+    }
+
+    em.hack {
+        color: rgb(220, 30, 20);
+        font-size: 36px;
+        font-style: normal;
+        position: absolute;
+        top: 50px;
+        left: 10px;
+    }
+
+    h1.site-logo {
+        position: fixed;
+        left: 65px;
+        top: -10px;
+    }
+
+    @keyframes sideNav-slideIn {
+        0% {
+            width: 165px;
+        }
+
+        100% {
+            width: 60px;
+        }
+    }
+
+    div.sideNav {
+        height: 100%;
+        width: 60px;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: rgb(15, 15, 15);
+        overflow: hidden;
+    }
+
+    @keyframes sideNav-slideout {
+        0% {
+            width: 60px;
+        }
+
+        100% {
+            width: 165px;
+        }
+    }
+
+    hr.navDivider {
+        border: 1px solid rgb(200, 0, 0);
+        opacity: 0.6;
+        width: 95%;
+    }
+
+    img.sideNavButton:hover {
+        border-bottom: 1px solid red;
+        border-top: 1px solid red;
+        margin: 1px 2px;
+    }
+
+    a {
+        width: 120px;
+        height: 55px;
+        text-decoration: none;
+        color: rgba(200, 40, 40, 0.8);
+    }
+
+    a:hover {
+        color: rgba(230, 90, 40, 0.8);
+    }
+
+    a:hover img.sideNavButton {
+        border-bottom: 1px solid red;
+        border-top: 1px solid red;
+        margin: 1px 2px;
+    }
+
+    img.sideNavButton {
+        margin: 2px;
+        position: relative;
+        top: 2px;
+        left: -2px;
+        padding: 5px;
+        border-radius: 10px;
+        margin: 2px;
+    }
+
+    img.sideNavButton-logo {
+        margin: 2px;
+        position: relative;
+        top: 2px;
+        left: -2px;
+        padding: 5px;
+        border-radius: 10px;
+        margin: 2px;
+    }
+
+    div.posts-container {
+        position: absolute;
+        top: -230px;
+        left: -200px;
+    }
+
+    div.post-container {
+        text-align: center;
+        background-color: rgba(210, 30, 30, 0.4);
+        width: 620px;
+        height: 280px;
+        border-radius: 20px;
+        border-bottom-right-radius: 80px;
+        border-top-left-radius: 40px;
+        border: 2px solid red;
+
+        position: absolute;
+        left: 560px;
+
+        transform: scale(0.8);
+    }
+
+    div.post-create {
+        text-align: center;
+        background-color: rgba(210, 30, 30, 0.4);
+        width: 640px;
+        height: 280px;
+        border-radius: 20px;
+        border-bottom-right-radius: 80px;
+        border-top-left-radius: 40px;
+        border: 2px solid red;
+        position: fixed;
+        left: 10px;
+        top: 270px;
+        transform: scale(0.8);
+    }
+
+    input.postHeader {
+        color: red;
+        text-align: right;
+        margin: 2px 5px;
+        padding: 2px;
+        width: 95%;
+        font-size: 34px;
+        background-color: transparent;
+        border: none;
+        font-family: "Nova Square";
+    }
+
+    img.inputImg {
+        width: 140px;
+        height: 150px;
+        position: absolute;
+        left: 15px;
+        top: 100px;
+        border-radius: 20px;
+    }
+
+    textarea.postContent {
+        color: lime;
+        font-family: "Nova Square";
+        font-size: 20px;
+        border-radius: 30px;
+        border-bottom-right-radius: 60px;
+        width: 370px;
+        height: 140px;
+        position: absolute;
+        top: 80px;
+        left: 160px;
+        text-align: left;
+        margin: 5px;
+        padding: 10px 12px;
+        background-color: transparent;
+        border: none;
+    }
+
+    hr.postHR {
+        border: 2px solid red;
+        width: 90%;
+    }
+
+    h1.postHeader {
+        color: red;
+        text-align: right;
+        margin: 2px 5px;
+        padding: 2px;
+        width: 95%;
+        font-size: 34px;
+    }
+
+    p.postContent {
+        color: lime;
+        font-family: "Nova Square";
+        font-size: 20px;
+        border-radius: 30px;
+        border-bottom-right-radius: 60px;
+        width: 430px;
+        height: 150px;
+        position: relative;
+        top: -168px;
+        left: 160px;
+        text-align: left;
+        margin: 5px;
+        padding: 10px 12px;
+    }
+
+    img.postImg {
+        width: 150px;
+        height: 160px;
+        position: relative;
+        left: -225px;
+        top: 0px;
+        border-radius: 20px;
+    }
+
+    p.postUser {
+        font-size: 18px;
+        font-family: "Nova Square";
+        color: lightgray;
+        position: absolute;
+        top: 235px;
+        left: 130px;
+    }
+
+    u.username {
+        color: lime;
+    }
+
+    input.imgSource {
+        width: 450px;
+        background-color: transparent;
+        border: 2px dashed green;
+        padding: 2px;
+        font-size: 14px;
+        border-radius: 20px;
+        position: absolute;
+        top: 255px;
+        left: 10px;
+        color: green;
+    }
+
+    input.btnPost {
+        background-color: transparent;
+        padding: 5px 10px;
+        height: 155px;
+        font-family: "Nova Square";
+        font-size: 18px;
+        border: 1px dashed lime;
+        color: lime;
+        position: absolute;
+        top: 85px;
+        left: 565px;
+        border-radius: 8px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 15px;
+    }
+
+    div.alertDialog {
+        color: red;
+        width: 490px;
+        height: 160px;
+        animation: alert-show 8s 1;
+        position: absolute;
+        top: 110px;
+        left: 80px;
+        background-color: rgba(200, 20, 20, 0.55);
+        opacity: 0;
+        border-radius: 10px;
+        border-bottom-right-radius: 60px;
+        border-top-left-radius: 30px;
+        border: 1px solid red;
+    }
+
+    p.alert-title {
+        font-size: 22px;
+        margin: 0px auto;
+        padding: 1px;
+        text-align: center;
+        font-family: "Nova Square";
+        color: gold;
+    }
+
+    h2.alert-text {
+        color: red;
+        font-size: 26px;
+        font-family: "Nova Square";
+        width: 360px;
+        position: absolute;
+        left: 120px;
+    }
+
+    div.alert-mark {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid rgba(220, 180, 0, 0.3);
+        animation: alert-flash .5s infinite;
+        position: absolute;
+        left: 10px;
+    }
+
+    h2.alert-mark {
+        position: absolute;
+        left: -10px;
+        top: -30px;
+        color: gold;
+        font-size: 65px;
+        position: absolute;
+        font-style: normal;
+    }
+
+    @keyframes alert-flash {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes alert-show {
+        0% {
+            opacity: 0;
+        }
+
+        25% {
+            opacity: 1;
+        }
+
+        75% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    div.postControl {
+        position: absolute;
         top: 240px;
-        // animation: post-fadeIn 1.5s 1;
-        // animation-fill-mode: forwards;
-        // animation-delay: 0s;
+        left: 2px;
+        background-color: rgba(70, 40, 40, 0.4);
+        color: red;
+        height: 40px;
+        border-radius: 15px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 30px;
+        text-align: center;
+        width: 110px;
+        z-index: 5;
+    }
 
-    } </style>
-            <div class="post-container" id="post1">
-                                <hr class="postHR">
-                <h1 class="postHeader">WebHack 重新上线</h1>
-                <hr class="postHR">
-                                  <img class="postImg" src="http://164.100.129.99/mts/html/hashimg.png" />
-                                <p class="postContent">终于啊我的天，过了一周了，这玩意终于上线了，下周将更新项目管理功能。</p>
-                                    <p class="postUser">发送者: <a href="home?show-user=Admiral Joshua"><u class="username">Admiral Joshua</u></a> </p>
-                            </div>
-            
-                                    <style> div#post2 {
-        // opacity: 0;
-        top: 480px;
-        // animation: post-fadeIn 1.5s 1;
-        // animation-fill-mode: forwards;
-        // animation-delay: 0.33333333333333s;
+    div.postControl:hover {
+        background-color: rgba(60, 30, 30, 0.9);
+    }
 
-    } </style>
-            <div class="post-container" id="post2">
-                                <hr class="postHR">
-                <h1 class="postHeader">图像测试</h1>
-                <hr class="postHR">
-                                  <img class="postImg" src="http://m.redwarf.net/gif/_(82).gif" />
-                                <p class="postContent">似乎一切正常，请务必检查下能不能在“账户设置”中添加头像！</p>
-                                    <p class="postUser">发送者: <a href="home?show-user=Admiral Joshua"><u class="username">Admiral Joshua</u></a> </p>
-                            </div>
-            
-                                    <style> div#post3 {
-        // opacity: 0;
-        top: 720px;
-        // animation: post-fadeIn 1.5s 1;
-        // animation-fill-mode: forwards;
-        // animation-delay: 0.66666666666667s;
+    h1.post-controls {
+        font-size: 22px;
+        font-family: "Nova Square";
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+    }
 
-    } </style>
-            <div class="post-container" id="post3">
-                                <hr class="postHR">
-                <h1 class="postHeader">网站更新 #004</h1>
-                <hr class="postHR">
-                                  <img class="postImg" src="Cache/WebHack ICON.png" />
-                                <p class="postContent">Umm，好吧，还有很多很多功能即将添加到网站里边（可能很快就会上线），而且还有很多玩意需要重新设计！希望大家可以喜欢我们新上线的功能 - 帖子现在可以重新编辑了！</p>
-                                    <p class="postUser">发送者: <a href="home?show-user=Admiral Joshua"><u class="username">Admiral Joshua</u></a> </p>
-                            </div>
-            
-                    </div>
+    div.post-delete {
+        text-align: center;
+        background-color: rgba(210, 30, 30, 0.4);
+        width: 350px;
+        height: 180px;
+        border-radius: 20px;
+        border-bottom-right-radius: 80px;
+        border-top-left-radius: 40px;
+        border: 2px solid red;
+        position: fixed;
+        left: 80px;
+        top: 200px;
+    }
 
-                
-            </body>
+    input.postDeleteOption {
+        height: 40px;
+        width: 50px;
+        background-color: transparent;
+        border-radius: 10px;
+        border: 2px dashed lime;
+        padding: 2px;
+    }
+
+    a.post-delete {
+        position: absolute;
+        top: 5px;
+        left: -35px;
+        z-index: 5;
+        font-style: normal;
+    }
+
+    a.post-edit {
+        position: absolute;
+        top: 5px;
+        left: 25px;
+        z-index: 5;
+        font-style: normal;
+    }
+
+    h2.post-delete-bar {
+        color: gold;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        top: 0px;
+        margin: 0px auto;
+        font-family: "Nova Square";
+        font-weight: normal;
+        animation: alert-flash 1s infinite;
+    }
+
+    input.postDeleteOption {
+        color: lime;
+        border: 1px dashed lime;
+        padding: 5px;
+        width: 90px;
+        font-family: "Nova Square";
+        font-size: 20px;
+    }
+
+    h2.post-delete-title {
+        color: red;
+        font-family: "Nova Square";
+        font-size: 20px;
+    }
+
+    em.del-PostTitle {
+        color: orange;
+        font-style: normal;
+    }
+
+    select.postPrivacy {
+        background-color: rgba(200, 30, 30, 0.8);
+        border: 1px dashed lime;
+        border-radius: 5px;
+        color: lime;
+        font-family: "Nova Square";
+        position: absolute;
+        top: 90px;
+        left: 20px;
+        border-radius: 20px;
+        width: 130px;
+        text-align: center;
+        z-index: 2;
+        font-size: 14px;
+    }
+
+    option.privacyOption {
+        background-color: rgba(200, 20, 20, 0.8);
+        color: lime;
+        text-align: center;
+    }
+
+    body {
+        transform: scale(0.5);
+    }
+</style>
+<title>WebHack - Home</title>
+<img class="background-image" src="Cache/New-matrix-wallpaper-1920x1080.jpg" height="100%" width="100%" />
+<div class="overlay"></div>
+
+<body>
+    <h1 class="site-logo"><em class="web">WEB</em><br><em class="hack">HACK</em></h1>
+
+    <div class="sideNav">
+        <a title="WebHack Logo" href="#"><img class="sideNavButton-logo" src="Cache/WebHack%20ICON - Transparent.png"
+                height="55px" width="55px" />Navbar v1.0</a>
+        <hr class="navDivider">
+        <a title="Go Home" href="home.php"><img class="sideNavButton" src="Cache/home.png" height="50px"
+                width="50px" />返回主页</a>
+        <hr class="navDivider">
+        <a title="About Us" href="home?about"><img class="sideNavButton" src="Cache/alert.png" height="50px"
+                width="50px" />关于我们</a>
+        <hr class="navDivider">
+        <a title="Social" href="home?social"><img class="sideNavButton" src="Cache/messages.png" height="50px"
+                width="50px" />社交网站</a>
+        <hr class="navDivider">
+        <a title="Projects" href="home?projects"><img class="sideNavButton" src="Cache/book2.png" height="50px"
+                width="50px" />项目一览</a>
+        <hr class="navDivider">
+        <a title="Create a new Post" href="home?create"><img class="sideNavButton" src="Cache/paperclip.png"
+                height="50px" width="50px" />发布讨论帖</a>
+        <hr class="navDivider">
+        <a title="Login" href="login.php"><img class="sideNavButton" src="Cache/power.png" height="50px"
+                width="50px" />登入</a>
+    </div>
+
+    <style>
+        @keyframes post-fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+    <div class="posts-container">
+
+        <style>
+            div#post1 {
+                top: 240px;
+
+            }
+        </style>
+        <div class="post-container" id="post1">
+            <hr class="postHR">
+            <h1 class="postHeader">WebHack 重新上线</h1>
+            <hr class="postHR">
+            <img class="postImg" src="http://164.100.129.99/mts/html/hashimg.png" />
+            <p class="postContent">终于啊我的天，过了一周了，这玩意终于上线了，下周将更新项目管理功能。</p>
+            <p class="postUser">发送者: <a href="home?show-user=Admiral Joshua"><u class="username">Admiral Joshua</u></a>
+            </p>
+        </div>
+
+        <style>
+            div#post2 {
+                top: 480px;
+
+            }
+        </style>
+        <div class="post-container" id="post2">
+            <hr class="postHR">
+            <h1 class="postHeader">图像测试</h1>
+            <hr class="postHR">
+            <img class="postImg" src="http://m.redwarf.net/gif/_(82).gif" />
+            <p class="postContent">似乎一切正常，请务必检查下能不能在“账户设置”中添加头像！</p>
+            <p class="postUser">发送者: <a href="home?show-user=Admiral Joshua"><u class="username">Admiral Joshua</u></a>
+            </p>
+        </div>
+
+        <style>
+            div#post3 {
+                top: 720px;
+            }
+        </style>
+        <div class="post-container" id="post3">
+            <hr class="postHR">
+            <h1 class="postHeader">网站更新 #004</h1>
+            <hr class="postHR">
+            <img class="postImg" src="Cache/WebHack ICON.png" />
+            <p class="postContent">Umm，好吧，还有很多很多功能即将添加到网站里边（可能很快就会上线），而且还有很多玩意需要重新设计！希望大家可以喜欢我们新上线的功能 - 帖子现在可以重新编辑了！</p>
+            <p class="postUser">发送者: <a href="home?show-user=Admiral Joshua"><u class="username">Admiral Joshua</u></a>
+            </p>
+        </div>
+
+    </div>
+
+
+</body>
 
 <script src="scripts/jquery-3.1.1.min.js"></script>
 <script type="text/javascript">
-var CurrentHeight = $(window).height();
-var Scalar = (CurrentHeight + (14/90 * CurrentHeight)) / 1080;
-var step1 = "scale(";
-var step2 = ")";
-var res = step1.concat(Scalar, step2);
-// document.getElementById("newsFeed-title").innerHTML = (CurrentHeight + (14/90 * CurrentHeight));
-document.getElementById("entirePage").style.transform = res;
+    var CurrentHeight = $(window).height();
+    var Scalar = (CurrentHeight + (14 / 90 * CurrentHeight)) / 1080;
+    var step1 = "scale(";
+    var step2 = ")";
+    var res = step1.concat(Scalar, step2);
+    // document.getElementById("newsFeed-title").innerHTML = (CurrentHeight + (14/90 * CurrentHeight));
+    document.getElementById("entirePage").style.transform = res;
 
-function myFunction() {
-   var ImageSource = document.getElementById("imgSource").value;
-   if (ImageSource == "") {
-    ImageSource = "Cache/WebHack ICON.png"
-   }
-   document.getElementById("imgActual").src= ImageSource;
-}
-function resetImg() {
-   var ImageSource = "Cache/WebHack ICON.png";
-   document.getElementById("imgActual").src= ImageSource;
-}
+    function myFunction() {
+        var ImageSource = document.getElementById("imgSource").value;
+        if (ImageSource == "") {
+            ImageSource = "Cache/WebHack ICON.png"
+        }
+        document.getElementById("imgActual").src = ImageSource;
+    }
+    function resetImg() {
+        var ImageSource = "Cache/WebHack ICON.png";
+        document.getElementById("imgActual").src = ImageSource;
+    }
 </script>
+
 </html>

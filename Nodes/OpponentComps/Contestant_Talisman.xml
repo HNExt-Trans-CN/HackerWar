@@ -21,7 +21,7 @@
   <adminPass pass="tr1xy_is_c00l" />
   
   <file path="home" name="example.txt">XSWL
-这个文件真是一个例子... </file>
+这个文件真是一个绝佳的例子... </file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   

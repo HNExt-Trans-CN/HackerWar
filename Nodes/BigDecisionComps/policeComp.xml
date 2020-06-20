@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="cyberDrop"
-	name="ICD 文件上传服务器"
+	name="ICD文件上传服务器"
 	ip="12.24.89.36"
 	icon="chip"
 	allowsDefaultBootModule="true"
@@ -16,11 +16,11 @@
   
   <firewall level="6" solution="6fxtrm" additionalTime="0.4" />
   
-  <file path="home" name="example.txt">XSWL
-反正例子被高估了...
-
+  <file path="home" name="example.txt">emmmm
+例子的作用被高估了呢...
+    
 这是最后一个例子文件吗!!?!?!?!?!!?!?!?!?
-DUN DUN DUN!!!!</file>
+(自行脑补BGM.jpg)</file>
 
   <uploadServerDaemon name="国际网络犯罪部上传服务器" folder="Upload" 
                       needsAuth="false" color="220,0,10"/>

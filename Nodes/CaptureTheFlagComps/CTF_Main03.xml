@@ -14,13 +14,11 @@
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
   <file path="home" name="Observation_Test.txt">
-提示: 我希望您也看看其他密码，而不只是实际使用的密码...
- 
-也可能需要注意实际的正确密码。</file>
+提示: 我希望您也稍微记下其他密码，而不只是实际使用的密码...</file>
   
   <encryptedFile path="home/secret" name="secret_stash.dec" extension=".txt" ip="XXX.XXX.XXX.XXX" header="Secret Stash File" pass="w1r3d">
 祝贺您破解了第二个文件的加密。
- 你已经破解了2/3的文件了。
+你已经破解了2/3的文件了。
  
 你的下一组密码组:
    (不带引号)

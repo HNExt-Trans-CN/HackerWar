@@ -16,7 +16,7 @@
   <account username="#PLAYERNAME#" password="h4cking_is_l1fe" type="3" />
   
   <file path="home" name="example.txt">Yep
-  另一个毫无卵用的文件...我猜你一定厌倦打开这些玩意了吧!?!?
+另一个毫无卵用的文件...我猜你一定厌倦打开这些玩意了吧!?!?
  </file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>

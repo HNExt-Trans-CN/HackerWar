@@ -11,15 +11,15 @@
   <proxy time="0.5" />
   
   <file path="home" name="example.txt">XSWL
-这个文件真是一个例子... </file>
+这个文件真是一个绝佳的例子... </file>
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
   <file path="home/notes" name="Alexander.txt">[Alexander]
 86.45.12.91</file>
 
-  <file path="bin" name="酬劳.txt">作为对您入侵我们从未见过的家伙的麻烦的酬劳，
-  这是一种专门为您服务的特殊工具。 另外，还有一个特殊的主题。 ;）</file>
+  <file path="bin" name="酬劳.txt">作为对您入侵我们从未见过的家伙的酬劳，
+这是一种专门的特殊工具。另外，还有一个特殊的主题。 ;）</file>
   
   <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
   
