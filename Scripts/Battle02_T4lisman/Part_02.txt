@@ -2,7 +2,7 @@ config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
 write_silent $#%#$
 delay 3 $#%#$
 clearTerminal $#%#$
-writel 主持人: 没有人能够相信这! #PLAYERNAME# 已经摧毁了T4lisman!! $#%#$
+writel 主持人: 没有人能够相信这件事! #PLAYERNAME# 已经摧毁了T4lisman!! $#%#$
 delay 1 $#%#$
 writel 主持人: 没有人料到这个 #PLAYERNAME# 将进入下一回合! $#%#$
 delay 1 $#%#$

@@ -3,7 +3,7 @@ config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
 write_silent 主持人: 欢迎来到第二轮的Hacker_Wars竟赛！ $#%#$
 write_silent 主持人: 稍等片刻两名黑客就会开始！  $#%#$
 write_silent 主持人: 一边是#PLAYERNAME# $#%#$
-write_silent 主持人: 另一边，是7rix... $#%#$
+write_silent 主持人: 另一边，是7rix $#%#$
 delay 1 $#%#$
 write_silent 准备! $#%#$
 writeL 3 $#%#$
@@ -23,15 +23,15 @@ write_silent 主持人: 似乎我们的选手们都已经连上了对方的电�
 delay 10 $#%#$
 
 openPort 21 $#%#$
-writeL 主持人: 似乎Trix已经突破了#PLAYERNAME#的第一个端口，做得好。 $#%#$
+writeL 主持人: 似乎7rix已经突破了#PLAYERNAME#的第一个端口，做得好。 $#%#$
 delay 5 $#%#$
 openPort 22 $#%#$
 delay 5 $#%#$
 openPort 25 $#%#$
 delay 5 $#%#$
-writeL 主持人: Trix已经快要完全突破他的所有端口了！我觉得#PLAYERNAME#已经开始出汗了。 $#%#$
+writeL 主持人: 7rix已经快要完全突破他的所有端口了！我觉得#PLAYERNAME#已经开始出汗了。 $#%#$
 delay 35 $#%#$
-writeL 主持人: 她做到了！Trix现在攻破了#PLAYERNAME#的电脑！ $#%#$
+writeL 主持人: 她做到了！7rix现在攻破了#PLAYERNAME#的电脑！ $#%#$
 delete /sys x-server.sys $#%#$
 writeL 主持人: 啊天哪，她删掉了他的系统文件，#PLAYERNAME#能把他找回来吗!?!?
 delay 10
