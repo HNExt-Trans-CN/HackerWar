@@ -3,9 +3,9 @@
   <Instantly>
     <!--AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" /-->
 	<RunFunction FunctionName="playCustomSong:Music/Cephelopod_Cephelopod.ogg" val="1" />
-    <StartScreenBleedEffect AlertTitle="黑入7rix" CompleteAction="Actions/Defeat_Opponent01.xml" TotalDurationSeconds="90.0">7rix电脑的管理员权限
-删除'sys'文件夹中的文件
-等待完成...</StartScreenBleedEffect>
+    <StartScreenBleedEffect AlertTitle="黑入7rix" CompleteAction="Actions/Defeat_Opponent01.xml" TotalDurationSeconds="90.0">获取7rix电脑的管理员权限
+删除'sys'文件夹中的所有文件
+等待一会...</StartScreenBleedEffect>
     <LaunchHackScript Filepath="Scripts/BattleScripts/7rix_01.txt" SourceComp="trixy01" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
   </Instantly>
 

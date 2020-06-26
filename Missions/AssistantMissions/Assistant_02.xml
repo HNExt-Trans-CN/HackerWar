@@ -17,9 +17,9 @@
     <sender>Eleanor Hammond</sender>
     <subject>更新: 回合 3 基本情报</subject>
     <body>好的 #PLAYERNAME#,
-看来你的技艺又更上一层了呢，这一次你要面对的黑客名为"T4lisman"。
+看来你的技艺又更上一层了呢，这一次你要面对的黑客名为T4lisman。
       
-根据他过去的经验和往年的表现，我觉得他不会比你的上一个竞争者更有挑战性了。
+根据他过去的经验和表现，我觉得他不会比你的上一个竞争者更有挑战性了。
 我已经在他的电脑上跑了一个nmap，并正在看之前告诉你的那个SMTP端口。
       
 他也设置了自定义端口，的确是个烦人玩意，
@@ -29,7 +29,7 @@
     
  - Eleanor Hammond
 
-Hacker Wars #PLAYERNAME# 的助手
+Hacker Wars #PLAYERNAME#的助手
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

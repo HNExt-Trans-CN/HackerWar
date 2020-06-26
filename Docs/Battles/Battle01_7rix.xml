@@ -17,26 +17,26 @@
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
-    <sender>站台 机器人</sender>
-    <subject>Opponent01: - Battle Started</subject>
+    <sender>战台机器人</sender>
+    <subject>对手01: - 战斗开始</subject>
     <body>#PLAYERNAME#,
 
-该电子邮件通知您，您已经与被称为“ 7rix”的黑客展开了战斗。
+该电子邮件通知您，您已经与7rix展开了战斗。
 如果您不是#PLAYERNAME#，我们建议立即重新启动计算机！
  
 否则，战斗已经开始！ 您将在下面找到目标的IP地址。
  
- 祝你好运!
- 走吧!
+祝你好运!
+前进吧!
  
- - Hacker_Wars 站台 机器人
+ - Hacker Wars 战台机器人
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->
-	  <note title="Main Goals">1) 7rix计算机的管理员权限
-	  2) 清空她的"SYS" 文件夹.
-	  3) ForkBomb.
-	  4) 最多需要90秒才能完成游戏。</note>
+	  <note title="主要目标">1) 7rix计算机的管理员权限
+2) 清空她的"SYS" 文件夹.
+3) ForkBomb.
+4) 最多需要90秒才能完成游戏。</note>
 	  <link comp="trixy01" />
     </attachments>
   </email>

@@ -16,7 +16,7 @@
   -->
   <email>
     <sender>战台机器人</sender>
-    <subject>祝贺你 #PLAYERNAME#!</subject>
+    <subject>祝贺你，#PLAYERNAME#!</subject>
     <body>#PLAYERNAME#,
 下面列出的黑客已经通过了晋级挑战。
 这些挑战将涉及到团队建设和更难更专业的黑客任务。
@@ -34,7 +34,7 @@
 - "r00t"
      
   来自所有Hacker Wars管理团队成员
-    希望你能在下一个挑战中有着最好的运气！
+  希望你能在下一个挑战中有着最好的运气！
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->

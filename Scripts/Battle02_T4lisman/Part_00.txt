@@ -51,7 +51,7 @@ delay 12 $#%#$
 openPort 21 $#%#$
 delay 12 $#%#$
 openPort 80 $#%#$
-writel 主持人: T4lisman已经攻破了#PLAYERNAME# 3个端口了!! 我们的新黑客最好赶快了!! $#%#$
+writel 主持人: T4lisman已经攻破了#PLAYERNAME# 3个端口了!! 我们的菜鸟黑客最好赶快了!! $#%#$
 openPort 25 $#%#$
 delay 14 $#%#$
 writel 主持人: T4lisman 很快就要突破了!! 我认为这次#PLAYERNAME#真的得挣扎了! $#%#$

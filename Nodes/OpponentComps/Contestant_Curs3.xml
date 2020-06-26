@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="curse01"
-	name="Curs3的 挑战者"
+	name="Curs3的挑战者"
 	ip="160.8.243.15"
 	icon="chip"
 	allowsDefaultBootModule="false"

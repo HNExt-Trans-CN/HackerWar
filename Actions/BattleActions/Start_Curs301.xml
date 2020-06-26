@@ -4,8 +4,8 @@
     <!-- You can put any action that was described in the Actions section here -->
 	
     <StartScreenBleedEffect AlertTitle="黑入Curs3" CompleteAction="Actions/BattleActions/Defeat_Opponent03.xml" TotalDurationSeconds="75.0">获取Curs3电脑的管理员权限
-删除'sys'文件夹中的文件
-删除Curs3的'exe'工具</StartScreenBleedEffect>
+删除'sys'文件夹中的所有文件
+删除Curs3的所有'exe'工具</StartScreenBleedEffect>
   </OnConnect>
   
   <Instantly>

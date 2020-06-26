@@ -3,8 +3,8 @@
   <OnConnect target="talisman01" needsMissionComplete="false">
     <!-- You can put any action that was described in the Actions section here -->	
     <StartScreenBleedEffect AlertTitle="黑入T4lisman" CompleteAction="Actions/BattleActions/Defeat_Opponent02.xml" TotalDurationSeconds="90.0">获取T4lisman电脑的管理员权限
-删除'sys'文件夹中的文件
-删除T4lisman的'exe'工具</StartScreenBleedEffect>
+删除'sys'文件夹中的所有文件
+删除T4lisman的所有'exe'工具</StartScreenBleedEffect>
   </OnConnect>
   
   <Instantly>
