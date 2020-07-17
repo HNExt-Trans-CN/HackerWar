@@ -14,7 +14,7 @@
   <account username="#PLAYERNAME#" password="8EZTttuB" type="ADMIN" />
 
   <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
-  <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">请将你需要备份的文件全数放入此文件夹</file>
+  <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">请将你需要备份的文件全部放入此文件夹</file>
   
   <dlink target="playerBackup" />
   

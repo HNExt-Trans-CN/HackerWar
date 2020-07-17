@@ -35,7 +35,7 @@
 </posting>
   
   <email>
-    <sender>站台 机器人</sender>
+    <sender>战台机器人</sender>
     <subject>夺旗竞赛已开始</subject>
     <body>#PLAYERNAME#,
 
@@ -52,7 +52,7 @@
  祝你好运!
  前进吧!
  
- - Hacker_Wars 站台机器人</body>
+ - Hacker_Wars 战台机器人</body>
     <attachments>
       <!-- Add attachments like links and notes here -->
 	  <note title="主要目标">你需要拼凑出一个最后的密码来回复任务邮件。

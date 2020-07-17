@@ -16,7 +16,7 @@
 你可以在这里写任何东西。</file>
 
    <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
-   <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">请将你需要备份的文件全数放入此文件夹</file>
+   <file path="home/BACKUP" name="YOUR_BACKUP_GOES_HERE">请将你需要备份的文件全部放入此文件夹</file>
   <file path="home" name="Server_Info.txt">#PLAYERNAME#的备份服务器
   除了#PLAYERNAME#的计算机，任何计算机都禁止与该计算机连接。
   该计算机包含了#PLAYERNAME#的备份的完整数据</file>
