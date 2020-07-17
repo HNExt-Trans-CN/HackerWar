@@ -20,7 +20,7 @@
 有个东西让她的服务器一直崩溃，她也搞不清楚原因。她想让你用你的黑客技术来整明白到底发生了啥。</posting>
   
   <email>
-    <sender>站台机器人</sender>
+    <sender>战台机器人</sender>
     <subject>问题之路</subject>
     <body>#PLAYERNAME#,
         
@@ -30,13 +30,13 @@
 我需要你登录服务器，看一下日志。
 看看你能不能找到导致网站崩溃的东西/人。
 一旦你找到了，我希望那个黑客被干掉！
-所以，找到并连接到他，并删了他的系统文件！
+所以，找到并连接到他的服务器，并删了他的系统文件！
       
 战台提醒: 当你完成r00t的任务后 他将成为你团队的正式成员。
 </body>
     <attachments>
       <!-- Add attachments like links and notes here -->
-	  <note title="任务细节">从日志中识别黑客。删除黑客的系统文件和exe工具来阻止他。</note>
+	  <note title="任务细节">从日志中识别黑客，删除黑客的系统文件和exe工具来阻止他。</note>
 	  <link comp="rootServer01" />
     </attachments>
   </email>

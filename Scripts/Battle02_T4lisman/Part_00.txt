@@ -11,7 +11,7 @@ write_silent $#%#$
 delay 2 $#%#$
 writel 主持人: 好的，让我们为这位另我们都感到惊讶的新黑客欢呼。他是#PLAYERNAME#! $#%#$
 delay 4 $#%#$
-writel 主持人: 另一边，他曾今来过这，现在他为了复仇而来。他是T4lisman!! $#%#$
+writel 主持人: 另一边，他曾经来过这，现在他为了复仇而来。他是T4lisman!! $#%#$
 delay 3 $#%#$
 writel 主持人: 所有人，准备好了吗? $#%#$
 delay 2 $#%#$
